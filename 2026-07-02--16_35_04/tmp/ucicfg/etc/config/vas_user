@@ -1,4 +1,0 @@
-
-config settings 'services'
-	option auto_upgrade '1'
-

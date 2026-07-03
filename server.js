@@ -7,6 +7,9 @@ const fs = require('fs');
 const app = express();
 const PORT = 3000;
 
+
+require('dotenv').config();
+
 const dataDir = './uploads';
 if (!fs.existsSync(dataDir)) {
   fs.mkdirSync(dataDir);
@@ -14,7 +17,7 @@ if (!fs.existsSync(dataDir)) {
 
 app.use(express.static('public'))
 
-const ADMIN_PASSWORD='password'
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD
 
 const STORED_FILENAME = 'data.xlsx';
 const STORED_FILE_PATH = path.join(dataDir, STORED_FILENAME);
@@ -75,10 +78,6 @@ app.post('/upload-xlsx', upload.single('file'), (req, res) => {
   }
 });
 
-/**
- * GET /parse-xlsx
- * Парсит «актуальный» файл (data.xlsx) и возвращает JSON.
- */
 app.get('/parse-xlsx', (req, res) => {
   if (!fs.existsSync(STORED_FILE_PATH)) {
     return res.status(404).json({

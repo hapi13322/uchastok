@@ -1,2 +1,0 @@
-config nginx 'main'
-	option force_https '0'

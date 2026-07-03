@@ -1,0 +1,8 @@
+config mapping EU
+        option CountryCode 'DE'
+config mapping SG
+        option CountryCode 'SG'
+config mapping US
+        option CountryCode 'MX'
+config mapping RU
+        option CountryCode 'RU'

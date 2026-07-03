@@ -1,0 +1,8 @@
+
+config miwifi 'server'
+	option S 's.miwifi.com'
+	option APP 'app.miwifi.com'
+	option API 'ru.api.miwifi.com'
+	option STUN 'ru.stun.miwifi.com'
+	option BROKER 'ru.broker.miwifi.com'
+

@@ -1,0 +1,7 @@
+
+config messaging 'deviceInfo'
+	option DEVICE_ID '@@3TsBwzCmjZQ9k0siQRJe8Hg3UATqBaKCxFS/SAL9/1gkFebByefZL7XLH3faKyO4'
+	option CHANNEL_SECRET '@@EKmo6C6sIwsY2hF95tpXJCimvG3ykMqixfJyMhmMeL3UdkGcE1XK+Ya/YHRhkdO2'
+	option BROKER_PORT '1883'
+	option BROKER_HOST '87.232.90.28'
+

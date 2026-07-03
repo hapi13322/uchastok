@@ -1,0 +1,285 @@
+2026-07-02T15:37:53+03:00 XiaoQiang kernel: [502854.150260] Rcv Wcid(4) AddBAReq
+2026-07-02T15:37:53+03:00 XiaoQiang kernel: [502854.153772] Start Seq = 00000000
+2026-07-02T15:38:03+03:00 XiaoQiang odhcpd[1912]: A default route is present but there is no public prefix on br-lan thus we don't announce a default route!
+2026-07-02T15:41:44+03:00 XiaoQiang kernel: [503085.319048] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+2026-07-02T15:41:45+03:00 XiaoQiang kernel: [503086.671044] Rcv Wcid(1) AddBAReq
+2026-07-02T15:41:45+03:00 XiaoQiang kernel: [503086.674500] Start Seq = 000009b7
+2026-07-02T15:41:45+03:00 XiaoQiang kernel: [503086.694730] Rcv Wcid(1) AddBAReq
+2026-07-02T15:41:45+03:00 XiaoQiang kernel: [503086.698069] Start Seq = 00000347
+2026-07-02T15:41:45+03:00 XiaoQiang kernel: [503086.812775] Rcv Wcid(1) AddBAReq
+2026-07-02T15:41:45+03:00 XiaoQiang kernel: [503086.816170] Start Seq = 00000cce
+2026-07-02T15:47:37+03:00 XiaoQiang odhcpd[1912]: A default route is present but there is no public prefix on br-lan thus we don't announce a default route!
+2026-07-02T15:49:04+03:00 XiaoQiang kernel: [503525.561211] Rcv Wcid(1) AddBAReq
+2026-07-02T15:49:04+03:00 XiaoQiang kernel: [503525.564668] Start Seq = 00000daa
+2026-07-02T15:49:04+03:00 XiaoQiang kernel: [503525.610971] Rcv Wcid(1) AddBAReq
+2026-07-02T15:49:04+03:00 XiaoQiang kernel: [503525.614348] Start Seq = 00000353
+2026-07-02T15:49:04+03:00 XiaoQiang kernel: [503525.632881] Rcv Wcid(1) AddBAReq
+2026-07-02T15:49:04+03:00 XiaoQiang kernel: [503525.636327] Start Seq = 00000c28
+2026-07-02T15:51:36+03:00 XiaoQiang kernel: [503677.594672] ASSOC - 1 receive DIS-ASSOC request
+2026-07-02T15:51:36+03:00 XiaoQiang kernel: [503677.632504] Del Sta:8c:85:90:2a:b2:d9
+2026-07-02T15:51:36+03:00 XiaoQiang trafficd_device_example: mac:8C:85:90:2A:B2:D9,type:router,event:0,ifname:,is_repeat:0,ip:192.168.31.129
+2026-07-02T15:51:36+03:00 XiaoQiang trafficd_notify: mac:8C:85:90:2A:B2:D9,type:router,event:0,ifname:,is_repeat:0,ip:192.168.31.129
+2026-07-02T15:52:18+03:00 XiaoQiang kernel: [503719.485785] New Sta:8c:85:90:2a:b2:d9
+2026-07-02T15:52:18+03:00 XiaoQiang kernel: [503719.516062] entry wcid 1 QosMapSupport=0
+2026-07-02T15:52:18+03:00 XiaoQiang kernel: [503719.672584] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=1 from 8C:85:90:2A:B2:D9
+2026-07-02T15:52:18+03:00 XiaoQiang kernel: [503719.672584] 
+2026-07-02T15:52:18+03:00 XiaoQiang trafficd_device_example: mac:8C:85:90:2A:B2:D9,type:router,event:1,ifname:wl0,is_repeat:0,ip:192.168.31.129
+2026-07-02T15:52:18+03:00 XiaoQiang trafficd_notify: mac:8C:85:90:2A:B2:D9,type:router,event:1,ifname:wl0,is_repeat:0,ip:192.168.31.129
+2026-07-02T15:52:20+03:00 XiaoQiang kernel: [503721.145151] Rcv Wcid(1) AddBAReq
+2026-07-02T15:52:20+03:00 XiaoQiang kernel: [503721.148743] Start Seq = 00000002
+2026-07-02T15:52:20+03:00 XiaoQiang dnsmasq-dhcp[32517]: Ignoring duplicate dhcp-option 43
+2026-07-02T15:52:20+03:00 XiaoQiang dnsmasq-dhcp[32517]: func(do_options),line(2684),opt_43_act_ret:100  val:miwifi-RB02-3.0.59-101 opt:43
+2026-07-02T15:52:20+03:00 XiaoQiang dnsmasq-dhcp[32517]: func(do_options),line(2687),do not replace str
+2026-07-02T15:52:21+03:00 XiaoQiang kernel: [503722.598483] Rcv Wcid(1) AddBAReq
+2026-07-02T15:52:21+03:00 XiaoQiang kernel: [503722.601924] Start Seq = 00000000
+2026-07-02T15:52:21+03:00 XiaoQiang kernel: [503722.849252] Rcv Wcid(1) AddBAReq
+2026-07-02T15:52:21+03:00 XiaoQiang kernel: [503722.852687] Start Seq = 00000000
+2026-07-02T15:52:23+03:00 XiaoQiang odhcpd[1912]: A default route is present but there is no public prefix on br-lan thus we don't announce a default route!
+2026-07-02T15:55:21+03:00 XiaoQiang odhcpd[1912]: A default route is present but there is no public prefix on br-lan thus we don't announce a default route!
+2026-07-02T15:56:55+03:00 XiaoQiang kernel: [503996.708768] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+2026-07-02T15:59:52+03:00 XiaoQiang kernel: [504173.739042] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+2026-07-02T16:01:46+03:00 XiaoQiang kernel: [504287.847928] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+2026-07-02T16:02:02+03:00 XiaoQiang odhcpd[1912]: A default route is present but there is no public prefix on br-lan thus we don't announce a default route!
+2026-07-02T16:10:40+03:00 XiaoQiang odhcpd[1912]: A default route is present but there is no public prefix on br-lan thus we don't announce a default route!
+2026-07-02T16:15:48+03:00 XiaoQiang odhcpd[1912]: A default route is present but there is no public prefix on br-lan thus we don't announce a default route!
+2026-07-02T16:20:03+03:00 XiaoQiang odhcpd[1912]: A default route is present but there is no public prefix on br-lan thus we don't announce a default route!
+2026-07-02T16:22:23+03:00 XiaoQiang kernel: [505524.115871] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+2026-07-02T16:27:21+03:00 XiaoQiang odhcpd[1912]: A default route is present but there is no public prefix on br-lan thus we don't announce a default route!
+2026-07-02T16:29:29+03:00 XiaoQiang luci: "request:/cgi-bin/luci/web"
+2026-07-02T16:29:29+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/web"
+2026-07-02T16:29:33+03:00 XiaoQiang luci: "request:/cgi-bin/luci/api/xqsystem/login"
+2026-07-02T16:29:34+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/api/xqsystem/login"
+2026-07-02T16:29:34+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/home"
+2026-07-02T16:29:35+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/home"
+2026-07-02T16:29:36+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:29:36+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/newstatus"
+2026-07-02T16:29:36+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/bandwidth_test"
+2026-07-02T16:29:36+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/wifi_detail_all"
+2026-07-02T16:29:36+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:29:36+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetdetect/nettb"
+2026-07-02T16:29:37+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/bandwidth_test"
+2026-07-02T16:29:37+03:00 XiaoQiang luci: true
+2026-07-02T16:29:37+03:00 XiaoQiang luci: "0"
+2026-07-02T16:29:37+03:00 XiaoQiang luci: true
+2026-07-02T16:29:37+03:00 XiaoQiang luci: "0"
+2026-07-02T16:29:37+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/wifi_detail_all"
+2026-07-02T16:29:37+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/newstatus"
+2026-07-02T16:29:37+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/setting/wifi"
+2026-07-02T16:29:38+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetdetect/nettb"
+2026-07-02T16:29:38+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/setting/wifi"
+2026-07-02T16:29:39+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:29:39+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/country_code"
+2026-07-02T16:29:39+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/get_miotrelay_switch"
+2026-07-02T16:29:39+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/wifi_detail_all"
+2026-07-02T16:29:39+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:29:39+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/country_code"
+2026-07-02T16:29:39+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/get_miotrelay_switch"
+2026-07-02T16:29:39+03:00 XiaoQiang luci: true
+2026-07-02T16:29:39+03:00 XiaoQiang luci: "0"
+2026-07-02T16:29:39+03:00 XiaoQiang luci: true
+2026-07-02T16:29:39+03:00 XiaoQiang luci: "0"
+2026-07-02T16:29:40+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/wifi_detail_all"
+2026-07-02T16:29:46+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/setting/lannetset"
+2026-07-02T16:29:46+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/setting/lannetset"
+2026-07-02T16:29:47+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:29:47+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/lan_info"
+2026-07-02T16:29:47+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/lan_dhcp"
+2026-07-02T16:29:47+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/macbind_info"
+2026-07-02T16:29:48+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:29:48+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/lan_info"
+2026-07-02T16:29:48+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/lan_dhcp"
+2026-07-02T16:29:49+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/macbind_info"
+2026-07-02T16:29:54+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/setting/safe"
+2026-07-02T16:29:55+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/setting/safe"
+2026-07-02T16:29:56+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/web_access_info"
+2026-07-02T16:29:56+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/wifi_macfilter_info"
+2026-07-02T16:29:56+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:29:56+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/get_access_force_https"
+2026-07-02T16:29:57+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:29:57+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/get_access_force_https"
+2026-07-02T16:29:57+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/web_access_info"
+2026-07-02T16:29:59+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/wifi_macfilter_info"
+2026-07-02T16:30:17+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/setting/wan"
+2026-07-02T16:30:17+03:00 XiaoQiang luci: true
+2026-07-02T16:30:17+03:00 XiaoQiang luci: "0"
+2026-07-02T16:30:17+03:00 XiaoQiang luci: true
+2026-07-02T16:30:17+03:00 XiaoQiang luci: "0"
+2026-07-02T16:30:18+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/setting/wan"
+2026-07-02T16:30:18+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:30:18+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/wan_info"
+2026-07-02T16:30:18+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:30:19+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/wan_info"
+2026-07-02T16:30:19+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/get_iptv"
+2026-07-02T16:30:19+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/get_iptv"
+2026-07-02T16:30:19+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/pppoe_status"
+2026-07-02T16:30:19+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/pppoe_status"
+2026-07-02T16:30:24+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/setting/wifi"
+2026-07-02T16:30:25+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/setting/wifi"
+2026-07-02T16:30:26+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:30:26+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/country_code"
+2026-07-02T16:30:26+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/get_miotrelay_switch"
+2026-07-02T16:30:26+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/wifi_detail_all"
+2026-07-02T16:30:26+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:30:26+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/country_code"
+2026-07-02T16:30:26+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/get_miotrelay_switch"
+2026-07-02T16:30:26+03:00 XiaoQiang luci: true
+2026-07-02T16:30:26+03:00 XiaoQiang luci: "0"
+2026-07-02T16:30:26+03:00 XiaoQiang luci: true
+2026-07-02T16:30:26+03:00 XiaoQiang luci: "0"
+2026-07-02T16:30:26+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/wifi_detail_all"
+2026-07-02T16:30:27+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/prosetting/qos"
+2026-07-02T16:30:28+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/prosetting/qos"
+2026-07-02T16:30:29+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:30:29+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/qos_info"
+2026-07-02T16:30:29+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:30:31+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/qos_info"
+2026-07-02T16:30:31+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/qos_info"
+2026-07-02T16:30:32+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/qos_info"
+2026-07-02T16:30:33+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misns/wifi_share_info"
+2026-07-02T16:30:33+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misns/wifi_share_info"
+2026-07-02T16:30:33+03:00 XiaoQiang miqos: ======= Cleanup  HWQOS rules for 
+2026-07-02T16:30:34+03:00 XiaoQiang miqos: disable hqos done.
+2026-07-02T16:30:36+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/prosetting/ddns"
+2026-07-02T16:30:36+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/prosetting/ddns"
+2026-07-02T16:30:37+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:30:37+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/ddns"
+2026-07-02T16:30:37+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:30:38+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/ddns"
+2026-07-02T16:30:51+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/prosetting/vpn"
+2026-07-02T16:30:51+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/prosetting/vpn"
+2026-07-02T16:30:52+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:30:52+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/mi_vpn_info"
+2026-07-02T16:30:52+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/smartvpn_info"
+2026-07-02T16:30:52+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn"
+2026-07-02T16:30:52+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:30:52+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/mi_vpn_info"
+2026-07-02T16:30:53+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/smartvpn_info"
+2026-07-02T16:30:53+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn"
+2026-07-02T16:30:54+03:00 XiaoQiang miqos: ======= Cleanup  HWQOS rules for 
+2026-07-02T16:30:54+03:00 XiaoQiang miqos: disable hqos done.
+2026-07-02T16:30:57+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:30:58+03:00 XiaoQiang : network.interface.vpn does not exist
+2026-07-02T16:30:58+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:31:02+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:31:03+03:00 XiaoQiang : network.interface.vpn does not exist
+2026-07-02T16:31:03+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:31:07+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:31:08+03:00 XiaoQiang : network.interface.vpn does not exist
+2026-07-02T16:31:08+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:31:12+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:31:13+03:00 XiaoQiang : network.interface.vpn does not exist
+2026-07-02T16:31:13+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:31:17+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:31:18+03:00 XiaoQiang : network.interface.vpn does not exist
+2026-07-02T16:31:18+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:31:22+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:31:23+03:00 XiaoQiang : network.interface.vpn does not exist
+2026-07-02T16:31:23+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:31:27+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:31:28+03:00 XiaoQiang : network.interface.vpn does not exist
+2026-07-02T16:31:28+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:31:33+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:31:34+03:00 XiaoQiang : network.interface.vpn does not exist
+2026-07-02T16:31:34+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:31:38+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:31:40+03:00 XiaoQiang : network.interface.vpn does not exist
+2026-07-02T16:31:40+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:31:43+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:31:44+03:00 XiaoQiang : network.interface.vpn does not exist
+2026-07-02T16:31:44+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:31:49+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:31:50+03:00 XiaoQiang : network.interface.vpn does not exist
+2026-07-02T16:31:50+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:31:53+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:31:54+03:00 XiaoQiang : network.interface.vpn does not exist
+2026-07-02T16:31:54+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:31:58+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:31:59+03:00 XiaoQiang : network.interface.vpn does not exist
+2026-07-02T16:31:59+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:32:03+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:32:04+03:00 XiaoQiang : network.interface.vpn does not exist
+2026-07-02T16:32:04+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:32:08+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:32:09+03:00 XiaoQiang : network.interface.vpn does not exist
+2026-07-02T16:32:09+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:32:13+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:32:14+03:00 XiaoQiang : network.interface.vpn does not exist
+2026-07-02T16:32:14+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:32:18+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:32:19+03:00 XiaoQiang : network.interface.vpn does not exist
+2026-07-02T16:32:19+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:32:23+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:32:24+03:00 XiaoQiang : network.interface.vpn does not exist
+2026-07-02T16:32:24+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:32:28+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:32:29+03:00 XiaoQiang : network.interface.vpn does not exist
+2026-07-02T16:32:29+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:32:40+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:32:41+03:00 XiaoQiang : network.interface.vpn does not exist
+2026-07-02T16:32:41+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/vpn_status"
+2026-07-02T16:32:41+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/setting/wifi"
+2026-07-02T16:32:42+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/setting/wifi"
+2026-07-02T16:32:43+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:32:43+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/country_code"
+2026-07-02T16:32:43+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/get_miotrelay_switch"
+2026-07-02T16:32:43+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/wifi_detail_all"
+2026-07-02T16:32:43+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:32:43+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/country_code"
+2026-07-02T16:32:43+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/get_miotrelay_switch"
+2026-07-02T16:32:43+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/setting/safe"
+2026-07-02T16:32:43+03:00 XiaoQiang luci: true
+2026-07-02T16:32:43+03:00 XiaoQiang luci: "0"
+2026-07-02T16:32:43+03:00 XiaoQiang luci: true
+2026-07-02T16:32:43+03:00 XiaoQiang luci: "0"
+2026-07-02T16:32:43+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/wifi_detail_all"
+2026-07-02T16:32:44+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/setting/safe"
+2026-07-02T16:32:45+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/web_access_info"
+2026-07-02T16:32:45+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:32:45+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/get_access_force_https"
+2026-07-02T16:32:45+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/wifi_macfilter_info"
+2026-07-02T16:32:45+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:32:45+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/get_access_force_https"
+2026-07-02T16:32:45+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/web_access_info"
+2026-07-02T16:32:47+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/wifi_macfilter_info"
+2026-07-02T16:33:00+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/wifi_macfilter_info"
+2026-07-02T16:33:01+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/wifi_macfilter_info"
+2026-07-02T16:33:03+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/wifi_macfilter_info"
+2026-07-02T16:33:04+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/wifi_macfilter_info"
+2026-07-02T16:33:26+03:00 XiaoQiang odhcpd[1912]: A default route is present but there is no public prefix on br-lan thus we don't announce a default route!
+2026-07-02T16:33:31+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/setting/lannetset"
+2026-07-02T16:33:32+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/setting/lannetset"
+2026-07-02T16:33:33+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:33:33+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/lan_info"
+2026-07-02T16:33:33+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/lan_dhcp"
+2026-07-02T16:33:33+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/macbind_info"
+2026-07-02T16:33:33+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:33:33+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/lan_info"
+2026-07-02T16:33:33+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/lan_dhcp"
+2026-07-02T16:33:34+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/macbind_info"
+2026-07-02T16:33:39+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/setting/wan"
+2026-07-02T16:33:39+03:00 XiaoQiang luci: true
+2026-07-02T16:33:40+03:00 XiaoQiang luci: "0"
+2026-07-02T16:33:40+03:00 XiaoQiang luci: true
+2026-07-02T16:33:40+03:00 XiaoQiang luci: "0"
+2026-07-02T16:33:40+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/setting/wan"
+2026-07-02T16:33:41+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:33:41+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/wan_info"
+2026-07-02T16:33:41+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:33:41+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/wan_info"
+2026-07-02T16:33:41+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/get_iptv"
+2026-07-02T16:33:41+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/get_iptv"
+2026-07-02T16:33:42+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/pppoe_status"
+2026-07-02T16:33:42+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqnetwork/pppoe_status"
+2026-07-02T16:34:29+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/setting/upgrade"
+2026-07-02T16:34:30+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/web/setting/upgrade"
+2026-07-02T16:34:31+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:34:31+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/sys_time"
+2026-07-02T16:34:31+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/get_location"
+2026-07-02T16:34:31+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/get_languages"
+2026-07-02T16:34:31+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/check_rom_update"
+2026-07-02T16:34:31+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/sys_time"
+2026-07-02T16:34:31+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/messages"
+2026-07-02T16:34:31+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/get_location"
+2026-07-02T16:34:31+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/get_languages"
+2026-07-02T16:34:32+03:00 XiaoQiang luci: "finished:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/xqsystem/check_rom_update"
+2026-07-02T16:34:46+03:00 XiaoQiang luci: "request:/cgi-bin/luci/;stok=489fd20ba4d48ebd3bad4cad8b456a8f/api/misystem/sys_log"

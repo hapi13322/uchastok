@@ -1,0 +1,2773 @@
+==========SN
+38531/A2P875088
+==========uptime
+ 16:34:47 up 5 days, 20:37,  load average: 0.24, 0.18, 0.11
+==========df -h
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                12.8M     12.8M         0 100% /
+devtmpfs                512.0K         0    512.0K   0% /dev
+tmpfs                    60.7M         0     60.7M   0% /sys/fs/cgroup
+tmpfs                    60.7M    620.0K     60.1M   1% /tmp
+/dev/mtdblock7            1.0M    748.0K    276.0K  73% /data
+/dev/root                12.8M     12.8M         0 100% /rom
+/dev/mtdblock7            1.0M    748.0K    276.0K  73% /etc
+tmpfs                   512.0K         0    512.0K   0% /dev
+==========bootinfo
+
+ROM    ver: config core 'version'
+	# ROM ver
+	option ROM '3.0.59'
+	# channel
+	option CHANNEL 'release'
+	# hardware platform R1AC or R1N etc.
+	option HARDWARE 'RB02'
+	# CFE ver
+	option UBOOT '1.0.2'
+	# Linux Kernel ver
+	option LINUX '0.0.1'
+	# RAMFS ver
+	option RAMFS '0.0.1'
+	# SQUASHFS ver
+	option SQAFS '0.0.1'
+	# ROOTFS ver
+	option ROOTFS '0.0.1'
+  #build time
+  option BUILDTIME 'Tue, 12 Apr 2022 03:49:12 +0000'
+  #build timestamp
+  option BUILDTS '1649735352'
+  #build git tag
+   option GTAG 'commit 3599ae7c16b761d67e0793726c652beafb647158'
+Hardware  : Ver. A
+ROM    sum: 
+System    : Dual - 1
+KERNEL    : console=ttyS0,115200 uart_en=0 factory_mode=0 mem=128m  rootfstype=squashfs,jffs2
+
+MTD  table:
+dev:    size   erasesize  name
+mtd0: 01000000 00010000 "ALL"
+mtd1: 00030000 00010000 "Bootloader"
+mtd2: 00010000 00010000 "KF"
+mtd3: 00010000 00010000 "Bdata"
+mtd4: 00010000 00010000 "Factory"
+mtd5: 00010000 00010000 "crash"
+mtd6: 00010000 00010000 "cfg_bak"
+mtd7: 00100000 00010000 "overlay"
+mtd8: 00e70000 00010000 "OS1"
+mtd9: 001a0000 00010000 "kernel"
+mtd10: 00cd0000 00010000 "rootfs"
+mtd11: 00010000 00010000 "Config"
+
+==========tmp dir
+-rw-r--r--    1 root     root        2.5K Jun 26 12:09 3096.bootcheck.log
+-rw-r--r--    1 root     root           6 Jun 26 12:08 TZ
+drwxr-xr-x    7 root     root         140 Jun 26 19:57 arrays
+drwxr-xr-x    2 root     root          40 Jun 26 12:08 daemon
+-rw-r--r--    1 root     root         516 Jul  2 15:52 dhcp.leases
+-rw-r--r--    1 root     root         105 Jul  2 16:29 diag_net_spd
+drwxr-xr-x    2 root     root          60 Jun 26 12:08 dnsmasq.d
+drwxr-xr-x    3 root     root          80 Jun 28 21:23 etc
+drwxr-xr-x    2 root     root         160 Jun 28 21:23 hosts
+drwxr-xr-x    4 root     root          80 Jun 26 12:08 lib
+drwxr-xr-x    2 root     root         620 Jun 26 12:09 lock
+drwxr-xr-x    5 root     root         140 Jun 26 12:09 log
+drwxr-xr-x    2 root     root          40 Jun 26 12:09 logexec
+-rw-------    1 root     root      151.9K Jun 26 12:09 luci-indexcache
+drwx------    2 root     root          80 Jul  2 16:29 luci-nonce
+drwx------    2 root     root          60 Jul  2 16:34 luci-sessions
+-rw-------    1 root     root           0 Jul  2 16:34 messages
+-rw-r--r--    1 root     root           5 Jun 27 02:25 mi_ip_conflict_pid
+-rw-r--r--    1 root     root         193 Jun 26 12:09 mt76xx2.sh.log
+-rw-r--r--    1 root     root         182 Jun 26 12:09 mt76xx5.sh.log
+-rw-r--r--    1 root     root           5 Jun 26 12:08 nginx.pid
+-rw-r--r--    1 root     root          18 Jun 26 19:57 ntp.status
+-rw-r--r--    1 root     root           5 Jul  2 05:19 ota_predownload_pid
+-rw-rw-r--    1 1000     1000      190.9K Feb 11  2019 oui
+drwxr-xr-x    2 root     root          40 Jun 26 12:08 ppp
+-rw-r--r--    1 root     root          17 Jun 26 12:09 rc.done
+-rw-r--r--    1 root     root        6.7K Jun 26 19:57 rc.timing
+-rw-r--r--    1 root     root           5 Jul  2 02:05 record_camera_main.PID
+-rw-r--r--    1 root     root          21 Jun 28 21:23 resolv.conf
+-rw-r--r--    1 root     root          59 Jun 28 21:23 resolv.conf.auto
+drwxr-xr-x    6 root     root         340 Jun 27 02:25 run
+drwxrwxrwt    2 root     root          40 Jan  1  1970 shm
+drwxr-xr-x    3 root     root          60 Jun 26 12:08 spool
+-rw-r--r--    1 root     root           5 Jul  2 16:34 startscene_crontab.lua.PID
+-rw-------    1 root     root           0 Jul  2 16:05 stat_points_privacy.log
+-rw-------    1 root     root          38 Jul  2 16:05 stat_points_rom.log
+-rw-r--r--    1 root     root           0 Jul  2 16:05 stat_points_web.log
+drwxr-xr-x    2 root     root         120 Jun 27 02:25 state
+drwxr-xr-x    2 root     root          80 Jan  1  1970 sysinfo
+srwxr-xr-x    1 root     root           0 Jun 26 12:09 syslog-ng.ctl
+-rw-------    1 root     root       16.0K Jun 26 12:09 syslog-ng.persist
+drwx------    2 root     root          40 Jul  2 16:34 syslogbackup
+drwxr-xr-x    2 root     root          40 Jun 26 12:08 tmp
+-rw-r--r--    1 root     root       16.4K Jun 26 12:08 uci2dat_mt7603e.log
+-rw-r--r--    1 root     root       28.1K Jun 26 12:09 uci2dat_mt7663.log
+drwx------    2 root     root          40 Jun 26 12:08 uploadfiles
+-rw-------    1 root     root           0 Jul  2 16:34 wifi_analysis.log
+-rw-r--r--    1 root     root        1.8K Jul  2 16:34 xiaoqiang.log
+4.0K	/tmp/3096.bootcheck.log
+4.0K	/tmp/TZ
+12.0K	/tmp/arrays
+0	/tmp/daemon
+4.0K	/tmp/dhcp.leases
+4.0K	/tmp/diag_net_spd
+4.0K	/tmp/dnsmasq.d
+12.0K	/tmp/etc
+24.0K	/tmp/hosts
+0	/tmp/lib
+8.0K	/tmp/lock
+4.0K	/tmp/log
+0	/tmp/logexec
+152.0K	/tmp/luci-indexcache
+8.0K	/tmp/luci-nonce
+4.0K	/tmp/luci-sessions
+0	/tmp/messages
+4.0K	/tmp/mi_ip_conflict_pid
+4.0K	/tmp/mt76xx2.sh.log
+4.0K	/tmp/mt76xx5.sh.log
+4.0K	/tmp/nginx.pid
+4.0K	/tmp/ntp.status
+4.0K	/tmp/ota_predownload_pid
+192.0K	/tmp/oui
+0	/tmp/ppp
+4.0K	/tmp/rc.done
+8.0K	/tmp/rc.timing
+4.0K	/tmp/record_camera_main.PID
+4.0K	/tmp/resolv.conf
+4.0K	/tmp/resolv.conf.auto
+36.0K	/tmp/run
+0	/tmp/shm
+0	/tmp/spool
+4.0K	/tmp/startscene_crontab.lua.PID
+0	/tmp/stat_points_privacy.log
+4.0K	/tmp/stat_points_rom.log
+0	/tmp/stat_points_web.log
+16.0K	/tmp/state
+8.0K	/tmp/sysinfo
+0	/tmp/syslog-ng.ctl
+12.0K	/tmp/syslog-ng.persist
+0	/tmp/syslogbackup
+0	/tmp/tmp
+20.0K	/tmp/uci2dat_mt7603e.log
+32.0K	/tmp/uci2dat_mt7663.log
+0	/tmp/uploadfiles
+0	/tmp/wifi_analysis.log
+8.0K	/tmp/xiaoqiang.log
+==========iwpriv wl0
+wl0       e2p:
+[0x0000]:7663  [0x0002]:0100  [0x0004]:DF44  [0x0006]:6765  
+[0x0008]:2E89  [0x000A]:7663  [0x000C]:14C3  [0x000E]:8000  
+[0x0010]:0002  [0x0012]:7663  [0x0014]:14C3  [0x0016]:0000  
+[0x0018]:0000  [0x001A]:0000  [0x001C]:0000  [0x001E]:0000  
+[0x0020]:0000  [0x0022]:0000  [0x0024]:0000  [0x0026]:0000  
+[0x0028]:0000  [0x002A]:0000  [0x002C]:0000  [0x002E]:00E3  
+[0x0030]:0100  [0x0032]:0080  [0x0034]:0000  [0x0036]:0000  
+[0x0038]:0000  [0x003A]:0000  [0x003C]:0000  [0x003E]:0000  
+[0x0040]:0000  [0x0042]:0000  [0x0044]:0000  [0x0046]:0000  
+[0x0048]:0000  [0x004A]:0098  [0x004C]:C800  [0x004E]:0001  
+[0x0050]:0000  [0x0052]:0000  [0x0054]:0000  [0x0056]:0000  
+[0x0058]:0000  [0x005A]:0000  [0x005C]:0000  [0x005E]:0000  
+[0x0060]:0518  [0x0062]:4054  [0x0064]:12AA  [0x0066]:0000  
+[0x0068]:0000  [0x006A]:0000  [0x006C]:0000  [0x006E]:0000  
+[0x0070]:C6C6  [0x0072]:C4C4  [0x0074]:C1C2  [0x0076]:C200  
+[0x0078]:C200  [0x007A]:00C1  [0x007C]:8100  [0x007E]:8584  
+[0x0080]:C2C2  [0x0082]:81C1  [0x0084]:8281  [0x0086]:8685  
+[0x0088]:C400  [0x008A]:C2C5  [0x008C]:00C2  [0x008E]:00C4  
+[0x0090]:C3C5  [0x0092]:00C3  [0x0094]:0000  [0x0096]:C382  
+[0x0098]:C2C4  [0x009A]:C1C2  [0x009C]:0000  [0x009E]:0082  
+[0x00A0]:C4C3  [0x00A2]:C2C2  [0x00A4]:00C1  [0x00A6]:8200  
+[0x00A8]:0000  [0x00AA]:0000  [0x00AC]:0000  [0x00AE]:0000  
+[0x00B0]:DED1  [0x00B2]:1B23  [0x00B4]:1B1B  [0x00B6]:0D15  
+[0x00B8]:0D0D  [0x00BA]:4040  [0x00BC]:4040  [0x00BE]:0000  
+[0x00C0]:0000  [0x00C2]:0000  [0x00C4]:0000  [0x00C6]:0000  
+[0x00C8]:0000  [0x00CA]:0000  [0x00CC]:0000  [0x00CE]:0000  
+[0x00D0]:0000  [0x00D2]:0000  [0x00D4]:0000  [0x00D6]:0000  
+[0x00D8]:0000  [0x00DA]:0000  [0x00DC]:0000  [0x00DE]:3C00  
+[0x00E0]:4310  [0x00E2]:29BE  [0x00E4]:0000  [0x00E6]:0000  
+[0x00E8]:0000  [0x00EA]:0000  [0x00EC]:0000  [0x00EE]:0000  
+[0x00F0]:4310  [0x00F2]:29BD  [0x00F4]:0000  [0x00F6]:0000  
+[0x00F8]:0000  [0x00FA]:0000  [0x00FC]:0000  [0x00FE]:0000  
+[0x0100]:0000  [0x0102]:0000  [0x0104]:0000  [0x0106]:0000  
+[0x0108]:0000  [0x010A]:0000  [0x010C]:0000  [0x010E]:0000  
+[0x0110]:0000  [0x0112]:0000  [0x0114]:0000  [0x0116]:0000  
+[0x0118]:0000  [0x011A]:0000  [0x011C]:0000  [0x011E]:0000  
+[0x0120]:0000  [0x0122]:0000  [0x0124]:0000  [0x0126]:0000  
+[0x0128]:77CA  [0x012A]:732A  [0x012C]:9A53  [0x012E]:BE72  
+[0x0130]:0000  [0x0132]:0000  [0x0134]:0000  [0x0136]:0000  
+[0x0138]:0000  [0x013A]:0000  [0x013C]:0000  [0x013E]:0000  
+[0x0140]:0000  [0x0142]:0000  [0x0144]:0000  [0x0146]:0000  
+[0x0148]:0000  [0x014A]:0000  [0x014C]:0000  [0x014E]:0000  
+[0x0150]:0000  [0x0152]:0000  [0x0154]:0008  [0x0156]:01E0  
+[0x0158]:0000  [0x015A]:0000  [0x015C]:0000  [0x015E]:0000  
+[0x0160]:0000  [0x0162]:0000  [0x0164]:0000  [0x0166]:0000  
+[0x0168]:0000  [0x016A]:0000  [0x016C]:0000  [0x016E]:0000  
+[0x0170]:0000  [0x0172]:0000  [0x0174]:0000  [0x0176]:0000  
+[0x0178]:1000  [0x017A]:2810  [0x017C]:0000  [0x017E]:0000  
+[0x0180]:0000  [0x0182]:0000  [0x0184]:0000  [0x0186]:0000  
+[0x0188]:0000  [0x018A]:0000  [0x018C]:0000  [0x018E]:0000  
+[0x0190]:0000  [0x0192]:0000  [0x0194]:0000  [0x0196]:0000  
+[0x0198]:0000  [0x019A]:0000  [0x019C]:0000  [0x019E]:0000  
+[0x01A0]:0000  [0x01A2]:0000  [0x01A4]:0000  [0x01A6]:0000  
+[0x01A8]:0000  [0x01AA]:0000  [0x01AC]:0000  [0x01AE]:0000  
+[0x01B0]:1212  [0x01B2]:0002  [0x01B4]:0000  [0x01B6]:0500  
+[0x01B8]:C0C4  [0x01BA]:00B3  [0x01BC]:0085  [0x01BE]:0000  
+[0x01C0]:0000  [0x01C2]:0000  [0x01C4]:0000  [0x01C6]:0000  
+[0x01C8]:0000  [0x01CA]:0000  [0x01CC]:0000  [0x01CE]:0000  
+[0x01D0]:0000  [0x01D2]:0000  [0x01D4]:0000  [0x01D6]:0000  
+[0x01D8]:0000  [0x01DA]:0000  [0x01DC]:0000  [0x01DE]:0000  
+[0x01E0]:0000  [0x01E2]:0000  [0x01E4]:0000  [0x01E6]:0000  
+[0x01E8]:0000  [0x01EA]:0000  [0x01EC]:0000  [0x01EE]:0000  
+[0x01F0]:D3CC  [0x01F2]:D3CC  [0x01F4]:D3CC  [0x01F6]:D3CC  
+[0x01F8]:D3CC  [0x01FA]:D3CC  [0x01FC]:D3CC  [0x01FE]:D3CC  
+[0x0200]:1623  [0x0202]:1616  [0x0204]:0A17  [0x0206]:0A0A  
+[0x0208]:4040  [0x020A]:4040  [0x020C]:0000  [0x020E]:0000  
+[0x0210]:0000  [0x0212]:0000  [0x0214]:0000  [0x0216]:0000  
+[0x0218]:0000  [0x021A]:0000  [0x021C]:0000  [0x021E]:0000  
+[0x0220]:0000  [0x0222]:0000  [0x0224]:0000  [0x0226]:0000  
+[0x0228]:0000  [0x022A]:0000  [0x022C]:0000  [0x022E]:0000  
+[0x0230]:0000  [0x0232]:0000  [0x0234]:0000  [0x0236]:0000  
+[0x0238]:0000  [0x023A]:3A00  [0x023C]:0000  [0x023E]:0000  
+[0x0240]:2020  [0x0242]:4320  [0x0244]:26C7  [0x0246]:C743  
+[0x0248]:4328  [0x024A]:28C7  [0x024C]:C743  [0x024E]:C326  
+[0x0250]:28C7  [0x0252]:C7C3  [0x0254]:4328  [0x0256]:28C7  
+[0x0258]:C6C3  [0x025A]:0028  [0x025C]:0000  [0x025E]:C1C3  
+[0x0260]:8181  [0x0262]:0000  [0x0264]:8484  [0x0266]:8484  
+[0x0268]:8484  [0x026A]:8181  [0x026C]:0000  [0x026E]:0000  
+[0x0270]:0000  [0x0272]:0000  [0x0274]:0000  [0x0276]:0000  
+[0x0278]:0000  [0x027A]:0000  [0x027C]:0000  [0x027E]:0000  
+[0x0280]:0000  [0x0282]:0000  [0x0284]:0000  [0x0286]:0000  
+[0x0288]:0000  [0x028A]:0000  [0x028C]:0000  [0x028E]:0000  
+[0x0290]:0000  [0x0292]:0000  [0x0294]:0000  [0x0296]:0000  
+[0x0298]:0000  [0x029A]:0000  [0x029C]:0000  [0x029E]:0000  
+[0x02A0]:0000  [0x02A2]:0000  [0x02A4]:0000  [0x02A6]:0000  
+[0x02A8]:0000  [0x02AA]:0000  [0x02AC]:0000  [0x02AE]:0000  
+[0x02B0]:2020  [0x02B2]:4320  [0x02B4]:26C7  [0x02B6]:C743  
+[0x02B8]:4328  [0x02BA]:28C7  [0x02BC]:C6C3  [0x02BE]:4326  
+[0x02C0]:28C6  [0x02C2]:C743  [0x02C4]:4328  [0x02C6]:28C7  
+[0x02C8]:C743  [0x02CA]:0028  [0x02CC]:0000  [0x02CE]:8483  
+[0x02D0]:8485  [0x02D2]:0000  [0x02D4]:8484  [0x02D6]:8484  
+[0x02D8]:8484  [0x02DA]:8686  [0x02DC]:0000  [0x02DE]:0000  
+[0x02E0]:0000  [0x02E2]:0000  [0x02E4]:0000  [0x02E6]:0000  
+[0x02E8]:0000  [0x02EA]:0000  [0x02EC]:0000  [0x02EE]:0000  
+[0x02F0]:0000  [0x02F2]:0000  [0x02F4]:0000  [0x02F6]:0000  
+[0x02F8]:0000  [0x02FA]:0000  [0x02FC]:0000  [0x02FE]:0000  
+[0x0300]:0000  [0x0302]:0000  [0x0304]:0000  [0x0306]:0000  
+[0x0308]:0000  [0x030A]:0000  [0x030C]:0000  [0x030E]:0000  
+[0x0310]:0000  [0x0312]:0000  [0x0314]:0000  [0x0316]:0000  
+[0x0318]:0000  [0x031A]:0000  [0x031C]:0000  [0x031E]:0000  
+[0x0320]:0000  [0x0322]:0000  [0x0324]:0000  [0x0326]:0000  
+[0x0328]:0000  [0x032A]:0000  [0x032C]:0000  [0x032E]:0000  
+[0x0330]:0000  [0x0332]:0000  [0x0334]:0000  [0x0336]:0000  
+[0x0338]:0000  [0x033A]:0000  [0x033C]:0000  [0x033E]:0000  
+[0x0340]:0000  [0x0342]:0000  [0x0344]:0000  [0x0346]:0000  
+[0x0348]:0000  [0x034A]:0000  [0x034C]:0000  [0x034E]:0000  
+[0x0350]:0000  [0x0352]:0000  [0x0354]:0000  [0x0356]:0000  
+[0x0358]:0000  [0x035A]:0000  [0x035C]:0000  [0x035E]:0000  
+[0x0360]:0000  [0x0362]:0000  [0x0364]:0000  [0x0366]:0000  
+[0x0368]:0000  [0x036A]:0000  [0x036C]:0000  [0x036E]:0000  
+[0x0370]:0000  [0x0372]:0000  [0x0374]:0000  [0x0376]:0000  
+[0x0378]:0000  [0x037A]:0000  [0x037C]:0000  [0x037E]:0000  
+[0x0380]:0000  [0x0382]:0000  [0x0384]:0000  [0x0386]:0000  
+[0x0388]:0000  [0x038A]:0000  [0x038C]:0000  [0x038E]:0000  
+[0x0390]:0000  [0x0392]:0000  [0x0394]:0000  [0x0396]:0000  
+[0x0398]:0000  [0x039A]:0000  [0x039C]:0000  [0x039E]:0000  
+[0x03A0]:0000  [0x03A2]:0000  [0x03A4]:0000  [0x03A6]:0000  
+[0x03A8]:0000  [0x03AA]:0000  [0x03AC]:0000  [0x03AE]:0000  
+[0x03B0]:0000  [0x03B2]:0000  [0x03B4]:0000  [0x03B6]:0000  
+[0x03B8]:0000  [0x03BA]:0000  [0x03BC]:0000  [0x03BE]:0000  
+[0x03C0]:0000  [0x03C2]:0000  [0x03C4]:0000  [0x03C6]:0000  
+[0x03C8]:0000  [0x03CA]:0000  [0x03CC]:0000  [0x03CE]:0000  
+[0x03D0]:0000  [0x03D2]:0000  [0x03D4]:0000  [0x03D6]:0000  
+[0x03D8]:0000  [0x03DA]:0000  [0x03DC]:0000  [0x03DE]:0000  
+[0x03E0]:0000  [0x03E2]:0000  [0x03E4]:0000  [0x03E6]:0000  
+[0x03E8]:0000  [0x03EA]:0000  [0x03EC]:0000  [0x03EE]:0000  
+[0x03F0]:0000  [0x03F2]:0000  [0x03F4]:0000  [0x03F6]:0000  
+[0x03F8]:0000  [0x03FA]:0000  [0x03FC]:0000  [0x03FE]:0000  
+[0x0400]:0000  [0x0402]:0000  [0x0404]:0000  [0x0406]:0000  
+[0x0408]:0000  [0x040A]:0000  [0x040C]:0000  [0x040E]:0000  
+[0x0410]:0000  [0x0412]:0000  [0x0414]:0000  [0x0416]:0000  
+[0x0418]:0000  [0x041A]:0000  [0x041C]:0000  [0x041E]:0000  
+[0x0420]:0000  [0x0422]:0000  [0x0424]:0000  [0x0426]:0000  
+[0x0428]:0000  [0x042A]:0000  [0x042C]:0000  [0x042E]:0F00  
+[0x0430]:A7DC  [0x0432]:1774  [0x0434]:6408  [0x0436]:0032  
+[0x0438]:0007  [0x043A]:0000  [0x043C]:0000  [0x043E]:0000  
+[0x0440]:0000  [0x0442]:0000  [0x0444]:0000  [0x0446]:0000  
+[0x0448]:0000  [0x044A]:0000  [0x044C]:0000  [0x044E]:0000  
+[0x0450]:0000  [0x0452]:0000  [0x0454]:0000  [0x0456]:0000  
+[0x0458]:0000  [0x045A]:0000  [0x045C]:0000  [0x045E]:0000  
+[0x0460]:0000  [0x0462]:0000  [0x0464]:0000  [0x0466]:0000  
+[0x0468]:0000  [0x046A]:0000  [0x046C]:0000  [0x046E]:0000  
+[0x0470]:0000  [0x0472]:0000  [0x0474]:0000  [0x0476]:0000  
+[0x0478]:0000  [0x047A]:0000  [0x047C]:0000  [0x047E]:0000  
+[0x0480]:0000  [0x0482]:0000  [0x0484]:0000  [0x0486]:0000  
+[0x0488]:0000  [0x048A]:0000  [0x048C]:0000  [0x048E]:0000  
+[0x0490]:0000  [0x0492]:0000  [0x0494]:0000  [0x0496]:0000  
+[0x0498]:0000  [0x049A]:0000  [0x049C]:0000  [0x049E]:0000  
+[0x04A0]:0000  [0x04A2]:0000  [0x04A4]:0000  [0x04A6]:0000  
+[0x04A8]:0000  [0x04AA]:0000  [0x04AC]:0000  [0x04AE]:0000  
+[0x04B0]:0000  [0x04B2]:0000  [0x04B4]:0000  [0x04B6]:0000  
+[0x04B8]:0000  [0x04BA]:0000  [0x04BC]:0000  [0x04BE]:0000  
+[0x04C0]:0000  [0x04C2]:0000  [0x04C4]:0000  [0x04C6]:0000  
+[0x04C8]:0000  [0x04CA]:0000  [0x04CC]:0000  [0x04CE]:0000  
+[0x04D0]:0000  [0x04D2]:0000  [0x04D4]:0000  [0x04D6]:0000  
+[0x04D8]:0000  [0x04DA]:0000  [0x04DC]:0000  [0x04DE]:0000  
+[0x04E0]:0000  [0x04E2]:0000  [0x04E4]:0000  [0x04E6]:0000  
+[0x04E8]:0000  [0x04EA]:0000  [0x04EC]:0000  [0x04EE]:0000  
+[0x04F0]:0000  [0x04F2]:0000  [0x04F4]:0000  [0x04F6]:0000  
+[0x04F8]:0000  [0x04FA]:0000  [0x04FC]:0000  [0x04FE]:0000  
+[0x0500]:0000  [0x0502]:0000  [0x0504]:0000  [0x0506]:0000  
+[0x0508]:0000  [0x050A]:0000  [0x050C]:0000  [0x050E]:0000  
+[0x0510]:0000  [0x0512]:0000  [0x0514]:0000  [0x0516]:0000  
+[0x0518]:0000  [0x051A]:0000  [0x051C]:0000  [0x051E]:0000  
+[0x0520]:0000  [0x0522]:0000  [0x0524]:0000  [0x0526]:0000  
+[0x0528]:0000  [0x052A]:0000  [0x052C]:0000  [0x052E]:0000  
+[0x0530]:0000  [0x0532]:0000  [0x0534]:0000  [0x0536]:0000  
+[0x0538]:0000  [0x053A]:0000  [0x053C]:0000  [0x053E]:0000  
+[0x0540]:0000  [0x0542]:0000  [0x0544]:0000  [0x0546]:0000  
+[0x0548]:0000  [0x054A]:0000  [0x054C]:0000  [0x054E]:0000  
+[0x0550]:E000  [0x0552]:0007  [0x0554]:0000  [0x0556]:0000  
+[0x0558]:0000  [0x055A]:0000  [0x055C]:0000  [0x055E]:0000  
+[0x0560]:0000  [0x0562]:0000  [0x0564]:0000  [0x0566]:0000  
+[0x0568]:0000  [0x056A]:0000  [0x056C]:0000  [0x056E]:0000  
+[0x0570]:0000  [0x0572]:0000  [0x0574]:0000  [0x0576]:0000  
+[0x0578]:0000  [0x057A]:0000  [0x057C]:0000  [0x057E]:0000  
+[0x0580]:0000  [0x0582]:0000  [0x0584]:0000  [0x0586]:0000  
+[0x0588]:0000  [0x058A]:0000  [0x058C]:0000  [0x058E]:0000  
+[0x0590]:0000  [0x0592]:0000  [0x0594]:0000  [0x0596]:0000  
+[0x0598]:0000  [0x059A]:0000  [0x059C]:0000  [0x059E]:0000  
+[0x05A0]:0000  [0x05A2]:0000  [0x05A4]:0000  [0x05A6]:0000  
+[0x05A8]:0000  [0x05AA]:0000  [0x05AC]:0000  [0x05AE]:0000  
+[0x05B0]:0000  [0x05B2]:0000  [0x05B4]:0000  [0x05B6]:0000  
+[0x05B8]:0000  [0x05BA]:0000  [0x05BC]:0000  [0x05BE]:0000  
+[0x05C0]:0000  [0x05C2]:0000  [0x05C4]:0000  [0x05C6]:0000  
+[0x05C8]:0000  [0x05CA]:0000  [0x05CC]:0000  [0x05CE]:0000  
+[0x05D0]:0000  [0x05D2]:0000  [0x05D4]:0000  [0x05D6]:0000  
+[0x05D8]:0000  [0x05DA]:0000  [0x05DC]:0000  [0x05DE]:0000  
+[0x05E0]:0000  [0x05E2]:0000  [0x05E4]:0000  [0x05E6]:0000  
+[0x05E8]:0000  [0x05EA]:0000  [0x05EC]:0000  [0x05EE]:0000  
+[0x05F0]:0000  [0x05F2]:0000  [0x05F4]:0000  [0x05F6]:0000  
+[0x05F8]:0000  [0x05FA]:0000  [0x05FC]:0000  [0x05FE]:0000  
+
+==========iwpriv wl1
+wl1       e2p:
+[0x0000]:7603  [0x0002]:0201  [0x0004]:DF44  [0x0006]:6765  
+[0x0008]:2D89  [0x000A]:7603  [0x000C]:14C3  [0x000E]:FFFF  
+[0x0010]:FFFF  [0x0012]:7603  [0x0014]:14C3  [0x0016]:0000  
+[0x0018]:0000  [0x001A]:0000  [0x001C]:0000  [0x001E]:0000  
+[0x0020]:0000  [0x0022]:07B0  [0x0024]:00A0  [0x0026]:7F60  
+[0x0028]:9BFD  [0x002A]:FFFF  [0x002C]:FFFF  [0x002E]:FFFF  
+[0x0030]:FFFF  [0x0032]:FFFF  [0x0034]:3422  [0x0036]:2000  
+[0x0038]:FFFF  [0x003A]:0100  [0x003C]:0000  [0x003E]:0000  
+[0x0040]:0000  [0x0042]:0022  [0x0044]:0000  [0x0046]:0000  
+[0x0048]:0000  [0x004A]:0000  [0x004C]:0000  [0x004E]:01E0  
+[0x0050]:0080  [0x0052]:9400  [0x0054]:BF40  [0x0056]:C840  
+[0x0058]:8129  [0x005A]:C0C0  [0x005C]:C840  [0x005E]:C029  
+[0x0060]:C1C1  [0x0062]:0000  [0x0064]:0000  [0x0066]:0000  
+[0x0068]:0000  [0x006A]:0000  [0x006C]:0000  [0x006E]:0000  
+[0x0070]:FFFF  [0x0072]:FFFF  [0x0074]:FFFF  [0x0076]:FFFF  
+[0x0078]:FFFF  [0x007A]:FFFF  [0x007C]:FFFF  [0x007E]:FFFF  
+[0x0080]:FFFF  [0x0082]:FFFF  [0x0084]:FFFF  [0x0086]:FFFF  
+[0x0088]:FFFF  [0x008A]:FFFF  [0x008C]:FFFF  [0x008E]:FFFF  
+[0x0090]:0000  [0x0092]:0000  [0x0094]:0000  [0x0096]:0000  
+[0x0098]:0000  [0x009A]:0000  [0x009C]:0000  [0x009E]:0000  
+[0x00A0]:C4C4  [0x00A2]:C4C4  [0x00A4]:C0C4  [0x00A6]:C4C0  
+[0x00A8]:C4C4  [0x00AA]:C0C4  [0x00AC]:82C0  [0x00AE]:0000  
+[0x00B0]:FFFF  [0x00B2]:FFFF  [0x00B4]:FFFF  [0x00B6]:FFFF  
+[0x00B8]:FFFF  [0x00BA]:FFFF  [0x00BC]:FFFF  [0x00BE]:FFFF  
+[0x00C0]:040D  [0x00C2]:1403  [0x00C4]:130A  [0x00C6]:FFFF  
+[0x00C8]:FFFF  [0x00CA]:FFFF  [0x00CC]:FFFF  [0x00CE]:FFFF  
+[0x00D0]:FFFF  [0x00D2]:FFFF  [0x00D4]:FFFF  [0x00D6]:FFFF  
+[0x00D8]:FFFF  [0x00DA]:FFFF  [0x00DC]:FFFF  [0x00DE]:FFFF  
+[0x00E0]:FFFF  [0x00E2]:FFFF  [0x00E4]:FFFF  [0x00E6]:FFFF  
+[0x00E8]:FFFF  [0x00EA]:FFFF  [0x00EC]:FFFF  [0x00EE]:FFFF  
+[0x00F0]:0005  [0x00F2]:0000  [0x00F4]:00AD  [0x00F6]:8894  
+[0x00F8]:0000  [0x00FA]:0000  [0x00FC]:0000  [0x00FE]:0000  
+[0x0100]:FFFF  [0x0102]:FFFF  [0x0104]:FFFF  [0x0106]:FFFF  
+[0x0108]:FFFF  [0x010A]:FFFF  [0x010C]:FFFF  [0x010E]:FFFF  
+[0x0110]:FFFF  [0x0112]:FFFF  [0x0114]:FFFF  [0x0116]:FFFF  
+[0x0118]:FFFF  [0x011A]:FFFF  [0x011C]:FFFF  [0x011E]:FFFF  
+[0x0120]:0000  [0x0122]:0000  [0x0124]:0000  [0x0126]:0000  
+[0x0128]:0000  [0x012A]:0000  [0x012C]:0000  [0x012E]:20FF  
+[0x0130]:FFFF  [0x0132]:FFFF  [0x0134]:FFFF  [0x0136]:FFFF  
+[0x0138]:FFFF  [0x013A]:FFFF  [0x013C]:FFFF  [0x013E]:FFFF  
+[0x0140]:FFFF  [0x0142]:FFFF  [0x0144]:FFFF  [0x0146]:FFFF  
+[0x0148]:FFFF  [0x014A]:FFFF  [0x014C]:FFFF  [0x014E]:FFFF  
+[0x0150]:FFFF  [0x0152]:FFFF  [0x0154]:FFFF  [0x0156]:FFFF  
+[0x0158]:FFFF  [0x015A]:FFFF  [0x015C]:FFFF  [0x015E]:FFFF  
+[0x0160]:FFFF  [0x0162]:FFFF  [0x0164]:FFFF  [0x0166]:FFFF  
+[0x0168]:FFFF  [0x016A]:FFFF  [0x016C]:FFFF  [0x016E]:FFFF  
+[0x0170]:FFFF  [0x0172]:FFFF  [0x0174]:FFFF  [0x0176]:FFFF  
+[0x0178]:FFFF  [0x017A]:FFFF  [0x017C]:FFFF  [0x017E]:FFFF  
+[0x0180]:FFFF  [0x0182]:FFFF  [0x0184]:FFFF  [0x0186]:FFFF  
+[0x0188]:FFFF  [0x018A]:FFFF  [0x018C]:FFFF  [0x018E]:FFFF  
+[0x0190]:FFFF  [0x0192]:FFFF  [0x0194]:FFFF  [0x0196]:FFFF  
+[0x0198]:FFFF  [0x019A]:FFFF  [0x019C]:FFFF  [0x019E]:FFFF  
+[0x01A0]:FFFF  [0x01A2]:FFFF  [0x01A4]:FFFF  [0x01A6]:FFFF  
+[0x01A8]:FFFF  [0x01AA]:FFFF  [0x01AC]:FFFF  [0x01AE]:FFFF  
+[0x01B0]:FFFF  [0x01B2]:FFFF  [0x01B4]:FFFF  [0x01B6]:FFFF  
+[0x01B8]:FFFF  [0x01BA]:FFFF  [0x01BC]:FFFF  [0x01BE]:FFFF  
+[0x01C0]:FFFF  [0x01C2]:FFFF  [0x01C4]:FFFF  [0x01C6]:FFFF  
+[0x01C8]:FFFF  [0x01CA]:FFFF  [0x01CC]:FFFF  [0x01CE]:FFFF  
+[0x01D0]:FFFF  [0x01D2]:FFFF  [0x01D4]:FFFF  [0x01D6]:FFFF  
+[0x01D8]:FFFF  [0x01DA]:FFFF  [0x01DC]:FFFF  [0x01DE]:FFFF  
+[0x01E0]:FFFF  [0x01E2]:FFFF  [0x01E4]:FFFF  [0x01E6]:FFFF  
+[0x01E8]:FFFF  [0x01EA]:FFFF  [0x01EC]:FFFF  [0x01EE]:FFFF  
+[0x01F0]:FFFF  [0x01F2]:FFFF  [0x01F4]:FFFF  [0x01F6]:FFFF  
+[0x01F8]:FFFF  [0x01FA]:FFFF  [0x01FC]:FFFF  [0x01FE]:FFFF  
+
+==========ifconfig
+br-lan    Link encap:Ethernet  HWaddr 44:DF:65:67:89:2C  
+          inet addr:192.168.31.1  Bcast:192.168.31.255  Mask:255.255.255.0
+          inet6 addr: fe80::46df:65ff:fe67:892c/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:75077783 errors:0 dropped:25 overruns:0 frame:0
+          TX packets:5351432 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7849638579 (7.3 GiB)  TX bytes:3057324117 (2.8 GiB)
+
+br-miot   Link encap:Ethernet  HWaddr 46:DF:65:77:89:2D  
+          inet addr:192.168.32.1  Bcast:192.168.32.255  Mask:255.255.255.0
+          inet6 addr: fe80::44df:65ff:fe77:892d/64 Scope:Link
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:7 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:640 (640.0 B)
+
+eth0      Link encap:Ethernet  HWaddr 44:DF:65:67:89:2C  
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:254439 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:27320468 (26.0 MiB)
+          Interrupt:10 
+
+eth1      Link encap:Ethernet  HWaddr C8:BF:4C:FD:74:92  
+          inet addr:10.12.250.125  Bcast:10.12.255.255  Mask:255.255.248.0
+          inet6 addr: fe80::cabf:4cff:fefd:7492/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:159899946 errors:2 dropped:253049 overruns:0 frame:0
+          TX packets:68806275 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:230172740917 (214.3 GiB)  TX bytes:7925210771 (7.3 GiB)
+          Interrupt:10 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:837360 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:837360 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:51256774 (48.8 MiB)  TX bytes:51256774 (48.8 MiB)
+
+wl0       Link encap:Ethernet  HWaddr 44:DF:65:67:89:2E  
+          inet6 addr: fe80::46df:65ff:fe67:892e/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:69668414 errors:1388321 dropped:0 overruns:0 frame:0
+          TX packets:157840203 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2895373428 (2.6 GiB)  TX bytes:180692096 (172.3 MiB)
+          Interrupt:31 
+
+wl1       Link encap:Ethernet  HWaddr 44:DF:65:67:89:2D  
+          inet6 addr: fe80::46df:65ff:fe67:892d/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:1871233 errors:922 dropped:0 overruns:0 frame:0
+          TX packets:1742253 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:608925253 (580.7 MiB)  TX bytes:2258011151 (2.1 GiB)
+          Interrupt:11 
+
+==========/proc/net/dev
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+   wl2:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+  gre0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+    lo: 51256774  837360    0    0    0     0          0         0 51256774  837360    0    0    0     0       0          0
+   wl1: 608925253 1871233  922    0    0     0          0     10798 2258011151 1742253    0    0    0     0       0          0
+gretap0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+  eth1: 230172754750 159899956    2 253049    0     0          0         0 7925210771 68806275    0    0    0     0       0          0
+   wl0: 2895373428 69668414 1388321    0    0     0          0         0 180705929 157840213    0    0    0     0       0          0
+br-miot:       0       0    0    0    0     0          0         0      640       7    0    0    0     0       0          0
+   wl4:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+  eth0:       0       0    0    0    0     0          0         0 27320468  254439    0    0    0     0       0          0
+   wl3:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+apcli0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+br-lan: 7849638579 75077783    0   25    0     0          0         0 3057337810 5351442    0    0    0     0       0          0
+apclii0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+==========/proc/bus/pci/devices
+0000	0e8d0801	0	               0	        60300000	               0	               0	               0	               0	               0	               0	           10000	               0	               0	               0	               0	               0	
+0008	0e8d0801	0	               0	        60310000	               0	               0	               0	               0	               0	               0	           10000	               0	               0	               0	               0	               0	
+0100	14c37603	b	        60000000	               0	               0	               0	               0	               0	               0	          100000	               0	               0	               0	               0	               0	               0	rlt_drv
+0200	14c37663	1f	        6010000c	               0	        6020000c	               0	        6020400c	               0	               0	          100000	               0	            4000	               0	            1000	               0	               0	mt7663_drv
+==========route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.12.248.1     0.0.0.0         UG    0      0        0 eth1
+0.0.0.0         10.12.248.1     0.0.0.0         UG    50     0        0 eth1
+10.12.248.0     0.0.0.0         255.255.248.0   U     0      0        0 eth1
+192.168.31.0    0.0.0.0         255.255.255.0   U     0      0        0 br-lan
+192.168.32.0    0.0.0.0         255.255.255.0   U     0      0        0 br-miot
+==========ip -6 route
+fe80::/64 dev wl1  proto kernel  metric 256 
+fe80::/64 dev br-miot  proto kernel  metric 256 
+fe80::/64 dev br-lan  proto kernel  metric 256 
+fe80::/64 dev wl0  proto kernel  metric 256 
+fe80::/64 dev eth1  proto kernel  metric 256 
+==========ps
+  PID USER       VSZ STAT COMMAND
+    1 root      1556 S    /sbin/procd
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    5 root         0 SW<  [kworker/0:0H]
+    7 root         0 SW   [rcu_sched]
+    8 root         0 SW   [rcu_bh]
+    9 root         0 SW   [migration/0]
+   10 root         0 SW   [migration/1]
+   11 root         0 SW   [ksoftirqd/1]
+   12 root         0 SW   [kworker/1:0]
+   13 root         0 SW<  [kworker/1:0H]
+   14 root         0 SW   [migration/2]
+   15 root         0 SW   [ksoftirqd/2]
+   17 root         0 SW<  [kworker/2:0H]
+   18 root         0 SW   [migration/3]
+   19 root         0 SW   [ksoftirqd/3]
+   21 root         0 SW<  [kworker/3:0H]
+   22 root         0 SW   [kdevtmpfs]
+  118 root         0 SW<  [writeback]
+  120 root         0 SW<  [crypto]
+  121 root         0 SW<  [bioset]
+  123 root         0 SW<  [kblockd]
+  158 root         0 SW   [kworker/0:1]
+  169 root         0 SW   [kswapd0]
+  170 root         0 SW<  [vmstat]
+  250 root         0 SW   [fsnotify_mark]
+  252 root         0 SW<  [SquashFS read w]
+  267 root         0 SW<  [pencrypt]
+  269 root         0 SW<  [pdecrypt]
+  290 root         0 SW   [kworker/1:1]
+  301 root         0 SW   [spi32766]
+  305 root         0 SW<  [bioset]
+  310 root         0 SW<  [bioset]
+  315 root         0 SW<  [bioset]
+  320 root         0 SW<  [bioset]
+  325 root         0 SW<  [bioset]
+  330 root         0 SW<  [bioset]
+  335 root         0 SW<  [bioset]
+  340 root         0 SW<  [bioset]
+  345 root         0 SW<  [bioset]
+  350 root         0 SW<  [bioset]
+  355 root         0 SW<  [bioset]
+  360 root         0 SW<  [bioset]
+  397 root         0 SW<  [ipv6_addrconf]
+  404 root         0 SW<  [deferwq]
+  407 root         0 SW   [kworker/2:1]
+  408 root         0 SW   [kworker/3:1]
+  411 root         0 SW<  [kworker/0:1H]
+  413 root         0 SW<  [kworker/1:1H]
+  415 root         0 SW<  [kworker/3:1H]
+  416 root         0 SW<  [kworker/2:1H]
+  417 root      3444 S    {luci} /usr/bin/lua /www/cgi-bin/luci
+  424 root      1504 S    sh -c /usr/sbin/log_collection.sh >/dev/null 2>/dev/null
+  425 root      1512 S    {log_collection.} /bin/sh /usr/sbin/log_collection.sh
+  459 root      1504 R    ps -w
+  488 root         0 SWN  [jffs2_gcd_mtd7]
+  601 root         0 SW   [kworker/u8:2]
+  642 root      1208 S    /sbin/ubusd
+  643 root       904 S    /sbin/askfirst /usr/libexec/login.sh
+ 1224 root      1464 S    /sbin/rpcd -s /var/run/ubus.sock -t 30
+ 1260 root      1192 S    /sbin/tbusd
+ 1762 root      1708 S    /sbin/netifd
+ 1826 root      2576 S    /usr/bin/fcgi-cgi
+ 1837 root      5604 S    nginx: master process /usr/sbin/nginx -c /etc/nginx/nginx.conf -g daemon off;
+ 1912 root      1432 S    /usr/sbin/odhcpd
+ 1965 root         0 SW   [RtmpCmdQTask]
+ 1966 root         0 SW   [RtmpWscTask]
+ 1967 root         0 SW   [RtmpMlmeTask]
+ 1980 root      4272 S    /usr/bin/messagingagent --handler_threads 2
+ 2016 root      1512 S    /usr/sbin/crond -f -c /etc/crontabs -l 5
+ 2063 root      5828 S    nginx: worker process
+ 2117 root      8944 S    /usr/sbin/syslog-ng --process-mode background -p /var/run/syslog-ng.pid
+ 3694 root         0 SW   [RtmpCmdQTask]
+ 3696 root         0 SW   [RtmpWscTask]
+ 3697 root         0 SW   [HwCtrlTask]
+ 3698 root         0 SW   [ser_task]
+ 3843 root      1504 S    {iweventd.sh} /bin/sh /usr/sbin/iweventd.sh
+ 3855 root       940 S    /usr/sbin/iwevent
+ 3856 root      1544 S    {iwevent-call} /bin/sh /usr/sbin/iwevent-call
+ 3895 root      1220 S    /usr/sbin/taskdaemon
+ 3937 root      1884 S    /usr/sbin/trafficd
+ 4042 root         0 SW   [RtmpMlmeTask]
+ 4259 root      2972 S    /usr/sbin/netapi
+ 4340 root      2624 S    /usr/sbin/smartcontroller
+ 4520 root      1164 S    /usr/sbin/wan_check_status
+ 5594 root         0 SW   [kworker/0:0]
+ 6053 root      1664 S    {syslog-ng.helpe} /bin/sh /usr/sbin/syslog-ng.helper
+ 6054 root      1504 S    tail -F /tmp/stat_points_rom.log /tmp/stat_points_web.log
+ 6055 root      1504 S    grep stat_points_instant
+ 6056 root      1504 S    {stat_points.hel} /bin/sh /usr/sbin/stat_points.helper
+ 6057 root      1664 S    {stat_points.cro} /bin/sh /usr/sbin/stat_points.cron
+ 6078 root       904 S    /usr/bin/watchdog
+17878 root         0 SW   [kworker/2:2]
+20321 root         0 SW   [kworker/3:0]
+23035 root      1504 S    udhcpc -a -p /var/run/udhcpc-eth1.pid -s /lib/netifd/dhcp.script -f -t 0 -i eth1 -x hostname MiWiFi-RB02
+23656 root      6172 S    /usr/bin/lua /usr/sbin/miqosd hwqos
+30587 root      1504 S    sleep 300
+32129 root         0 SW   [kworker/u8:1]
+32517 root      1352 S    /usr/sbin/dnsmasq --user=root -C /var/etc/dnsmasq.conf.cfg01411c -k -x /var/run/dnsmasq/dnsmasq.cfg01411c
+32587 root      1504 S    sleep 120
+========== iwinfo wl0 info
+wl0       ESSID: Xiaomi_7492_5G
+          Access Point: 44:DF:65:67:89:2E
+          Mode: Master  Channel: 36 (5.180 GHz)
+          Tx-Power: 20 dBm  Link Quality: 10/100
+          Signal: -256  Noise: -68
+          Bit Rate: 867.0
+          Encryption: unknown
+          Type: wext  HW Mode(s): 802.11ac
+          Hardware: unknown [Generic WEXT]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: no  PHY name: wl0
+========== iwinfo wl0 assolist
+ifname: wl0
+ssid: Xiaomi_7492_5G
+bssid: 44:DF:65:67:89:2E
+channel: 36
+noise: -68
+stacount: 4
+CLIENT_MAC       |PHY|SECU|RSSI|NOISE|SNR|RX_RATE|RX_UC(pkt)|RX_UC(kbyte)|RX_MC(pkt)|RX_MC(kbyte)|TX_RATE|TX_UC(pkt)|TX_UC(kbyte)|TX_MC(pkt)|TX_MC(kbyte)|IDLE(ms)|MBAND
+8C:85:90:2A:B2:D9  ac WPA2PSK  -73   -95  22     1.0     111943        12985          0            0    30.0     651878       883056          0            0        0 0
+B8:87:6E:EE:8B:6C  ac WPA2PSK  -52   -95  43     1.0      26146         5163          0            0   263.5      93595       110492          0            0        0 0
+8E:55:AF:91:E4:A1  ac WPA2PSK  -68   -95  27     1.0     304641        35756          0            0   117.0    1854864      2489976          0            0        0 0
+92:76:15:AD:E9:BC  ac WPA2PSK  -79   -95  16     1.0      15465         4113          0            0    72.0      80420        92407          0            0        0 0
+========== iwinfo wl0 txpowerlist
+No TX power information available
+========== iwinfo wl0 freqlist
+0 0
+36 7
+40 7
+44 7
+48 7
+52 7
+56 7
+60 7
+64 7
+149 7
+153 7
+157 7
+161 7
+165 1
+========== iwpriv wl0 stat
+wl0       stat:
+CurrentTemperature              = 98
+Tx success                      = 150639918
+Tx fail count                   = 11781132, PER=1.9%
+Current BW Tx count             = 162382556
+Other BW Tx count               = 38494
+Rx success                      = 84657341
+Rx with CRC                     = 69921889, PER=0.7%
+Rx drop due to out of resource  = 4054564
+RSSI                            = -80 -73 -127 -127
+Last TX Rate                    = NSS2_MCS7, BW80, LGI, VHT  LDPC
+Last RX Rate                    = NSS1_MCS6, BW80, LGI, VHT, STBC LDPC
+BandIdx: 0
+TX AGG Range 1 (1)              = 11138879
+TX AGG Range 2 (2~5)            = 44181621
+TX AGG Range 3 (6~15)           = 676532
+TX AGG Range 4 (>15)           = 676532
+AMPDU Tx success                = 151000710
+AMPDU Tx fail count             = 22188688, PER=0.4%
+
+hotspot enable                    = 0
+daemon ready                  = 0
+hotspot DGAFDisable               = 0
+hotspot L2Filter              = 0
+hotspot ICMPv4Deny                = 0
+hotspot QosMapEnable              = 0
+hotspot OSEN enable                   = 0
+proxy arp enable              = 0
+WNMNotify enable              = 0
+WNM BSS Transition Management enable = 1
+GAS come back delay                       = 0
+GAS MMPDU size                            = 0
+GAS enable                       		= 1
+
+driver_version  6.0.4.0
+
+========== iwpriv wl0 show stat
+========== iwpriv wl0 show stainfo
+========== iwpriv wl0 rf
+wl0       rf:
+========== iwpriv wl0 bbp
+wl0       bbp:
+========== iwinfo wl1 info
+wl1       ESSID: Xiaomi_7492
+          Access Point: 44:DF:65:67:89:2D
+          Mode: Master  Channel: 11 (2.462 GHz)
+          Tx-Power: 20 dBm  Link Quality: 10/100
+          Signal: -53  Noise: -86
+          Bit Rate: 300.0
+          Encryption: unknown
+          Type: wext  HW Mode(s): 802.11bgn
+          Hardware: unknown [Generic WEXT]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: no  PHY name: wl1
+========== iwinfo wl1 assolist
+No station connected
+========== iwinfo wl1 txpowerlist
+ 166 dBm (2147483647 mW)
+   0 dBm (   1 mW)
+========== iwinfo wl1 freqlist
+0 0
+1 3
+2 3
+3 3
+4 3
+5 3
+6 3
+7 3
+8 3
+9 3
+10 3
+11 3
+12 3
+13 3
+========== iwpriv wl1 stat
+wl1       stat:
+Tx success                      = 1697144
+Tx fail count                   = 300382, PER=15.0%
+Rx success                      = 20688944
+Rx with CRC                     = 40166393, PER=2.4%
+Rx with PhyErr                  = 0
+Rx with PlcpErr                 = 0
+Rx drop due to out of resource  = 489
+Rx duplicate frame              = 0
+False CCA (one second)          = 815 (CCK 637 + OFDM 178)
+Channel Utilization             = 1%
+Channel Utilization Average     = 1%
+RSSI                            = -51 -55 0
+TX AGG Range 1 (1)              = 139764
+TX AGG Range 2 (2~5)            = 91234
+TX AGG Range 3 (6~15)           = 58862
+TX AGG Range 4 (>15)            = 89238
+AMPDU Tx success                = 1698054
+AMPDU Tx fail count             = 1081032, PER=38.8%
+AMPDU Fail Ratio(No BA)		  = -1% (0/0)
+/* Condition Number should enable mode4 of 0x6020_426c */
+--10 packets Condition Number   = [0|0|0|0|0|0|0|0|0|0]
+SNR-A                           = 35
+SNR-B (if available)            = 33
+WPS Information:
+Enrollee PinCode(ra0)           67853250
+Enrollee PinCode(ra1)           57367491
+Enrollee PinCode(ra2)           67853250
+Enrollee PinCode(ra3)           78339019
+
+Enrollee PinCode(ApCli0)        04938699
+Ap Client WPS Profile Count     = 0
+
+WscLatestMacAddr=00:00:00:00:00:00
+GAS enable						 = 1
+
+========== iwpriv wl1 show stat
+========== iwpriv wl1 show stainfo
+========== iwpriv wl1 rf
+wl1       rf:Dump to RFDump.txt
+========== iwpriv wl1 bbp
+wl1       bbp:
+========== iwinfo wl2 info
+wl2       ESSID: minet_ready
+          Access Point: 46:DF:65:57:89:2D
+          Mode: Master  Channel: 11 (2.462 GHz)
+          Tx-Power: 20 dBm  Link Quality: 10/100
+          Signal: -53  Noise: -86
+          Bit Rate: 300.0
+          Encryption: unknown
+          Type: wext  HW Mode(s): 802.11bgn
+          Hardware: unknown [Generic WEXT]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: no  PHY name: wl2
+========== iwinfo wl2 assolist
+No station connected
+========== iwinfo wl2 txpowerlist
+ 166 dBm (2147483647 mW)
+   0 dBm (   1 mW)
+========== iwinfo wl2 freqlist
+0 0
+1 3
+2 3
+3 3
+4 3
+5 3
+6 3
+7 3
+8 3
+9 3
+10 3
+11 3
+12 3
+13 3
+========== iwpriv wl2 stat
+wl2       stat:
+Tx success                      = 1697144
+Tx fail count                   = 300382, PER=15.0%
+Rx success                      = 20688987
+Rx with CRC                     = 40166773, PER=2.4%
+Rx with PhyErr                  = 0
+Rx with PlcpErr                 = 0
+Rx drop due to out of resource  = 489
+Rx duplicate frame              = 0
+False CCA (one second)          = 1118 (CCK 957 + OFDM 161)
+Channel Utilization             = 1%
+Channel Utilization Average     = 1%
+RSSI                            = -51 -55 0
+TX AGG Range 1 (1)              = 139764
+TX AGG Range 2 (2~5)            = 91234
+TX AGG Range 3 (6~15)           = 58862
+TX AGG Range 4 (>15)            = 89238
+AMPDU Tx success                = 1698054
+AMPDU Tx fail count             = 1081032, PER=38.8%
+AMPDU Fail Ratio(No BA)		  = -1% (0/0)
+/* Condition Number should enable mode4 of 0x6020_426c */
+--10 packets Condition Number   = [0|0|0|0|0|0|0|0|0|0]
+SNR-A                           = 35
+SNR-B (if available)            = 33
+WPS Information:
+Enrollee PinCode(ra0)           67853250
+Enrollee PinCode(ra1)           57367491
+Enrollee PinCode(ra2)           67853250
+Enrollee PinCode(ra3)           78339019
+
+Enrollee PinCode(ApCli0)        04938699
+Ap Client WPS Profile Count     = 0
+
+WscLatestMacAddr=00:00:00:00:00:00
+GAS enable						 = 1
+
+========== iwpriv wl2 show stat
+========== iwpriv wl2 show stainfo
+========== iwpriv wl2 rf
+wl2       rf:Dump to RFDump.txt
+========== iwpriv wl2 bbp
+wl2       bbp:
+========== iwinfo wl3 info
+wl3       ESSID: HT_AP2
+          Access Point: 46:DF:65:67:89:2D
+          Mode: Master  Channel: 11 (2.462 GHz)
+          Tx-Power: 20 dBm  Link Quality: 10/100
+          Signal: -53  Noise: -86
+          Bit Rate: 300.0
+          Encryption: unknown
+          Type: wext  HW Mode(s): 802.11bgn
+          Hardware: unknown [Generic WEXT]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: no  PHY name: wl3
+========== iwinfo wl3 assolist
+No station connected
+========== iwinfo wl3 txpowerlist
+ 166 dBm (2147483647 mW)
+   0 dBm (   1 mW)
+========== iwinfo wl3 freqlist
+0 0
+1 3
+2 3
+3 3
+4 3
+5 3
+6 3
+7 3
+8 3
+9 3
+10 3
+11 3
+12 3
+13 3
+========== iwpriv wl3 stat
+wl3       stat:
+Tx success                      = 1697144
+Tx fail count                   = 300382, PER=15.0%
+Rx success                      = 20689022
+Rx with CRC                     = 40167116, PER=2.4%
+Rx with PhyErr                  = 0
+Rx with PlcpErr                 = 0
+Rx drop due to out of resource  = 489
+Rx duplicate frame              = 0
+False CCA (one second)          = 1011 (CCK 851 + OFDM 160)
+Channel Utilization             = 1%
+Channel Utilization Average     = 1%
+RSSI                            = -51 -55 0
+TX AGG Range 1 (1)              = 139764
+TX AGG Range 2 (2~5)            = 91234
+TX AGG Range 3 (6~15)           = 58862
+TX AGG Range 4 (>15)            = 89238
+AMPDU Tx success                = 1698054
+AMPDU Tx fail count             = 1081032, PER=38.8%
+AMPDU Fail Ratio(No BA)		  = -1% (0/0)
+/* Condition Number should enable mode4 of 0x6020_426c */
+--10 packets Condition Number   = [0|0|0|0|0|0|0|0|0|0]
+SNR-A                           = 35
+SNR-B (if available)            = 33
+WPS Information:
+Enrollee PinCode(ra0)           67853250
+Enrollee PinCode(ra1)           57367491
+Enrollee PinCode(ra2)           67853250
+Enrollee PinCode(ra3)           78339019
+
+Enrollee PinCode(ApCli0)        04938699
+Ap Client WPS Profile Count     = 0
+
+WscLatestMacAddr=00:00:00:00:00:00
+GAS enable						 = 1
+
+========== iwpriv wl3 show stat
+========== iwpriv wl3 show stainfo
+========== iwpriv wl3 rf
+wl3       rf:Dump to RFDump.txt
+========== iwpriv wl3 bbp
+wl3       bbp:
+wifi_log: wificount="2"
+wifi_log: Ifname="wl0", Current_channel="36", Scan_if="apclii0"
+wifi_log: Ifname="wl1", Current_channel="11", Scan_if="apcli0"
+==========dmesg:
+[401047.679624] entry wcid 4 QosMapSupport=0
+[401047.689093] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401047.782076] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401047.793764] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401047.806251] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401047.817918] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401047.832476] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401047.832476] 
+[401047.844589] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401048.107396] Rcv Wcid(4) AddBAReq
+[401048.110924] Start Seq = 00000002
+[401049.433989] ASSOC - 1 receive DIS-ASSOC request
+[401049.438744] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-62"
+[401049.467271] Del Sta:8e:55:af:91:e4:a1
+[401081.358761] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-64", status="0"
+[401081.372150] New Sta:8e:55:af:91:e4:a1
+[401081.376014] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401081.390598] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-63"
+[401081.403185] entry wcid 4 QosMapSupport=0
+[401081.413890] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401081.512032] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401081.523771] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401081.536637] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401081.548334] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401081.562300] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401081.562300] 
+[401081.574404] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401081.798553] Rcv Wcid(4) AddBAReq
+[401081.802051] Start Seq = 00000002
+[401083.099739] ASSOC - 1 receive DIS-ASSOC request
+[401083.104493] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-62"
+[401083.133214] Del Sta:8e:55:af:91:e4:a1
+[401115.965566] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-64", status="0"
+[401115.978837] New Sta:8e:55:af:91:e4:a1
+[401115.982897] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401115.997620] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-63"
+[401116.010911] entry wcid 4 QosMapSupport=0
+[401116.023077] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401116.122086] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401116.133792] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401116.146527] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401116.158218] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401116.173383] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401116.173383] 
+[401116.185839] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401116.431960] Rcv Wcid(4) AddBAReq
+[401116.435615] Start Seq = 00000002
+[401258.315586] ASSOC - 1 receive DIS-ASSOC request
+[401258.320253] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-62"
+[401258.349168] Del Sta:8e:55:af:91:e4:a1
+[401261.324748] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-64", status="0"
+[401261.338106] New Sta:8e:55:af:91:e4:a1
+[401261.342001] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401261.356195] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-64"
+[401261.368787] entry wcid 4 QosMapSupport=0
+[401261.381423] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401261.482034] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401261.493760] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401261.506476] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401261.518282] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401261.532187] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401261.532187] 
+[401261.544279] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401261.687393] Rcv Wcid(4) AddBAReq
+[401261.691017] Start Seq = 00000002
+[401263.166384] ASSOC - 1 receive DIS-ASSOC request
+[401263.171086] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-62"
+[401263.199633] Del Sta:8e:55:af:91:e4:a1
+[401291.663170] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-64", status="0"
+[401291.676658] New Sta:8e:55:af:91:e4:a1
+[401291.680543] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401291.697019] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-63"
+[401291.709580] entry wcid 4 QosMapSupport=0
+[401291.720728] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401291.812203] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401291.823967] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401291.836875] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401291.848611] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401291.863137] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401291.863137] 
+[401291.875283] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401292.008750] Rcv Wcid(4) AddBAReq
+[401292.012318] Start Seq = 00000002
+[401293.481679] ASSOC - 1 receive DIS-ASSOC request
+[401293.486349] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-62"
+[401293.514772] Del Sta:8e:55:af:91:e4:a1
+[401326.812990] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-64", status="0"
+[401326.826285] New Sta:8e:55:af:91:e4:a1
+[401326.830097] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401326.844169] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-64"
+[401326.856729] entry wcid 4 QosMapSupport=0
+[401326.867434] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401326.962207] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401326.973867] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401326.986773] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401326.998341] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401327.013777] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401327.013777] 
+[401327.025974] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401327.207171] Rcv Wcid(4) AddBAReq
+[401327.210552] Start Seq = 00000002
+[401328.626404] ASSOC - 1 receive DIS-ASSOC request
+[401328.631102] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-64"
+[401328.659765] Del Sta:8e:55:af:91:e4:a1
+[401363.439854] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-64", status="0"
+[401363.453318] New Sta:8e:55:af:91:e4:a1
+[401363.457212] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401363.471811] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-64"
+[401363.484496] entry wcid 4 QosMapSupport=0
+[401363.495242] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401363.592129] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401363.603823] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401363.616793] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401363.628480] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401363.643030] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401363.643030] 
+[401363.655157] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401363.788691] Rcv Wcid(4) AddBAReq
+[401363.792208] Start Seq = 00000002
+[401365.219259] ASSOC - 1 receive DIS-ASSOC request
+[401365.223984] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-62"
+[401365.252652] Del Sta:8e:55:af:91:e4:a1
+[401366.285791] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-63", status="0"
+[401366.299098] New Sta:8e:55:af:91:e4:a1
+[401366.303108] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401366.317831] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-63"
+[401366.330586] entry wcid 4 QosMapSupport=0
+[401366.341367] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401366.442033] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401366.453625] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401366.466522] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401366.478474] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401366.492429] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401366.492429] 
+[401366.504633] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401366.641722] Rcv Wcid(4) AddBAReq
+[401366.645226] Start Seq = 00000002
+[401370.018629] ASSOC - 1 receive DIS-ASSOC request
+[401370.023368] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-62"
+[401370.053529] Del Sta:8e:55:af:91:e4:a1
+[401402.113702] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-64", status="0"
+[401402.126959] New Sta:8e:55:af:91:e4:a1
+[401402.130901] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401402.145541] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-64"
+[401402.158171] entry wcid 4 QosMapSupport=0
+[401402.170288] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401402.262650] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401402.274365] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401402.287259] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401402.299060] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401402.313180] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401402.313180] 
+[401402.325560] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401402.493213] Rcv Wcid(4) AddBAReq
+[401402.496617] Start Seq = 00000002
+[401403.866035] ASSOC - 1 receive DIS-ASSOC request
+[401403.870864] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-62"
+[401403.900619] Del Sta:8e:55:af:91:e4:a1
+[401435.729714] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-64", status="0"
+[401435.743048] New Sta:8e:55:af:91:e4:a1
+[401435.746914] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401435.761498] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-64"
+[401435.774556] entry wcid 4 QosMapSupport=0
+[401435.786796] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401435.882132] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401435.893911] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401435.906696] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401435.918538] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401435.933701] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401435.933701] 
+[401435.945822] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401436.090403] Rcv Wcid(4) AddBAReq
+[401436.093871] Start Seq = 00000002
+[401437.544350] ASSOC - 1 receive DIS-ASSOC request
+[401437.549015] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-62"
+[401437.576670] Del Sta:8e:55:af:91:e4:a1
+[401468.889830] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-64", status="0"
+[401468.903135] New Sta:8e:55:af:91:e4:a1
+[401468.907005] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401468.921613] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-64"
+[401468.934268] entry wcid 4 QosMapSupport=0
+[401468.944790] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401469.042128] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401469.053709] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401469.066234] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401469.078017] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401469.091880] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401469.091880] 
+[401469.103968] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401469.256112] Rcv Wcid(4) AddBAReq
+[401469.259704] Start Seq = 00000002
+[401470.684415] ASSOC - 1 receive DIS-ASSOC request
+[401470.689080] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-62"
+[401470.719322] Del Sta:8e:55:af:91:e4:a1
+[401471.778120] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-64", status="0"
+[401471.791421] New Sta:8e:55:af:91:e4:a1
+[401471.795297] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401471.809963] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-63"
+[401471.822770] entry wcid 4 QosMapSupport=0
+[401471.833307] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401471.932178] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401471.943946] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401471.956885] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401471.968528] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401471.984000] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401471.984000] 
+[401471.996187] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401472.184905] Rcv Wcid(4) AddBAReq
+[401472.188311] Start Seq = 00000002
+[401475.431940] ASSOC - 1 receive DIS-ASSOC request
+[401475.436637] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-62"
+[401475.466339] Del Sta:8e:55:af:91:e4:a1
+[401513.473552] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-65", status="0"
+[401513.486881] New Sta:8e:55:af:91:e4:a1
+[401513.490771] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401513.511289] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-64"
+[401513.523841] entry wcid 4 QosMapSupport=0
+[401513.534452] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401513.632173] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401513.643874] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401513.656825] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401513.668464] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401513.682474] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401513.682474] 
+[401513.694716] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401513.880892] Rcv Wcid(4) AddBAReq
+[401513.884325] Start Seq = 00000002
+[401515.237785] ASSOC - 1 receive DIS-ASSOC request
+[401515.242479] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-62"
+[401515.271081] Del Sta:8e:55:af:91:e4:a1
+[401521.246529] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-65", status="0"
+[401521.259891] New Sta:8e:55:af:91:e4:a1
+[401521.263850] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401521.286398] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-65"
+[401521.299047] entry wcid 4 QosMapSupport=0
+[401521.309542] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401521.402163] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401521.413856] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401521.426725] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401521.438338] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401521.452196] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401521.452196] 
+[401521.464547] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401521.613179] Rcv Wcid(4) AddBAReq
+[401521.616882] Start Seq = 00000002
+[401541.037224] Rcv Wcid(4) AddBAReq
+[401541.040633] Start Seq = 00000000
+[401545.670642] ASSOC - 1 receive DIS-ASSOC request
+[401545.675395] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-64"
+[401545.706995] Del Sta:8e:55:af:91:e4:a1
+[401549.752247] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-64", status="0"
+[401549.765613] New Sta:8e:55:af:91:e4:a1
+[401549.769528] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401549.784055] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-62"
+[401549.796749] entry wcid 4 QosMapSupport=0
+[401549.809395] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401549.902144] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401549.913922] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401549.926577] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401549.938250] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401549.952777] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401549.952777] 
+[401549.964877] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401550.177707] Rcv Wcid(4) AddBAReq
+[401550.181295] Start Seq = 00000002
+[401558.819066] Rcv Wcid(4) AddBAReq
+[401558.822434] Start Seq = 00000000
+[401591.829748] ASSOC - 1 receive DIS-ASSOC request
+[401591.834494] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-63"
+[401591.864847] Del Sta:8e:55:af:91:e4:a1
+[401619.403191] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-64", status="0"
+[401619.416550] New Sta:8e:55:af:91:e4:a1
+[401619.420418] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401619.435550] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-62"
+[401619.448046] entry wcid 4 QosMapSupport=0
+[401619.458615] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401619.552125] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401619.563680] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401619.576582] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401619.588249] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401619.602309] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401619.602309] 
+[401619.614635] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401619.826912] Rcv Wcid(4) AddBAReq
+[401619.830409] Start Seq = 00000002
+[401621.168720] ASSOC - 1 receive DIS-ASSOC request
+[401621.173542] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-64"
+[401621.202548] Del Sta:8e:55:af:91:e4:a1
+[401656.969213] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-63", status="0"
+[401656.984059] New Sta:8e:55:af:91:e4:a1
+[401656.988029] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401657.003343] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-64"
+[401657.016026] entry wcid 4 QosMapSupport=0
+[401657.026858] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401657.122440] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401657.134376] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401657.147319] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401657.159179] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401657.173489] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401657.173489] 
+[401657.185697] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401657.229778] Rcv Wcid(4) AddBAReq
+[401657.233235] Start Seq = 00000002
+[401660.400548] ASSOC - 1 receive DIS-ASSOC request
+[401660.405321] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-63"
+[401660.434279] Del Sta:8e:55:af:91:e4:a1
+[401690.153385] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-75", status="0"
+[401690.166717] New Sta:8e:55:af:91:e4:a1
+[401690.170601] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401690.185496] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-71"
+[401690.198216] entry wcid 4 QosMapSupport=0
+[401690.208753] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401690.302197] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401690.313759] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401690.326640] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401690.338230] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401690.353169] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401690.353169] 
+[401690.365391] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401690.603975] Rcv Wcid(4) AddBAReq
+[401690.607347] Start Seq = 00000002
+[401691.941293] ASSOC - 1 receive DIS-ASSOC request
+[401691.945993] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-63"
+[401691.975694] Del Sta:8e:55:af:91:e4:a1
+[401722.930982] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="f6:83:c4:6c:d7:3c", bssid="44:df:65:67:89:2d", action="recv-auth", rssi="-66", status="0"
+[401722.945394] wifi_log: [Class 1 - SEND AUTH_RSP] - if="wl1", sta_mac="f6:83:c4:6c:d7:3c", bssid="44:df:65:67:89:2d", action="mlme-auth", info="send auth resp(Success)", status="0"
+[401722.975897] wifi_log: [Class 2 - RECV ASSOC] - if="wl1", sta_mac="f6:83:c4:6c:d7:3c", bssid="44:df:65:67:89:2d", action="recv-assoc", rssi="-70", Aid="1"
+[401722.990312] wifi_log: [Class 2 - SEND ASSOC RSP] - if="wl1", sta_mac="f6:83:c4:6c:d7:3c", bssid="44:df:65:67:89:2d", action="mlme-assoc", status="0", Aid="1"
+[401723.031072] wifi_log: [Class 3 - EAPOL START] - if="wl1", sta_mac="f6:83:c4:6c:d7:3c", bssid="44:df:65:67:89:2d", action="eapol-start"
+[401723.044719] wifi_log: [Class 3 - SEND EAPOL 1/4] - if="wl1", sta_mac="f6:83:c4:6c:d7:3c", bssid="44:df:65:67:89:2d", action="send-eapol"
+[401723.057316] wifi_log: [Class 3 - RECV EAPOL 2/4] - if="wl1", sta_mac="f6:83:c4:6c:d7:3c", bssid="44:df:65:67:89:2d", action="recv-eapol"
+[401723.072956] wifi_log: [Class 3 - SEND EAPOL 3/4] - if="wl1", sta_mac="f6:83:c4:6c:d7:3c", bssid="44:df:65:67:89:2d", action="send-eapol"
+[401723.092079] wifi_log: [Class 3 - EAPOL DONE] - if="wl1", sta_mac="f6:83:c4:6c:d7:3c", bssid="44:df:65:67:89:2d", action="eapol-done"
+[401724.613583] wifi_log: [Class 2 - RECV DISASSOC] - if="wl1", sta_mac="f6:83:c4:6c:d7:3c", bssid="44:df:65:67:89:2d", action="recv-disassoc", reason="8", rssi="-65", Aid="1"
+[401754.497005] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-70", status="0"
+[401754.510345] New Sta:8e:55:af:91:e4:a1
+[401754.514305] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401754.529163] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-70"
+[401754.541931] entry wcid 4 QosMapSupport=0
+[401754.552969] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401754.652072] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401754.663931] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401754.676814] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401754.688543] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401754.702462] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401754.702462] 
+[401754.714573] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401756.244097] ASSOC - 1 receive DIS-ASSOC request
+[401756.248845] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-69"
+[401756.276742] Del Sta:8e:55:af:91:e4:a1
+[401788.211552] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-71", status="0"
+[401788.224954] New Sta:8e:55:af:91:e4:a1
+[401788.228812] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401788.243664] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-70"
+[401788.256293] entry wcid 4 QosMapSupport=0
+[401788.266973] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401788.362197] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401788.373909] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401788.386657] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401788.398243] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401788.412106] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401788.412106] 
+[401788.424153] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401789.947313] ASSOC - 1 receive DIS-ASSOC request
+[401789.952219] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-67"
+[401789.979100] Del Sta:8e:55:af:91:e4:a1
+[401821.369226] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-75", status="0"
+[401821.382476] New Sta:8e:55:af:91:e4:a1
+[401821.386392] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401821.403073] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-74"
+[401821.415852] entry wcid 4 QosMapSupport=0
+[401821.426576] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401821.522256] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401821.533918] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401821.546402] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401821.558086] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401821.572096] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401821.572096] 
+[401821.584420] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401823.135522] ASSOC - 1 receive DIS-ASSOC request
+[401823.140423] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-65"
+[401823.168220] Del Sta:8e:55:af:91:e4:a1
+[401854.050593] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-74", status="0"
+[401854.063881] New Sta:8e:55:af:91:e4:a1
+[401854.067823] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401854.082311] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-74"
+[401854.094939] entry wcid 4 QosMapSupport=0
+[401854.105762] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401854.202102] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401854.213782] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401854.226642] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401854.238353] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401854.252334] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401854.252334] 
+[401854.264420] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401855.784123] ASSOC - 1 receive DIS-ASSOC request
+[401855.788821] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-71"
+[401855.814594] Del Sta:8e:55:af:91:e4:a1
+[401886.224274] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-77", status="0"
+[401886.237551] New Sta:8e:55:af:91:e4:a1
+[401886.241496] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401886.256247] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-77"
+[401886.268970] entry wcid 4 QosMapSupport=0
+[401886.279868] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401886.372183] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401886.383930] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401886.396679] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401886.408403] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401886.422509] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401886.422509] 
+[401886.434724] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401887.960739] ASSOC - 1 receive DIS-ASSOC request
+[401887.965430] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-68"
+[401887.992996] Del Sta:8e:55:af:91:e4:a1
+[401917.852962] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-74", status="0"
+[401917.866520] New Sta:8e:55:af:91:e4:a1
+[401917.870352] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401917.885648] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-74"
+[401917.898508] entry wcid 4 QosMapSupport=0
+[401917.909093] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401918.002190] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401918.013876] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401918.026589] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401918.038177] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401918.052037] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401918.052037] 
+[401918.064196] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401919.594534] ASSOC - 1 receive DIS-ASSOC request
+[401919.599293] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-68"
+[401919.625913] Del Sta:8e:55:af:91:e4:a1
+[401951.072438] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-75", status="0"
+[401951.085789] New Sta:8e:55:af:91:e4:a1
+[401951.089601] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401951.104869] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-75"
+[401951.117764] entry wcid 4 QosMapSupport=0
+[401951.128338] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401951.222269] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401951.234010] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401951.246737] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401951.258563] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401951.272493] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401951.272493] 
+[401951.284571] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401952.829626] ASSOC - 1 receive DIS-ASSOC request
+[401952.834395] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-68"
+[401952.861049] Del Sta:8e:55:af:91:e4:a1
+[401982.753133] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-69", status="0"
+[401982.766517] New Sta:8e:55:af:91:e4:a1
+[401982.770358] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[401982.785690] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-68"
+[401982.798669] entry wcid 4 QosMapSupport=0
+[401982.809242] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[401982.902196] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401982.913892] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401982.926404] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[401982.938103] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[401982.952006] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[401982.952006] 
+[401982.964122] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[401986.114579] Rcv Wcid(4) AddBAReq
+[401986.118024] Start Seq = 00000002
+[401990.508109] ASSOC - 1 receive DIS-ASSOC request
+[401990.512867] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-64"
+[401990.543056] Del Sta:8e:55:af:91:e4:a1
+[402023.765947] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-67", status="0"
+[402023.779237] New Sta:8e:55:af:91:e4:a1
+[402023.783171] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[402023.798035] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-67"
+[402023.810795] entry wcid 4 QosMapSupport=0
+[402023.822742] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[402023.922978] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[402023.934620] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[402023.947550] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[402023.959280] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[402023.973513] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[402023.973513] 
+[402023.985853] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[402024.202067] Rcv Wcid(4) AddBAReq
+[402024.205435] Start Seq = 00000002
+[402025.590943] ASSOC - 1 receive DIS-ASSOC request
+[402025.595649] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-65"
+[402025.624102] Del Sta:8e:55:af:91:e4:a1
+[402055.502484] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-67", status="0"
+[402055.515864] New Sta:8e:55:af:91:e4:a1
+[402055.519731] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[402055.534918] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-67"
+[402055.547449] entry wcid 4 QosMapSupport=0
+[402055.557973] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[402055.652217] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[402055.663794] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[402055.676454] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[402055.688169] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[402055.702032] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[402055.702032] 
+[402055.714317] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[402055.925719] Rcv Wcid(4) AddBAReq
+[402055.929199] Start Seq = 00000002
+[402057.250974] ASSOC - 1 receive DIS-ASSOC request
+[402057.255683] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-66"
+[402057.283363] Del Sta:8e:55:af:91:e4:a1
+[402079.231047] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-72", status="0"
+[402079.244267] New Sta:8e:55:af:91:e4:a1
+[402079.248086] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[402079.262223] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-70"
+[402079.275689] entry wcid 4 QosMapSupport=0
+[402079.287401] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[402079.382219] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[402079.393829] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[402079.406307] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[402079.417870] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[402079.431828] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 8E:55:AF:91:E4:A1
+[402079.431828] 
+[402079.444160] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[402079.732255] Rcv Wcid(4) AddBAReq
+[402079.735637] Start Seq = 00000002
+[402122.276079] Rcv Wcid(4) AddBAReq
+[402122.279501] Start Seq = 00000000
+[402123.278952] Rcv Wcid(4) AddBAReq
+[402123.282380] Start Seq = 00000000
+[402852.105373] ASSOC - 1 receive DIS-ASSOC request
+[402852.110036] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-81"
+[402852.140531] Del Sta:92:76:15:ad:e9:bc
+[404526.393753] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[409592.408418] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-73", status="0"
+[409592.421809] New Sta:92:76:15:ad:e9:bc
+[409592.425675] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[409592.439544] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-72"
+[409592.452079] entry wcid 3 QosMapSupport=0
+[409592.463665] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[409592.562967] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="send-eapol"
+[409592.574573] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[409592.587319] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="send-eapol"
+[409592.599045] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[409592.612985] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=3 from 92:76:15:AD:E9:BC
+[409592.612985] 
+[409592.625326] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="eapol-done"
+[409595.238599] Rcv Wcid(3) AddBAReq
+[409595.242261] Start Seq = 00000002
+[409610.389921] Rcv Wcid(3) AddBAReq
+[409610.393986] Start Seq = 00000000
+[409643.665278] Rcv Wcid(3) AddBAReq
+[409643.668622] Start Seq = 00000000
+[409920.724838] ASSOC - 1 receive DIS-ASSOC request
+[409920.729693] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-67"
+[409920.763704] Del Sta:92:76:15:ad:e9:bc
+[410257.745549] Rcv Wcid(1) AddBAReq
+[410257.749003] Start Seq = 00000fb3
+[410257.856788] Rcv Wcid(1) AddBAReq
+[410257.860201] Start Seq = 0000058f
+[410258.513057] Rcv Wcid(1) AddBAReq
+[410258.516396] Start Seq = 00000ce4
+[414457.742896] Rcv Wcid(1) AddBAReq
+[414457.746329] Start Seq = 00000cf4
+[414458.424111] Rcv Wcid(1) AddBAReq
+[414458.427666] Start Seq = 00000eed
+[414473.557180] Rcv Wcid(1) AddBAReq
+[414473.560587] Start Seq = 0000077d
+[416143.450259] ASSOC - 1 receive DIS-ASSOC request
+[416143.455051] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-84"
+[416143.488049] Del Sta:8c:85:90:2a:b2:d9
+[423147.831491] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-91", status="0"
+[423147.844728] New Sta:8c:85:90:2a:b2:d9
+[423147.848523] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[423147.861909] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-92"
+[423147.874458] entry wcid 1 QosMapSupport=0
+[423147.887158] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[423147.984373] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="send-eapol"
+[423147.995934] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[423148.009007] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="send-eapol"
+[423148.020675] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[423148.036408] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=1 from 8C:85:90:2A:B2:D9
+[423148.036408] 
+[423148.048401] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="eapol-done"
+[423149.935038] Rcv Wcid(1) AddBAReq
+[423149.938376] Start Seq = 00000003
+[423150.904871] Rcv Wcid(1) AddBAReq
+[423150.908344] Start Seq = 00000000
+[423160.019749] Rcv Wcid(1) AddBAReq
+[423160.023171] Start Seq = 00000000
+[423182.334762] Rcv Wcid(1) AddBAReq
+[423182.338106] Start Seq = 00000000
+[432522.429007] ASSOC - 1 receive DIS-ASSOC request
+[432522.433670] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-76"
+[432522.466114] Del Sta:8e:55:af:91:e4:a1
+[432559.044199] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-82", status="0"
+[432559.057436] New Sta:8e:55:af:91:e4:a1
+[432559.061224] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[432559.075918] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-82"
+[432559.088695] entry wcid 3 QosMapSupport=0
+[432559.099639] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[432559.195374] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[432559.207057] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[432559.219703] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[432559.231364] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[432559.245378] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=3 from 8E:55:AF:91:E4:A1
+[432559.245378] 
+[432559.257428] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[432559.484448] Rcv Wcid(3) AddBAReq
+[432559.487822] Start Seq = 00000000
+[432559.871389] Rcv Wcid(3) AddBAReq
+[432559.874846] Start Seq = 00000002
+[432560.844458] ASSOC - 1 receive DIS-ASSOC request
+[432560.849122] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-74"
+[432560.879710] Del Sta:8e:55:af:91:e4:a1
+[432578.964328] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-80", status="0"
+[432578.977573] New Sta:8e:55:af:91:e4:a1
+[432578.981435] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[432578.995930] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-78"
+[432579.008433] entry wcid 3 QosMapSupport=0
+[432579.020128] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[432579.115382] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[432579.126942] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[432579.139749] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[432579.151497] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[432579.165378] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=3 from 8E:55:AF:91:E4:A1
+[432579.165378] 
+[432579.177564] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[432579.283683] Rcv Wcid(3) AddBAReq
+[432579.287091] Start Seq = 00000002
+[432580.028167] Rcv Wcid(3) AddBAReq
+[432580.031566] Start Seq = 00000000
+[439445.146480] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[439610.434077] Rcv Wcid(1) AddBAReq
+[439610.437455] Start Seq = 00000f98
+[439610.769471] Rcv Wcid(1) AddBAReq
+[439610.772963] Start Seq = 00000751
+[439610.899190] Rcv Wcid(1) AddBAReq
+[439610.902673] Start Seq = 00000764
+[439755.728635] Rcv Wcid(1) AddBAReq
+[439755.732145] Start Seq = 00000770
+[439755.743825] Rcv Wcid(1) AddBAReq
+[439755.747283] Start Seq = 000007b9
+[439755.792682] Rcv Wcid(1) AddBAReq
+[439755.796133] Start Seq = 000003f4
+[440344.035117] wifi_log: [SEND-DEAUTH] - if="wl0", sta_mac="b8:87:6e:ee:8b:6c", bssid="44:df:65:67:89:2e", action="send-deauth", reason="3"
+[440344.064428] Del Sta:b8:87:6e:ee:8b:6c
+[440770.125577] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[441233.073141] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[441780.002494] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[443451.612434] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[446419.482163] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[448319.581596] Rcv Wcid(1) AddBAReq
+[448319.585040] Start Seq = 0000026f
+[448319.834907] Rcv Wcid(1) AddBAReq
+[448319.838465] Start Seq = 00000f11
+[448342.819184] Rcv Wcid(1) AddBAReq
+[448342.822750] Start Seq = 000009c4
+[449918.847700] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[450675.599457] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[451130.511722] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[452476.782510] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[452510.667231] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[452734.604510] Rcv Wcid(1) AddBAReq
+[452734.607900] Start Seq = 00000f45
+[452734.994509] Rcv Wcid(1) AddBAReq
+[452734.997918] Start Seq = 000006ea
+[454200.587256] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[454380.473550] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[454609.557750] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[455194.752002] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[455450.537757] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[455450.546716] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[455556.073232] Rcv Wcid(1) AddBAReq
+[455556.076698] Start Seq = 00000a05
+[455556.099320] Rcv Wcid(1) AddBAReq
+[455556.102663] Start Seq = 00000f4c
+[455556.830046] Rcv Wcid(1) AddBAReq
+[455556.833475] Start Seq = 00000819
+[455913.638565] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[455985.746018] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[456079.445629] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[456836.806623] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[458066.989100] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[458225.775315] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[458657.636621] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[460294.829282] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[461936.523480] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[461980.307374] wifi_log: [SEND-DEAUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-deauth", reason="3"
+[461980.336631] Del Sta:8e:55:af:91:e4:a1
+[462482.867659] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[462764.486921] Rcv Wcid(1) AddBAReq
+[462764.490379] Start Seq = 00000880
+[462765.075905] Rcv Wcid(1) AddBAReq
+[462765.079293] Start Seq = 00000ae3
+[462765.242790] Rcv Wcid(1) AddBAReq
+[462765.246142] Start Seq = 00000f53
+[462822.761486] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[463530.320502] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[463624.062026] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[463753.392409] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="cc:b0:b3:69:24:c6", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-68", status="0"
+[463753.405645] New Sta:cc:b0:b3:69:24:c6
+[463753.409589] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="cc:b0:b3:69:24:c6", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[463753.423082] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="cc:b0:b3:69:24:c6", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-68"
+[463753.435633] entry wcid 2 QosMapSupport=0
+[463753.446645] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="cc:b0:b3:69:24:c6", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[463753.539454] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="cc:b0:b3:69:24:c6", bssid="44:df:65:67:89:2e", action="send-eapol"
+[463753.551098] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="cc:b0:b3:69:24:c6", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[463753.564446] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="cc:b0:b3:69:24:c6", bssid="44:df:65:67:89:2e", action="send-eapol"
+[463753.576161] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="cc:b0:b3:69:24:c6", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[463753.590385] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=2 from CC:B0:B3:69:24:C6
+[463753.590385] 
+[463753.602427] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="cc:b0:b3:69:24:c6", bssid="44:df:65:67:89:2e", action="eapol-done"
+[463754.422663] Rcv Wcid(2) AddBAReq
+[463754.426004] Start Seq = 00000000
+[463943.728538] ASSOC - 1 receive DIS-ASSOC request
+[463943.733204] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="cc:b0:b3:69:24:c6", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-66"
+[463943.761617] Del Sta:cc:b0:b3:69:24:c6
+[463943.765926] wifi_log: [RECV-DEAUTH] - if="wl0", sta_mac="cc:b0:b3:69:24:c6", bssid="44:df:65:67:89:2e", action="recv-deauth", reason="8", rssi="-65"
+[464185.081620] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[464318.198207] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[465458.558109] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[465716.354685] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[465716.363621] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[466606.933657] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[466944.730007] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[467009.713387] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[467140.383419] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[467140.392369] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[467215.419642] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[467377.436303] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[467412.446580] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[467446.450594] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[467479.949158] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="f6:83:c4:6c:d7:3c", bssid="44:df:65:67:89:2d", action="recv-auth", rssi="-58", status="0"
+[467479.963418] wifi_log: [Class 1 - SEND AUTH_RSP] - if="wl1", sta_mac="f6:83:c4:6c:d7:3c", bssid="44:df:65:67:89:2d", action="mlme-auth", info="send auth resp(Success)", status="0"
+[467479.995157] wifi_log: [Class 2 - RECV ASSOC] - if="wl1", sta_mac="f6:83:c4:6c:d7:3c", bssid="44:df:65:67:89:2d", action="recv-assoc", rssi="-58", Aid="1"
+[467480.009695] wifi_log: [Class 2 - SEND ASSOC RSP] - if="wl1", sta_mac="f6:83:c4:6c:d7:3c", bssid="44:df:65:67:89:2d", action="mlme-assoc", status="0", Aid="1"
+[467480.057846] wifi_log: [Class 3 - EAPOL START] - if="wl1", sta_mac="f6:83:c4:6c:d7:3c", bssid="44:df:65:67:89:2d", action="eapol-start"
+[467480.071938] wifi_log: [Class 3 - SEND EAPOL 1/4] - if="wl1", sta_mac="f6:83:c4:6c:d7:3c", bssid="44:df:65:67:89:2d", action="send-eapol"
+[467480.084589] wifi_log: [Class 3 - RECV EAPOL 2/4] - if="wl1", sta_mac="f6:83:c4:6c:d7:3c", bssid="44:df:65:67:89:2d", action="recv-eapol"
+[467480.100011] wifi_log: [Class 3 - SEND EAPOL 3/4] - if="wl1", sta_mac="f6:83:c4:6c:d7:3c", bssid="44:df:65:67:89:2d", action="send-eapol"
+[467480.127140] wifi_log: [Class 3 - EAPOL DONE] - if="wl1", sta_mac="f6:83:c4:6c:d7:3c", bssid="44:df:65:67:89:2d", action="eapol-done"
+[467542.439540] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-60", status="0"
+[467542.452734] New Sta:92:76:15:ad:e9:bc
+[467542.456597] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[467542.472144] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-61"
+[467542.484844] entry wcid 2 QosMapSupport=0
+[467542.495990] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[467542.589063] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="send-eapol"
+[467542.600672] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[467542.613565] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="send-eapol"
+[467542.625111] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[467542.638971] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=2 from 92:76:15:AD:E9:BC
+[467542.638971] 
+[467542.650963] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="eapol-done"
+[467546.415590] Rcv Wcid(2) AddBAReq
+[467546.419084] Start Seq = 00000002
+[467546.641100] Rcv Wcid(2) AddBAReq
+[467546.644523] Start Seq = 00000000
+[467698.799674] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[467732.851376] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[467928.333740] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[467928.342679] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[468041.567510] wifi_log: [Class 2 - RECV DISASSOC] - if="wl1", sta_mac="f6:83:c4:6c:d7:3c", bssid="44:df:65:67:89:2d", action="recv-disassoc", reason="8", rssi="-64", Aid="1"
+[468046.963662] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-70", status="0"
+[468046.976868] New Sta:8e:55:af:91:e4:a1
+[468046.980832] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[468046.996653] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-70"
+[468047.009739] entry wcid 3 QosMapSupport=0
+[468047.020437] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[468047.119065] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[468047.130765] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[468047.143674] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[468047.155229] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[468047.169391] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=3 from 8E:55:AF:91:E4:A1
+[468047.169391] 
+[468047.181575] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[468050.277631] Rcv Wcid(3) AddBAReq
+[468050.281121] Start Seq = 00000002
+[468600.259254] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[468600.268190] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[468947.155444] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[468981.062143] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[469053.633248] Rcv Wcid(3) AddBAReq
+[469053.636591] Start Seq = 00000000
+[469172.942122] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[469366.231121] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[469578.172983] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[469974.260092] Rcv Wcid(1) AddBAReq
+[469974.263553] Start Seq = 00000abb
+[469974.334439] Rcv Wcid(1) AddBAReq
+[469974.337840] Start Seq = 00000f67
+[469974.576593] Rcv Wcid(1) AddBAReq
+[469974.579983] Start Seq = 00000ba3
+[470100.601770] Rcv Wcid(1) AddBAReq
+[470100.605170] Start Seq = 00000d19
+[470100.608733] Rcv Wcid(1) AddBAReq
+[470100.612311] Start Seq = 00000bdd
+[470101.500743] Rcv Wcid(1) AddBAReq
+[470101.504291] Start Seq = 00000f72
+[470171.592839] ASSOC - 1 receive DIS-ASSOC request
+[470171.597501] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-66"
+[470171.633456] Del Sta:8c:85:90:2a:b2:d9
+[470171.637524] wifi_log: [RECV-DEAUTH] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="recv-deauth", reason="7", rssi="-67"
+[470171.651475] wifi_log: [RECV-DEAUTH] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="recv-deauth", reason="7", rssi="-67"
+[470171.665102] wifi_log: [RECV-DEAUTH] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="recv-deauth", reason="7", rssi="-67"
+[470171.678659] wifi_log: [RECV-DEAUTH] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="recv-deauth", reason="7", rssi="-68"
+[470171.692445] wifi_log: [RECV-DEAUTH] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="recv-deauth", reason="7", rssi="-67"
+[470171.706191] wifi_log: [RECV-DEAUTH] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="recv-deauth", reason="7", rssi="-67"
+[470171.719830] wifi_log: [RECV-DEAUTH] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="recv-deauth", reason="7", rssi="-68"
+[470337.158847] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-67", status="0"
+[470337.172198] New Sta:8c:85:90:2a:b2:d9
+[470337.176108] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[470337.190538] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-67"
+[470337.203247] entry wcid 1 QosMapSupport=0
+[470337.215773] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[470337.309861] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="send-eapol"
+[470337.321950] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[470337.335143] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="send-eapol"
+[470337.347057] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[470337.361541] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=1 from 8C:85:90:2A:B2:D9
+[470337.361541] 
+[470337.373651] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="eapol-done"
+[470337.385522] Rcv Wcid(1) AddBAReq
+[470337.389368] Start Seq = 00000002
+[470337.523742] Rcv Wcid(1) AddBAReq
+[470337.527544] Start Seq = 00000000
+[470338.086329] Rcv Wcid(1) AddBAReq
+[470338.089809] Start Seq = 00000000
+[470354.967126] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[470547.006008] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[470640.875078] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[470784.157951] ASSOC - 1 receive DIS-ASSOC request
+[470784.162653] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-61"
+[470784.193776] Del Sta:8e:55:af:91:e4:a1
+[470802.384788] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-64", status="0"
+[470802.398214] New Sta:8e:55:af:91:e4:a1
+[470802.402061] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[470802.415983] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-64"
+[470802.428646] entry wcid 3 QosMapSupport=0
+[470802.439221] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[470802.539408] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[470802.551091] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[470802.563816] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[470802.575575] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[470802.589392] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=3 from 8E:55:AF:91:E4:A1
+[470802.589392] 
+[470802.601571] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[470802.756509] Rcv Wcid(3) AddBAReq
+[470802.760024] Start Seq = 00000002
+[470804.602967] Rcv Wcid(3) AddBAReq
+[470804.606305] Start Seq = 00000000
+[470830.800005] ASSOC - 1 receive DIS-ASSOC request
+[470830.804767] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-60"
+[470830.836090] Del Sta:8e:55:af:91:e4:a1
+[470876.577658] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-65", status="0"
+[470876.591340] New Sta:8e:55:af:91:e4:a1
+[470876.595386] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[470876.611226] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-64"
+[470876.623699] entry wcid 3 QosMapSupport=0
+[470876.636267] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[470876.729403] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[470876.741103] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[470876.753843] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[470876.765559] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[470876.780154] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=3 from 8E:55:AF:91:E4:A1
+[470876.780154] 
+[470876.792171] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[470877.190531] Rcv Wcid(3) AddBAReq
+[470877.193870] Start Seq = 00000002
+[470880.123116] Rcv Wcid(3) AddBAReq
+[470880.126455] Start Seq = 00000000
+[470960.498203] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[470994.057290] ASSOC - 1 receive DIS-ASSOC request
+[470994.062023] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-71"
+[470994.092925] Del Sta:8e:55:af:91:e4:a1
+[470998.131333] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-80", status="0"
+[470998.144577] New Sta:8e:55:af:91:e4:a1
+[470998.148559] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[470998.162875] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-79"
+[470998.175744] entry wcid 3 QosMapSupport=0
+[470998.187097] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[470998.279439] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[470998.291174] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[470998.303745] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="send-eapol"
+[470998.315482] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[470998.329448] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=3 from 8E:55:AF:91:E4:A1
+[470998.329448] 
+[470998.341831] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8e:55:af:91:e4:a1", bssid="44:df:65:67:89:2e", action="eapol-done"
+[470998.527959] Rcv Wcid(3) AddBAReq
+[470998.531664] Start Seq = 00000002
+[470998.891627] Rcv Wcid(3) AddBAReq
+[470998.895026] Start Seq = 00000000
+[471253.462516] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[471812.702116] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[471877.776203] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[471942.704096] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[472093.780592] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[472127.694836] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[472313.519465] Rcv Wcid(1) AddBAReq
+[472313.522803] Start Seq = 00000152
+[472313.991335] Rcv Wcid(1) AddBAReq
+[472313.994762] Start Seq = 000000a8
+[472320.404272] Rcv Wcid(1) AddBAReq
+[472320.407661] Start Seq = 00000051
+[472600.709494] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[472600.718455] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[472873.654060] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[473061.128144] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[473247.698434] Rcv Wcid(1) AddBAReq
+[473247.701828] Start Seq = 000004a9
+[473247.904011] Rcv Wcid(1) AddBAReq
+[473247.907402] Start Seq = 000001d0
+[473248.161019] Rcv Wcid(1) AddBAReq
+[473248.164700] Start Seq = 000000b4
+[473451.359969] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[473976.695378] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[474181.732484] Rcv Wcid(1) AddBAReq
+[474181.735957] Start Seq = 000006e3
+[474181.739540] Rcv Wcid(1) AddBAReq
+[474181.743399] Start Seq = 000003ca
+[474181.778378] Rcv Wcid(1) AddBAReq
+[474181.781819] Start Seq = 000000c0
+[474229.287076] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[474437.277146] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[474437.286090] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[474748.283101] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[474876.095827] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[475116.268861] Rcv Wcid(1) AddBAReq
+[475116.272280] Start Seq = 0000066b
+[475116.471597] Rcv Wcid(1) AddBAReq
+[475116.475015] Start Seq = 000009fa
+[475116.686697] Rcv Wcid(1) AddBAReq
+[475116.690291] Start Seq = 000000cc
+[475203.396050] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[475365.234057] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[475414.272659] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[475414.281598] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[475557.093175] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[475557.102136] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[475935.953578] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[476050.503857] Rcv Wcid(1) AddBAReq
+[476050.507279] Start Seq = 0000083e
+[476050.642104] Rcv Wcid(1) AddBAReq
+[476050.645445] Start Seq = 00000c33
+[476050.908695] Rcv Wcid(1) AddBAReq
+[476050.912180] Start Seq = 000000d8
+[476106.786391] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[476140.636808] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[476140.645750] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[476809.352743] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[476809.361675] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[476984.984978] Rcv Wcid(1) AddBAReq
+[476984.988379] Start Seq = 00000a70
+[476985.003650] Rcv Wcid(1) AddBAReq
+[476985.007145] Start Seq = 00000e79
+[476985.424661] Rcv Wcid(1) AddBAReq
+[476985.428219] Start Seq = 000000e3
+[477217.306221] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[477217.315164] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[477285.252040] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[477285.264212] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[477482.523346] Rcv Wcid(3) AddBAReq
+[477482.528654] Start Seq = 00000000
+[477547.641756] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[477630.524550] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[477919.671766] Rcv Wcid(1) AddBAReq
+[477919.675112] Start Seq = 00000ca5
+[477920.122687] Rcv Wcid(1) AddBAReq
+[477920.126035] Start Seq = 000000f0
+[477920.479858] Rcv Wcid(1) AddBAReq
+[477920.483202] Start Seq = 000000f3
+[478016.526680] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[478771.999361] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[478853.758227] Rcv Wcid(1) AddBAReq
+[478853.761637] Start Seq = 00000245
+[478853.856607] Rcv Wcid(1) AddBAReq
+[478853.860056] Start Seq = 0000036f
+[478854.212777] Rcv Wcid(1) AddBAReq
+[478854.216429] Start Seq = 000000fb
+[479222.364165] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[479350.164440] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[479415.182805] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[479706.197230] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[479706.206201] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[479787.373037] Rcv Wcid(1) AddBAReq
+[479787.376481] Start Seq = 0000058d
+[479787.557858] Rcv Wcid(1) AddBAReq
+[479787.561243] Start Seq = 000002e0
+[479788.022986] Rcv Wcid(1) AddBAReq
+[479788.026417] Start Seq = 00000106
+[480196.969443] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[480396.440954] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[480524.067930] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[480721.885643] Rcv Wcid(1) AddBAReq
+[480721.888985] Start Seq = 000007e9
+[480722.014907] Rcv Wcid(1) AddBAReq
+[480722.018253] Start Seq = 000003cd
+[480722.399184] Rcv Wcid(1) AddBAReq
+[480722.402710] Start Seq = 00000110
+[481108.855004] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[481108.863945] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[481149.808741] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[481476.061991] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[481656.608051] Rcv Wcid(1) AddBAReq
+[481656.611630] Start Seq = 0000011c
+[481657.094271] Rcv Wcid(1) AddBAReq
+[481657.097645] Start Seq = 00000a57
+[481657.101303] Rcv Wcid(1) AddBAReq
+[481657.104874] Start Seq = 00000520
+[481694.223976] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[481694.232929] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[481788.331074] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[481999.295067] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[482212.860835] Rcv Wcid(1) AddBAReq
+[482212.864256] Start Seq = 00000d2e
+[482212.941194] Rcv Wcid(1) AddBAReq
+[482212.944582] Start Seq = 000005e2
+[482213.258906] Rcv Wcid(1) AddBAReq
+[482213.262434] Start Seq = 00000127
+[482268.199440] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[482314.458715] Rcv Wcid(1) AddBAReq
+[482314.462187] Start Seq = 0000012c
+[482314.657082] Rcv Wcid(1) AddBAReq
+[482314.660491] Start Seq = 00000da8
+[482314.663980] Rcv Wcid(1) AddBAReq
+[482314.667559] Start Seq = 00000658
+[482362.049016] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[482396.065964] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[482429.972944] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[482471.134411] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[482471.143365] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[482601.799030] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[482750.806555] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[482791.700018] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[482911.622026] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[482911.724425] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[483444.824201] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[483538.563221] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[483587.509310] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[483652.528185] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[484083.938872] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[484189.897206] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[484349.252819] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[484349.261753] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[484865.192456] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[485394.050085] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[485815.237068] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[487254.307090] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[487617.087864] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[487650.958998] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[487812.783805] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[488062.311992] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[488062.320931] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[488690.394871] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[488829.350867] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[488957.239677] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[489278.815106] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[489668.382619] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[489838.157702] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[489872.087028] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[490159.190672] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[490862.258145] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[491654.967372] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[491836.794517] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[491836.803461] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[491873.764170] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[492282.023458] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[492282.032408] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[492375.796850] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[492410.012859] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[492638.157906] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[492737.116326] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[492802.224713] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[492938.027180] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[493906.419732] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[494627.331202] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[494669.226914] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[495545.587288] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[495919.730479] ASSOC - 1 receive DIS-ASSOC request
+[495919.735168] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-100"
+[495919.767249] Del Sta:92:76:15:ad:e9:bc
+[495922.836243] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="ee:8d:a7:01:40:24", bssid="44:df:65:67:89:2d", action="recv-auth", rssi="-85", status="0"
+[495922.850501] wifi_log: [Class 1 - SEND AUTH_RSP] - if="wl1", sta_mac="ee:8d:a7:01:40:24", bssid="44:df:65:67:89:2d", action="mlme-auth", info="send auth resp(Success)", status="0"
+[495922.874904] wifi_log: [Class 2 - RECV ASSOC] - if="wl1", sta_mac="ee:8d:a7:01:40:24", bssid="44:df:65:67:89:2d", action="recv-assoc", rssi="-74", Aid="1"
+[495922.889409] wifi_log: [Class 2 - SEND ASSOC RSP] - if="wl1", sta_mac="ee:8d:a7:01:40:24", bssid="44:df:65:67:89:2d", action="mlme-assoc", status="0", Aid="1"
+[495922.930958] wifi_log: [Class 3 - EAPOL START] - if="wl1", sta_mac="ee:8d:a7:01:40:24", bssid="44:df:65:67:89:2d", action="eapol-start"
+[495922.944839] wifi_log: [Class 3 - SEND EAPOL 1/4] - if="wl1", sta_mac="ee:8d:a7:01:40:24", bssid="44:df:65:67:89:2d", action="send-eapol"
+[495922.957477] wifi_log: [Class 3 - RECV EAPOL 2/4] - if="wl1", sta_mac="ee:8d:a7:01:40:24", bssid="44:df:65:67:89:2d", action="recv-eapol"
+[495922.973167] wifi_log: [Class 3 - SEND EAPOL 3/4] - if="wl1", sta_mac="ee:8d:a7:01:40:24", bssid="44:df:65:67:89:2d", action="send-eapol"
+[495922.993736] wifi_log: [Class 3 - EAPOL DONE] - if="wl1", sta_mac="ee:8d:a7:01:40:24", bssid="44:df:65:67:89:2d", action="eapol-done"
+[495924.992558] wifi_log: [Class 2 - RECV DISASSOC] - if="wl1", sta_mac="ee:8d:a7:01:40:24", bssid="44:df:65:67:89:2d", action="recv-disassoc", reason="8", rssi="-90", Aid="1"
+[496457.128939] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[496477.702510] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-68", status="0"
+[496477.715736] New Sta:92:76:15:ad:e9:bc
+[496477.719603] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[496477.734150] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-67"
+[496477.746685] entry wcid 2 QosMapSupport=0
+[496477.757655] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[496477.852093] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="send-eapol"
+[496477.863657] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[496477.876557] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="send-eapol"
+[496477.888139] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[496477.901949] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=2 from 92:76:15:AD:E9:BC
+[496477.901949] 
+[496477.913909] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="eapol-done"
+[496485.317836] Rcv Wcid(2) AddBAReq
+[496485.321417] Start Seq = 00000002
+[496489.058067] Rcv Wcid(2) AddBAReq
+[496489.061543] Start Seq = 00000000
+[496500.102758] Rcv Wcid(1) AddBAReq
+[496500.106104] Start Seq = 00000e99
+[496500.109582] Rcv Wcid(1) AddBAReq
+[496500.113017] Start Seq = 00000675
+[496500.127460] Rcv Wcid(1) AddBAReq
+[496500.130851] Start Seq = 00000134
+[496839.577414] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[497302.857687] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[497375.666773] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[497440.932138] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[497597.513234] Rcv Wcid(2) AddBAReq
+[497597.516761] Start Seq = 00000634
+[497719.931892] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[497719.940817] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[498098.891136] wifi_log: [SEND-DEAUTH] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="send-deauth", reason="3"
+[498098.922047] Del Sta:92:76:15:ad:e9:bc
+[498116.126699] Rcv Wcid(1) AddBAReq
+[498116.130120] Start Seq = 000003ba
+[498116.710246] Rcv Wcid(1) AddBAReq
+[498116.713830] Start Seq = 000001c6
+[498137.888880] Rcv Wcid(1) AddBAReq
+[498137.892316] Start Seq = 000007a4
+[498250.887801] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-53", status="0"
+[498250.901234] New Sta:92:76:15:ad:e9:bc
+[498250.905059] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[498250.919121] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-51"
+[498250.931783] entry wcid 2 QosMapSupport=0
+[498250.943386] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[498251.042244] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="send-eapol"
+[498251.053984] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[498251.066937] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="send-eapol"
+[498251.078631] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[498251.092444] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=2 from 92:76:15:AD:E9:BC
+[498251.092444] 
+[498251.104514] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="eapol-done"
+[498252.130330] Rcv Wcid(2) AddBAReq
+[498252.133706] Start Seq = 00000002
+[498255.955608] Rcv Wcid(2) AddBAReq
+[498255.958986] Start Seq = 00000000
+[498286.542439] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[499050.319094] Rcv Wcid(1) AddBAReq
+[499050.322648] Start Seq = 000001d1
+[499050.468473] Rcv Wcid(1) AddBAReq
+[499050.471965] Start Seq = 00000740
+[499050.475574] Rcv Wcid(1) AddBAReq
+[499050.479161] Start Seq = 000007b1
+[499380.804881] Rcv Wcid(1) AddBAReq
+[499380.808284] Start Seq = 0000098d
+[499380.811889] Rcv Wcid(1) AddBAReq
+[499380.815517] Start Seq = 00000892
+[499380.862569] Rcv Wcid(1) AddBAReq
+[499380.866056] Start Seq = 000001de
+[499808.221250] Rcv Wcid(1) AddBAReq
+[499808.224624] Start Seq = 00000744
+[499808.312384] Rcv Wcid(1) AddBAReq
+[499808.315878] Start Seq = 0000027c
+[499810.012557] Rcv Wcid(1) AddBAReq
+[499810.015945] Start Seq = 00000991
+[500266.572090] Rcv Wcid(1) AddBAReq
+[500266.575427] Start Seq = 00000f57
+[500267.016530] Rcv Wcid(1) AddBAReq
+[500267.020357] Start Seq = 000009af
+[500267.245414] Rcv Wcid(1) AddBAReq
+[500267.248833] Start Seq = 000002ed
+[500292.837720] ASSOC - 1 receive DIS-ASSOC request
+[500292.842417] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-65"
+[500292.872812] Del Sta:92:76:15:ad:e9:bc
+[500548.935845] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[500728.173578] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="b8:87:6e:ee:8b:6c", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-50", status="0"
+[500728.186844] New Sta:b8:87:6e:ee:8b:6c
+[500728.190696] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="b8:87:6e:ee:8b:6c", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[500728.205203] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="b8:87:6e:ee:8b:6c", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-50"
+[500728.217687] entry wcid 2 QosMapSupport=1
+[500728.228362] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="b8:87:6e:ee:8b:6c", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[500728.322504] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="b8:87:6e:ee:8b:6c", bssid="44:df:65:67:89:2e", action="send-eapol"
+[500728.334196] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="b8:87:6e:ee:8b:6c", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[500728.347055] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="b8:87:6e:ee:8b:6c", bssid="44:df:65:67:89:2e", action="send-eapol"
+[500728.358754] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="b8:87:6e:ee:8b:6c", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[500728.372623] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=2 from B8:87:6E:EE:8B:6C
+[500728.372623] 
+[500728.384641] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="b8:87:6e:ee:8b:6c", bssid="44:df:65:67:89:2e", action="eapol-done"
+[500728.395952] Rcv Wcid(2) AddBAReq
+[500728.399286] Start Seq = 00000000
+[500739.639306] Rcv Wcid(2) AddBAReq
+[500739.642692] Start Seq = 00000001
+[500751.001952] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[500819.709366] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[501086.956261] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[501204.686212] Rcv Wcid(1) AddBAReq
+[501204.689642] Start Seq = 0000049f
+[501204.821018] Rcv Wcid(1) AddBAReq
+[501204.824484] Start Seq = 000009bb
+[501205.344925] Rcv Wcid(1) AddBAReq
+[501205.348264] Start Seq = 0000032f
+[501396.507728] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[501895.371856] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[501992.183942] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="ee:8d:a7:01:40:24", bssid="44:df:65:67:89:2d", action="recv-auth", rssi="-53", status="0"
+[501992.198211] wifi_log: [Class 1 - SEND AUTH_RSP] - if="wl1", sta_mac="ee:8d:a7:01:40:24", bssid="44:df:65:67:89:2d", action="mlme-auth", info="send auth resp(Success)", status="0"
+[501992.244263] wifi_log: [Class 2 - RECV ASSOC] - if="wl1", sta_mac="ee:8d:a7:01:40:24", bssid="44:df:65:67:89:2d", action="recv-assoc", rssi="-53", Aid="1"
+[501992.258676] wifi_log: [Class 2 - SEND ASSOC RSP] - if="wl1", sta_mac="ee:8d:a7:01:40:24", bssid="44:df:65:67:89:2d", action="mlme-assoc", status="0", Aid="1"
+[501992.301537] wifi_log: [Class 3 - EAPOL START] - if="wl1", sta_mac="ee:8d:a7:01:40:24", bssid="44:df:65:67:89:2d", action="eapol-start"
+[501992.315464] wifi_log: [Class 3 - SEND EAPOL 1/4] - if="wl1", sta_mac="ee:8d:a7:01:40:24", bssid="44:df:65:67:89:2d", action="send-eapol"
+[501992.327937] wifi_log: [Class 3 - RECV EAPOL 2/4] - if="wl1", sta_mac="ee:8d:a7:01:40:24", bssid="44:df:65:67:89:2d", action="recv-eapol"
+[501992.343224] wifi_log: [Class 3 - SEND EAPOL 3/4] - if="wl1", sta_mac="ee:8d:a7:01:40:24", bssid="44:df:65:67:89:2d", action="send-eapol"
+[501992.362062] wifi_log: [Class 3 - EAPOL DONE] - if="wl1", sta_mac="ee:8d:a7:01:40:24", bssid="44:df:65:67:89:2d", action="eapol-done"
+[502065.676894] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[502138.972025] Rcv Wcid(1) AddBAReq
+[502138.975363] Start Seq = 00000bac
+[502139.146131] Rcv Wcid(1) AddBAReq
+[502139.149470] Start Seq = 00000782
+[502139.583851] Rcv Wcid(1) AddBAReq
+[502139.587232] Start Seq = 0000033a
+[502236.940900] wifi_log: [Class 2 - RECV DISASSOC] - if="wl1", sta_mac="ee:8d:a7:01:40:24", bssid="44:df:65:67:89:2d", action="recv-disassoc", reason="8", rssi="-55", Aid="1"
+[502237.268031] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-67", status="0"
+[502237.281658] New Sta:92:76:15:ad:e9:bc
+[502237.285620] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[502237.299734] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-65"
+[502237.312629] entry wcid 4 QosMapSupport=0
+[502237.325974] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[502237.423898] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="send-eapol"
+[502237.435847] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[502237.448742] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="send-eapol"
+[502237.460390] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[502237.474546] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=4 from 92:76:15:AD:E9:BC
+[502237.474546] 
+[502237.486652] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="92:76:15:ad:e9:bc", bssid="44:df:65:67:89:2e", action="eapol-done"
+[502241.141571] Rcv Wcid(4) AddBAReq
+[502241.145165] Start Seq = 00000002
+[502241.157847] Rcv Wcid(4) AddBAReq
+[502241.161888] Start Seq = 00000000
+[502854.150260] Rcv Wcid(4) AddBAReq
+[502854.153772] Start Seq = 00000000
+[503085.319048] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[503086.671044] Rcv Wcid(1) AddBAReq
+[503086.674500] Start Seq = 000009b7
+[503086.694730] Rcv Wcid(1) AddBAReq
+[503086.698069] Start Seq = 00000347
+[503086.812775] Rcv Wcid(1) AddBAReq
+[503086.816170] Start Seq = 00000cce
+[503525.561211] Rcv Wcid(1) AddBAReq
+[503525.564668] Start Seq = 00000daa
+[503525.610971] Rcv Wcid(1) AddBAReq
+[503525.614348] Start Seq = 00000353
+[503525.632881] Rcv Wcid(1) AddBAReq
+[503525.636327] Start Seq = 00000c28
+[503677.594672] ASSOC - 1 receive DIS-ASSOC request
+[503677.599331] wifi_log: [RECV-DISASSOC] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="recv-disassoc", reason="8", rssi="-73"
+[503677.632504] Del Sta:8c:85:90:2a:b2:d9
+[503719.472571] wifi_log: [RECV-AUTH] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="recv-auth", rssi="-74", status="0"
+[503719.485785] New Sta:8c:85:90:2a:b2:d9
+[503719.489652] wifi_log: [MLME-AUTH] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="mlme-auth", status="0"
+[503719.503411] wifi_log: [RECV-ASSOC] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="recv-assoc", rssi="-75"
+[503719.516062] entry wcid 1 QosMapSupport=0
+[503719.528677] wifi_log: [MLME-ASSOC] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="mlme-assoc", status="0"
+[503719.622834] wifi_log: [SEND-EAPOL-1/4] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="send-eapol"
+[503719.634525] wifi_log: [RECV-EAPOL-2/4] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[503719.646990] wifi_log: [SEND-EAPOL-3/4] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="send-eapol"
+[503719.658677] wifi_log: [RECV-EAPOL-4/4] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="recv-eapol"
+[503719.672584] AP SETKEYS DONE - AKMMap=WPA2PSK, PairwiseCipher=AES, GroupCipher=TKIP, wcid=1 from 8C:85:90:2A:B2:D9
+[503719.672584] 
+[503719.684583] wifi_log: [EAPOL-DONE] - if="wl0", sta_mac="8c:85:90:2a:b2:d9", bssid="44:df:65:67:89:2e", action="eapol-done"
+[503721.145151] Rcv Wcid(1) AddBAReq
+[503721.148743] Start Seq = 00000002
+[503722.598483] Rcv Wcid(1) AddBAReq
+[503722.601924] Start Seq = 00000000
+[503722.849252] Rcv Wcid(1) AddBAReq
+[503722.852687] Start Seq = 00000000
+[503996.708768] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[504173.739042] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[504287.847928] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[505524.115871] ERROR!!! MlmeEnqueueForRecv(): un-recongnized mgmt->subtype=4, STA-00:00:00:00:00:00
+[506268.746137] MtAsicReadAggCnt(2212): Not support for HIF_MT yet!
+[506268.752288] ====================
+[506268.760563] Show_MacTable_Proc(): arg=
+[506268.764563] Dump MacTable entries info, EntType=0x20001
+[506268.769961] 
+[506268.771652] 
+[506268.771652] MAC                MODE  AID  BSS PSM WMM MIMOPS RSSI0/1/2/3         PhMd        BW       MCS         SGI      STBC      Idle   Rate      QosMap 
+[506268.787821] MWDSCap HT Operating Mode : 0
+[506268.792354] 
+[506268.793997] 8C:85:90:2A:B2:D9  20001 1    0   0   1   3      -80/-73/-127/-127   VHT/VHT     80M/80M  2S-M7/1S-M6 0/0      0/1       480    585/263   0      0         , 325937, 100%
+[506268.811423] NO                                                                    MaxCap:VHT         80M      2S-M9       1        0         -      866                HTC_ICVErr:0            HTC_AAD_OM_Force:NO          wdev0
+[506268.831850] 
+[506268.833732] HT Operating Mode : 0
+[506268.837165] 
+[506268.838806] B8:87:6E:EE:8B:6C  20001 2    0   0   1   3      -54/-52/-127/-127   VHT/VHT     80M/80M  1S-M9/1S-M7 0/1      1/0       480    390/325   1      0         , 46787, 100%
+[506268.855495] DSCP Exception:
+[506268.858375] DSCP Range:
+[506268.860904] [UP :  0][Low Value:    0] [High Value:    0]
+[506268.866438] [UP :  1][Low Value:    0] [High Value:    0]
+[506268.871983] [UP :  2][Low Value:    0] [High Value:    0]
+[506268.877475] [UP :  3][Low Value:    0] [High Value:    0]
+[506268.883094] [UP :  4][Low Value:    0] [High Value:    0]
+[506268.888687] [UP :  5][Low Value:    0] [High Value:    0]
+[506268.894750] [UP :  6][Low Value:    0] [High Value:    0]
+[506268.900263] [UP :  7][Low Value:    0] [High Value:    0]
+[506268.905800] NO                                                                    MaxCap:VHT         80M      1S-M9       1        0         -      433                HTC_ICVErr:0            HTC_AAD_OM_Force:NO          wdev0
+[506268.926314] 
+[506268.927895] HT Operating Mode : 0
+[506268.931289] 
+[506268.932972] 8E:55:AF:91:E4:A1  20001 3    0   0   1   3      -73/-68/-127/-127   VHT/VHT     80M/80M  1S-M6/1S-M8 1/1      0/0       480    292/390   0      0         , 927016, 100%
+[506268.949703] NO                                                                    MaxCap:VHT         80M      1S-M9       1        0         -      433                HTC_ICVErr:0            HTC_AAD_OM_Force:NO          wdev0
+[506268.970281] 
+[506268.971959] HT Operating Mode : 0
+[506268.975474] 
+[506268.977076] 92:76:15:AD:E9:BC  20001 4    0   0   1   3      -84/-79/-127/-127   VHT/VHT     80M/80M  2S-M4/2S-M2 0/1      0/0       471    351/195   0      0         , 40173, 100%
+[506268.993865] NO                                                                    MaxCap:VHT         80M      2S-M9       1        0         -      866                HTC_ICVErr:0            HTC_AAD_OM_Force:NO          wdev0
+[506269.014560] 
+[506269.016378] sta_cnt=4
+[506269.016378] apcli_cnt=0
+[506269.016378] rept_cnt=0
+[506269.016378] HTC_ICV_Err_TH=5
+[506269.016378] TransmitCountFromOS = 1961966
+[506269.074395] TransmittedFragmentCount = 1729087
+[506269.079074] MulticastTransmittedFrameCount = 31943
+[506269.084510] FailedCount = 300382
+[506269.088556] RetryCount = 0
+[506269.091669] MultipleRetryCount = 0
+[506269.095317] RTSSuccessCount = 0
+[506269.098708] RTSFailureCount = 0
+[506269.102332] ACKFailureCount = 0
+[506269.105708] FrameDuplicateCount = 0
+[506269.109630] ReceivedFragmentCount = 20688944
+[506269.115044] MulticastReceivedFrameCount = 21676
+[506269.120919] Rx drop due to out of resource  = 489
+[506269.126929] RealFcsErrCount = 40166393
+[506269.131471] TransmittedFrameCount = 1697144
+[506269.136290] WEPUndecryptableCount = 0
+[506269.141046] 
+[506269.141046] ===Some 11n statistics variables: 
+[506269.148350] TxAMSDUCount = 0
+[506269.151329] RxAMSDUCount = 0
+[506269.155610] TransmittedAMPDUCount = 0
+[506269.159371] TransmittedMPDUsInAMPDUCount = 1740131
+[506269.165505] TransmittedOctetsInAMPDUCount = -2037273338
+[506269.170838] MPDUInReceivedAMPDUCount = 854610
+[506269.176749] fAnyStaFortyIntolerant=0
+[506269.180421] -- IF-ra0 -- 
+[506269.183829] Packets Received = 1871233
+[506269.187827] Packets Sent = 1742253
+[506269.191428] Bytes Received = 608925253
+[506269.195420] Byte Sent = -2036956145
+[506269.199002] Error Packets Received = 922
+[506269.203049] Drop Received Packets = 133835
+[506269.207316] WscInfo:
+[506269.207316] 	WscConfMode=6
+[506269.207316] 	WscMode=PIN
+[506269.207316] 	WscConfStatus=2
+[506269.207316] 	WscPinCode=67853250
+[506269.207316] 	WscState=0x0
+[506269.207316] 	WscStatus=0x1
+[506269.207316] 	WscLatestMacAddr=00:00:00:00:00:00
+[506269.231437] -- IF-ra0 end -- 
+[506269.234526] -- IF-ra1 -- 
+[506269.237235] Packets Received = 0
+[506269.240954] Packets Sent = 0
+[506269.244400] Bytes Received = 0
+[506269.247711] Byte Sent = 0
+[506269.250515] Error Packets Received = 0
+[506269.254616] Drop Received Packets = 0
+[506269.258393] WscInfo:
+[506269.258393] 	WscConfMode=6
+[506269.258393] 	WscMode=PIN
+[506269.258393] 	WscConfStatus=2
+[506269.258393] 	WscPinCode=57367491
+[506269.258393] 	WscState=0x0
+[506269.258393] 	WscStatus=0x1
+[506269.258393] 	WscLatestMacAddr=00:00:00:00:00:00
+[506269.282872] -- IF-ra1 end -- 
+[506269.286056] -- IF-ra2 -- 
+[506269.288966] Packets Received = 0
+[506269.292339] Packets Sent = 0
+[506269.295444] Bytes Received = 0
+[506269.298841] Byte Sent = 0
+[506269.301732] Error Packets Received = 0
+[506269.305755] Drop Received Packets = 0
+[506269.309557] WscInfo:
+[506269.309557] 	WscConfMode=6
+[506269.309557] 	WscMode=PIN
+[506269.309557] 	WscConfStatus=2
+[506269.309557] 	WscPinCode=67853250
+[506269.309557] 	WscState=0x0
+[506269.309557] 	WscStatus=0x1
+[506269.309557] 	WscLatestMacAddr=00:00:00:00:00:00
+[506269.333647] -- IF-ra2 end -- 
+[506269.336707] -- IF-ra3 -- 
+[506269.339410] Packets Received = 0
+[506269.342775] Packets Sent = 0
+[506269.345745] Bytes Received = 0
+[506269.348880] Byte Sent = 0
+[506269.351582] Error Packets Received = 0
+[506269.355460] Drop Received Packets = 0
+[506269.359212] -- IF-ra3 end -- 
+[506269.362444] ====================
+[506269.370095] 
+[506269.371701] HT Operating Mode : 0
+[506269.375172] 
+[506269.376769] 
+[506269.376769] MAC                MODE AID   BSS PSM WMM MIMOPS RSSI0/1/2 PhMd  BW  MCS   SGI   STBC  Idle   Rate   QosMap 
+[506270.010343] TransmitCountFromOS = 1961968
+[506270.014495] TransmittedFragmentCount = 1729087
+[506270.019023] MulticastTransmittedFrameCount = 31943
+[506270.023937] FailedCount = 300382
+[506270.027249] RetryCount = 0
+[506270.030037] MultipleRetryCount = 0
+[506270.033749] RTSSuccessCount = 0
+[506270.037100] RTSFailureCount = 0
+[506270.040329] ACKFailureCount = 0
+[506270.043601] FrameDuplicateCount = 0
+[506270.047175] ReceivedFragmentCount = 20688989
+[506270.051526] MulticastReceivedFrameCount = 21676
+[506270.056299] Rx drop due to out of resource  = 489
+[506270.061262] RealFcsErrCount = 40166773
+[506270.065183] TransmittedFrameCount = 1697144
+[506270.069456] WEPUndecryptableCount = 0
+[506270.073279] 
+[506270.073279] ===Some 11n statistics variables: 
+[506270.079382] TxAMSDUCount = 0
+[506270.082384] RxAMSDUCount = 0
+[506270.085353] TransmittedAMPDUCount = 0
+[506270.089228] TransmittedMPDUsInAMPDUCount = 1740131
+[506270.094155] TransmittedOctetsInAMPDUCount = -2037273338
+[506270.099468] MPDUInReceivedAMPDUCount = 854610
+[506270.103972] fAnyStaFortyIntolerant=0
+[506270.107644] -- IF-ra0 -- 
+[506270.110350] Packets Received = 1871233
+[506270.114216] Packets Sent = 1742253
+[506270.117717] Bytes Received = 608925253
+[506270.121564] Byte Sent = -2036956145
+[506270.125185] Error Packets Received = 922
+[506270.129197] Drop Received Packets = 133835
+[506270.133460] WscInfo:
+[506270.133460] 	WscConfMode=6
+[506270.133460] 	WscMode=PIN
+[506270.133460] 	WscConfStatus=2
+[506270.133460] 	WscPinCode=67853250
+[506270.133460] 	WscState=0x0
+[506270.133460] 	WscStatus=0x1
+[506270.133460] 	WscLatestMacAddr=00:00:00:00:00:00
+[506270.157704] -- IF-ra0 end -- 
+[506270.160763] -- IF-ra1 -- 
+[506270.163624] Packets Received = 0
+[506270.166982] Packets Sent = 0
+[506270.169945] Bytes Received = 0
+[506270.173154] Byte Sent = 0
+[506270.175861] Error Packets Received = 0
+[506270.179691] Drop Received Packets = 0
+[506270.183491] WscInfo:
+[506270.183491] 	WscConfMode=6
+[506270.183491] 	WscMode=PIN
+[506270.183491] 	WscConfStatus=2
+[506270.183491] 	WscPinCode=57367491
+[506270.183491] 	WscState=0x0
+[506270.183491] 	WscStatus=0x1
+[506270.183491] 	WscLatestMacAddr=00:00:00:00:00:00
+[506270.207698] -- IF-ra1 end -- 
+[506270.210765] -- IF-ra2 -- 
+[506270.213498] Packets Received = 0
+[506270.216811] Packets Sent = 0
+[506270.219773] Bytes Received = 0
+[506270.222948] Byte Sent = 0
+[506270.225656] Error Packets Received = 0
+[506270.229486] Drop Received Packets = 0
+[506270.233301] WscInfo:
+[506270.233301] 	WscConfMode=6
+[506270.233301] 	WscMode=PIN
+[506270.233301] 	WscConfStatus=2
+[506270.233301] 	WscPinCode=67853250
+[506270.233301] 	WscState=0x0
+[506270.233301] 	WscStatus=0x1
+[506270.233301] 	WscLatestMacAddr=00:00:00:00:00:00
+[506270.257497] -- IF-ra2 end -- 
+[506270.260556] -- IF-ra3 -- 
+[506270.263303] Packets Received = 0
+[506270.266774] Packets Sent = 0
+[506270.269874] Bytes Received = 0
+[506270.273105] Byte Sent = 0
+[506270.275812] Error Packets Received = 0
+[506270.279642] Drop Received Packets = 0
+[506270.283429] -- IF-ra3 end -- 
+[506270.286493] ====================
+[506270.294219] 
+[506270.295826] HT Operating Mode : 0
+[506270.299226] 
+[506270.300812] 
+[506270.300812] MAC                MODE AID   BSS PSM WMM MIMOPS RSSI0/1/2 PhMd  BW  MCS   SGI   STBC  Idle   Rate   QosMap 
+[506270.919826] TransmitCountFromOS = 1961968
+[506270.924031] TransmittedFragmentCount = 1729087
+[506270.928565] MulticastTransmittedFrameCount = 31943
+[506270.933523] FailedCount = 300382
+[506270.936850] RetryCount = 0
+[506270.939646] MultipleRetryCount = 0
+[506270.943174] RTSSuccessCount = 0
+[506270.946401] RTSFailureCount = 0
+[506270.949622] ACKFailureCount = 0
+[506270.952878] FrameDuplicateCount = 0
+[506270.956455] ReceivedFragmentCount = 20689022
+[506270.960976] MulticastReceivedFrameCount = 21676
+[506270.965641] Rx drop due to out of resource  = 489
+[506270.970430] RealFcsErrCount = 40167116
+[506270.974293] TransmittedFrameCount = 1697144
+[506270.978564] WEPUndecryptableCount = 0
+[506270.982492] 
+[506270.982492] ===Some 11n statistics variables: 
+[506270.988653] TxAMSDUCount = 0
+[506270.991661] RxAMSDUCount = 0
+[506270.994667] TransmittedAMPDUCount = 0
+[506270.998415] TransmittedMPDUsInAMPDUCount = 1740131
+[506271.003334] TransmittedOctetsInAMPDUCount = -2037273338
+[506271.008647] MPDUInReceivedAMPDUCount = 854610
+[506271.013276] fAnyStaFortyIntolerant=0
+[506271.016954] -- IF-ra0 -- 
+[506271.019663] Packets Received = 1871233
+[506271.023536] Packets Sent = 1742253
+[506271.027025] Bytes Received = 608925253
+[506271.030856] Byte Sent = -2036956145
+[506271.034493] Error Packets Received = 922
+[506271.038521] Drop Received Packets = 133835
+[506271.042772] WscInfo:
+[506271.042772] 	WscConfMode=6
+[506271.042772] 	WscMode=PIN
+[506271.042772] 	WscConfStatus=2
+[506271.042772] 	WscPinCode=67853250
+[506271.042772] 	WscState=0x0
+[506271.042772] 	WscStatus=0x1
+[506271.042772] 	WscLatestMacAddr=00:00:00:00:00:00
+[506271.066968] -- IF-ra0 end -- 
+[506271.070029] -- IF-ra1 -- 
+[506271.072760] Packets Received = 0
+[506271.076199] Packets Sent = 0
+[506271.079173] Bytes Received = 0
+[506271.082349] Byte Sent = 0
+[506271.085173] Error Packets Received = 0
+[506271.089061] Drop Received Packets = 0
+[506271.092908] WscInfo:
+[506271.092908] 	WscConfMode=6
+[506271.092908] 	WscMode=PIN
+[506271.092908] 	WscConfStatus=2
+[506271.092908] 	WscPinCode=57367491
+[506271.092908] 	WscState=0x0
+[506271.092908] 	WscStatus=0x1
+[506271.092908] 	WscLatestMacAddr=00:00:00:00:00:00
+[506271.117091] -- IF-ra1 end -- 
+[506271.120160] -- IF-ra2 -- 
+[506271.122897] Packets Received = 0
+[506271.126224] Packets Sent = 0
+[506271.129199] Bytes Received = 0
+[506271.132402] Byte Sent = 0
+[506271.135116] Error Packets Received = 0
+[506271.138954] Drop Received Packets = 0
+[506271.142766] WscInfo:
+[506271.142766] 	WscConfMode=6
+[506271.142766] 	WscMode=PIN
+[506271.142766] 	WscConfStatus=2
+[506271.142766] 	WscPinCode=67853250
+[506271.142766] 	WscState=0x0
+[506271.142766] 	WscStatus=0x1
+[506271.142766] 	WscLatestMacAddr=00:00:00:00:00:00
+[506271.167015] -- IF-ra2 end -- 
+[506271.170075] -- IF-ra3 -- 
+[506271.172815] Packets Received = 0
+[506271.176128] Packets Sent = 0
+[506271.179206] Bytes Received = 0
+[506271.182393] Byte Sent = 0
+[506271.185098] Error Packets Received = 0
+[506271.189064] Drop Received Packets = 0
+[506271.192913] -- IF-ra3 end -- 
+[506271.195975] ====================
+[506271.203624] 
+[506271.205229] HT Operating Mode : 0
+[506271.208624] 
+[506271.210206] 
+[506271.210206] MAC                MODE AID   BSS PSM WMM MIMOPS RSSI0/1/2 PhMd  BW  MCS   SGI   STBC  Idle   Rate   QosMap 
+[506276.317072] [rt_ioctl_giwscan]  Start!!!!
+==========meminfo
+MemTotal:         124396 kB
+MemFree:           42116 kB
+MemAvailable:      52396 kB
+Buffers:            4412 kB
+Cached:            18312 kB
+SwapCached:            0 kB
+Active:            24852 kB
+Inactive:           9356 kB
+Active(anon):      12116 kB
+Inactive(anon):      432 kB
+Active(file):      12736 kB
+Inactive(file):     8924 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:         11512 kB
+Mapped:             8260 kB
+Shmem:              1060 kB
+Slab:              18112 kB
+SReclaimable:       2608 kB
+SUnreclaim:        15504 kB
+KernelStack:         904 kB
+PageTables:          448 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:       62196 kB
+Committed_AS:      20972 kB
+VmallocTotal:    1048372 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+==========topinfo
+Mem: 82340K used, 42056K free, 1060K shrd, 4412K buff, 18312K cached
+CPU:  0.0% usr  2.0% sys  0.0% nic 97.9% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 0.28 0.19 0.12 1/110 557
+  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+  557   425 root     R     1512  1.2   2  2.0 top -b -n1
+ 2117     1 root     S     9036  7.2   3  0.0 /usr/sbin/syslog-ng --process-mode background -p /var/run/syslog-ng.pid
+23656     1 root     S     6172  4.9   0  0.0 /usr/bin/lua /usr/sbin/miqosd hwqos
+ 2063  1837 root     S     5828  4.6   3  0.0 nginx: worker process
+ 1837     1 root     S     5604  4.5   2  0.0 nginx: master process /usr/sbin/nginx -c /etc/nginx/nginx.conf -g daemon off;
+ 1980     1 root     S     4272  3.4   1  0.0 /usr/bin/messagingagent --handler_threads 2
+  417  1826 root     S     3444  2.7   1  0.0 {luci} /usr/bin/lua /www/cgi-bin/luci
+ 4259     1 root     S     2972  2.3   3  0.0 /usr/sbin/netapi
+ 4340     1 root     S     2624  2.1   2  0.0 /usr/sbin/smartcontroller
+ 1826     1 root     S     2576  2.0   3  0.0 /usr/bin/fcgi-cgi
+ 3937     1 root     S     1884  1.5   3  0.0 /usr/sbin/trafficd
+ 1762     1 root     S     1708  1.3   1  0.0 /sbin/netifd
+ 6053     1 root     S     1664  1.3   2  0.0 {syslog-ng.helpe} /bin/sh /usr/sbin/syslog-ng.helper
+ 6057     1 root     S     1664  1.3   2  0.0 {stat_points.cro} /bin/sh /usr/sbin/stat_points.cron
+    1     0 root     S     1556  1.2   2  0.0 /sbin/procd
+ 3856  3843 root     S     1544  1.2   2  0.0 {iwevent-call} /bin/sh /usr/sbin/iwevent-call
+  425   424 root     S     1528  1.2   2  0.0 {log_collection.} /bin/sh /usr/sbin/log_collection.sh
+ 2016     1 root     S     1512  1.2   3  0.0 /usr/sbin/crond -f -c /etc/crontabs -l 5
+ 6054     1 root     S     1504  1.2   3  0.0 tail -F /tmp/stat_points_rom.log /tmp/stat_points_web.log
+ 3843     1 root     S     1504  1.2   3  0.0 {iweventd.sh} /bin/sh /usr/sbin/iweventd.sh
+23035  1762 root     S     1504  1.2   1  0.0 udhcpc -a -p /var/run/udhcpc-eth1.pid -s /lib/netifd/dhcp.script -f -t 0 -i eth1 -x hostname MiWiFi-RB02 -C -O 121
+ 6055     1 root     S     1504  1.2   0  0.0 grep stat_points_instant
+30587  6057 root     S     1504  1.2   1  0.0 sleep 300
+ 6056     1 root     S     1504  1.2   3  0.0 {stat_points.hel} /bin/sh /usr/sbin/stat_points.helper
+32587  6053 root     S     1504  1.2   0  0.0 sleep 120
+  424   417 root     S     1504  1.2   3  0.0 sh -c /usr/sbin/log_collection.sh >/dev/null 2>/dev/null
+ 1224     1 root     S     1464  1.1   1  0.0 /sbin/rpcd -s /var/run/ubus.sock -t 30
+ 1912     1 root     S     1432  1.1   2  0.0 /usr/sbin/odhcpd
+32517     1 root     S     1352  1.0   2  0.0 /usr/sbin/dnsmasq --user=root -C /var/etc/dnsmasq.conf.cfg01411c -k -x /var/run/dnsmasq/dnsmasq.cfg01411c.pid
+ 3895     1 root     S     1220  0.9   3  0.0 /usr/sbin/taskdaemon
+  642     1 root     S     1208  0.9   1  0.0 /sbin/ubusd
+ 1260     1 root     S     1192  0.9   3  0.0 /sbin/tbusd
+ 4520     1 root     S     1164  0.9   2  0.0 /usr/sbin/wan_check_status
+ 3855  3843 root     S      940  0.7   0  0.0 /usr/sbin/iwevent
+ 6078     1 root     S      904  0.7   1  0.0 /usr/bin/watchdog
+  643     1 root     S      904  0.7   3  0.0 /sbin/askfirst /usr/libexec/login.sh
+ 1967     2 root     SW       0  0.0   3  0.0 [RtmpMlmeTask]
+ 4042     2 root     SW       0  0.0   0  0.0 [RtmpMlmeTask]
+  158     2 root     SW       0  0.0   0  0.0 [kworker/0:1]
+ 1965     2 root     SW       0  0.0   3  0.0 [RtmpCmdQTask]
+    7     2 root     SW       0  0.0   1  0.0 [rcu_sched]
+ 3697     2 root     SW       0  0.0   1  0.0 [HwCtrlTask]
+   15     2 root     SW       0  0.0   2  0.0 [ksoftirqd/2]
+    3     2 root     SW       0  0.0   0  0.0 [ksoftirqd/0]
+   12     2 root     SW       0  0.0   1  0.0 [kworker/1:0]
+   11     2 root     SW       0  0.0   1  0.0 [ksoftirqd/1]
+  407     2 root     SW       0  0.0   2  0.0 [kworker/2:1]
+  408     2 root     SW       0  0.0   3  0.0 [kworker/3:1]
+   19     2 root     SW       0  0.0   3  0.0 [ksoftirqd/3]
+  301     2 root     SW       0  0.0   3  0.0 [spi32766]
+  601     2 root     SW       0  0.0   1  0.0 [kworker/u8:2]
+  488     2 root     SWN      0  0.0   1  0.0 [jffs2_gcd_mtd7]
+  290     2 root     SW       0  0.0   1  0.0 [kworker/1:1]
+ 3694     2 root     SW       0  0.0   0  0.0 [RtmpCmdQTask]
+    9     2 root     SW       0  0.0   0  0.0 [migration/0]
+   18     2 root     SW       0  0.0   3  0.0 [migration/3]
+   14     2 root     SW       0  0.0   2  0.0 [migration/2]
+   10     2 root     SW       0  0.0   1  0.0 [migration/1]
+20321     2 root     SW       0  0.0   3  0.0 [kworker/3:0]
+    2     0 root     SW       0  0.0   1  0.0 [kthreadd]
+  416     2 root     SW<      0  0.0   2  0.0 [kworker/2:1H]
+  411     2 root     SW<      0  0.0   0  0.0 [kworker/0:1H]
+  413     2 root     SW<      0  0.0   1  0.0 [kworker/1:1H]
+  404     2 root     SW<      0  0.0   3  0.0 [deferwq]
+  360     2 root     SW<      0  0.0   0  0.0 [bioset]
+  355     2 root     SW<      0  0.0   0  0.0 [bioset]
+  397     2 root     SW<      0  0.0   3  0.0 [ipv6_addrconf]
+  415     2 root     SW<      0  0.0   3  0.0 [kworker/3:1H]
+  335     2 root     SW<      0  0.0   1  0.0 [bioset]
+  325     2 root     SW<      0  0.0   1  0.0 [bioset]
+  320     2 root     SW<      0  0.0   1  0.0 [bioset]
+  330     2 root     SW<      0  0.0   1  0.0 [bioset]
+  340     2 root     SW<      0  0.0   1  0.0 [bioset]
+  305     2 root     SW<      0  0.0   0  0.0 [bioset]
+  310     2 root     SW<      0  0.0   1  0.0 [bioset]
+  269     2 root     SW<      0  0.0   3  0.0 [pdecrypt]
+  252     2 root     SW<      0  0.0   3  0.0 [SquashFS read w]
+  250     2 root     SW       0  0.0   3  0.0 [fsnotify_mark]
+  267     2 root     SW<      0  0.0   3  0.0 [pencrypt]
+  315     2 root     SW<      0  0.0   1  0.0 [bioset]
+  345     2 root     SW<      0  0.0   1  0.0 [bioset]
+  123     2 root     SW<      0  0.0   3  0.0 [kblockd]
+  121     2 root     SW<      0  0.0   2  0.0 [bioset]
+  118     2 root     SW<      0  0.0   1  0.0 [writeback]
+   21     2 root     SW<      0  0.0   3  0.0 [kworker/3:0H]
+   22     2 root     SW       0  0.0   1  0.0 [kdevtmpfs]
+  120     2 root     SW<      0  0.0   2  0.0 [crypto]
+  169     2 root     SW       0  0.0   0  0.0 [kswapd0]
+   13     2 root     SW<      0  0.0   1  0.0 [kworker/1:0H]
+   17     2 root     SW<      0  0.0   2  0.0 [kworker/2:0H]
+    8     2 root     SW       0  0.0   0  0.0 [rcu_bh]
+    5     2 root     SW<      0  0.0   0  0.0 [kworker/0:0H]
+  170     2 root     SW<      0  0.0   3  0.0 [vmstat]
+  350     2 root     SW<      0  0.0   0  0.0 [bioset]
+ 1966     2 root     SW       0  0.0   1  0.0 [RtmpWscTask]
+ 5594     2 root     SW       0  0.0   0  0.0 [kworker/0:0]
+ 3696     2 root     SW       0  0.0   2  0.0 [RtmpWscTask]
+ 3698     2 root     SW       0  0.0   2  0.0 [ser_task]
+17878     2 root     SW       0  0.0   2  0.0 [kworker/2:2]
+32129     2 root     SW       0  0.0   1  0.0 [kworker/u8:1]
+
+==========slabinfo
+slabinfo - version: 2.1
+# name            <active_objs> <num_objs> <objsize> <objperslab> <pagesperslab> : tunables <limit> <batchcount> <sharedfactor> : slabdata <active_slabs> <num_slabs> <sharedavail>
+xt_hashlimit           0      0     80   51    1 : tunables    0    0    0 : slabdata      0      0      0
+xt_connlimit_rb        0      0     32  128    1 : tunables    0    0    0 : slabdata      0      0      0
+xt_connlimit_conn      0      0     64   64    1 : tunables    0    0    0 : slabdata      0      0      0
+fq_flow_cache          0      0     64   64    1 : tunables    0    0    0 : slabdata      0      0      0
+nf-frags               0      0    152   26    1 : tunables    0    0    0 : slabdata      0      0      0
+nf_conntrack_1      1044   1044    224   18    1 : tunables    0    0    0 : slabdata     58     58      0
+nf_conntrack_expect      0      0    160   25    1 : tunables    0    0    0 : slabdata      0      0      0
+bridge_fdb_cache     192    192     64   64    1 : tunables    0    0    0 : slabdata      3      3      0
+ip6-frags              0      0    152   26    1 : tunables    0    0    0 : slabdata      0      0      0
+fib6_nodes           256    256     64   64    1 : tunables    0    0    0 : slabdata      4      4      0
+ip6_dst_cache         90     90    224   18    1 : tunables    0    0    0 : slabdata      5      5      0
+ip6_mrt_cache          0      0    128   32    1 : tunables    0    0    0 : slabdata      0      0      0
+PINGv6                 0      0    800   20    4 : tunables    0    0    0 : slabdata      0      0      0
+RAWv6                 80     80    800   20    4 : tunables    0    0    0 : slabdata      4      4      0
+UDPLITEv6              0      0    800   20    4 : tunables    0    0    0 : slabdata      0      0      0
+UDPv6                 80     80    800   20    4 : tunables    0    0    0 : slabdata      4      4      0
+tw_sock_TCPv6          0      0    192   21    1 : tunables    0    0    0 : slabdata      0      0      0
+request_sock_TCPv6     17     17    240   17    1 : tunables    0    0    0 : slabdata      1      1      0
+TCPv6                 84     84   1536   21    8 : tunables    0    0    0 : slabdata      4      4      0
+jffs2_xattr_ref        0      0     32  128    1 : tunables    0    0    0 : slabdata      0      0      0
+jffs2_xattr_datum      0      0     56   73    1 : tunables    0    0    0 : slabdata      0      0      0
+jffs2_inode_cache   1024   1024     32  128    1 : tunables    0    0    0 : slabdata      8      8      0
+jffs2_node_frag     1020   1020     24  170    1 : tunables    0    0    0 : slabdata      6      6      0
+jffs2_refblock       144    144    248   16    1 : tunables    0    0    0 : slabdata      9      9      0
+jffs2_tmp_dnode      408    408     40  102    1 : tunables    0    0    0 : slabdata      4      4      0
+jffs2_raw_inode      168    168     96   42    1 : tunables    0    0    0 : slabdata      4      4      0
+jffs2_raw_dirent     256    256     64   64    1 : tunables    0    0    0 : slabdata      4      4      0
+jffs2_full_dnode    1792   1792     16  256    1 : tunables    0    0    0 : slabdata      7      7      0
+jffs2_i              257    357    376   21    2 : tunables    0    0    0 : slabdata     17     17      0
+squashfs_inode_cache   1974   1974    384   21    2 : tunables    0    0    0 : slabdata     94     94      0
+dio                    0      0    352   23    2 : tunables    0    0    0 : slabdata      0      0      0
+fasync_cache         128    128     32  128    1 : tunables    0    0    0 : slabdata      1      1      0
+posix_timers_cache      0      0    168   24    1 : tunables    0    0    0 : slabdata      0      0      0
+UNIX                 100    100    640   25    4 : tunables    0    0    0 : slabdata      4      4      0
+ip4-frags             78     78    152   26    1 : tunables    0    0    0 : slabdata      3      3      0
+ip_mrt_cache           0      0     96   42    1 : tunables    0    0    0 : slabdata      0      0      0
+UDP-Lite               0      0    704   23    4 : tunables    0    0    0 : slabdata      0      0      0
+tcp_bind_bucket      512    512     32  128    1 : tunables    0    0    0 : slabdata      4      4      0
+inet_peer_cache      125    125    160   25    1 : tunables    0    0    0 : slabdata      5      5      0
+ip_fib_trie          512    512     32  128    1 : tunables    0    0    0 : slabdata      4      4      0
+ip_fib_alias         512    512     32  128    1 : tunables    0    0    0 : slabdata      4      4      0
+ip_dst_cache         128    128    128   32    1 : tunables    0    0    0 : slabdata      4      4      0
+PING                   0      0    640   25    4 : tunables    0    0    0 : slabdata      0      0      0
+RAW                   96     96    672   24    4 : tunables    0    0    0 : slabdata      4      4      0
+UDP                  230    230    704   23    4 : tunables    0    0    0 : slabdata     10     10      0
+tw_sock_TCP          315    315    192   21    1 : tunables    0    0    0 : slabdata     15     15      0
+request_sock_TCP      68     68    240   17    1 : tunables    0    0    0 : slabdata      4      4      0
+TCP                   88     88   1440   22    8 : tunables    0    0    0 : slabdata      4      4      0
+eventpoll_pwq        408    408     40  102    1 : tunables    0    0    0 : slabdata      4      4      0
+eventpoll_epi        252    252     96   42    1 : tunables    0    0    0 : slabdata      6      6      0
+inotify_inode_mark      0      0     56   73    1 : tunables    0    0    0 : slabdata      0      0      0
+blkdev_queue          54     54   1200   27    8 : tunables    0    0    0 : slabdata      2      2      0
+blkdev_requests      112    112    248   16    1 : tunables    0    0    0 : slabdata      7      7      0
+blkdev_ioc           256    256     64   64    1 : tunables    0    0    0 : slabdata      4      4      0
+bio-0                 80     80    256   16    1 : tunables    0    0    0 : slabdata      5      5      0
+biovec-256            50     50   3072   10    8 : tunables    0    0    0 : slabdata      5      5      0
+biovec-128            84     84   1536   21    8 : tunables    0    0    0 : slabdata      4      4      0
+biovec-64             84     84    768   21    4 : tunables    0    0    0 : slabdata      4      4      0
+biovec-16             84     84    192   21    1 : tunables    0    0    0 : slabdata      4      4      0
+uid_cache              0      0     64   64    1 : tunables    0    0    0 : slabdata      0      0      0
+sock_inode_cache     357    357    384   21    2 : tunables    0    0    0 : slabdata     17     17      0
+skbuff_fclone_cache     84     84    384   21    2 : tunables    0    0    0 : slabdata      4      4      0
+skbuff_head_cache   1869   1869    192   21    1 : tunables    0    0    0 : slabdata     89     89      0
+file_lock_cache      128    128    128   32    1 : tunables    0    0    0 : slabdata      4      4      0
+file_lock_ctx        512    512     32  128    1 : tunables    0    0    0 : slabdata      4      4      0
+shmem_inode_cache    396    396    368   22    2 : tunables    0    0    0 : slabdata     18     18      0
+pool_workqueue        48     48    256   16    1 : tunables    0    0    0 : slabdata      3      3      0
+proc_inode_cache     858    858    360   22    2 : tunables    0    0    0 : slabdata     39     39      0
+sigqueue             112    112    144   28    1 : tunables    0    0    0 : slabdata      4      4      0
+bdev_cache            34     34    480   17    2 : tunables    0    0    0 : slabdata      2      2      0
+kernfs_node_cache  10047  10047     80   51    1 : tunables    0    0    0 : slabdata    197    197      0
+mnt_cache             54     54    224   18    1 : tunables    0    0    0 : slabdata      3      3      0
+filp                2400   2400    160   25    1 : tunables    0    0    0 : slabdata     96     96      0
+inode_cache          598    720    328   24    2 : tunables    0    0    0 : slabdata     30     30      0
+dentry              4294   4380    136   30    1 : tunables    0    0    0 : slabdata    146    146      0
+names_cache           32     32   4096    8    8 : tunables    0    0    0 : slabdata      4      4      0
+buffer_head         4480   4480     64   64    1 : tunables    0    0    0 : slabdata     70     70      0
+nsproxy              170    170     24  170    1 : tunables    0    0    0 : slabdata      1      1      0
+vm_area_struct      1874   2530     88   46    1 : tunables    0    0    0 : slabdata     55     55      0
+mm_struct             90     90    448   18    2 : tunables    0    0    0 : slabdata      5      5      0
+fs_cache             256    256     64   64    1 : tunables    0    0    0 : slabdata      4      4      0
+files_cache          108    108    224   18    1 : tunables    0    0    0 : slabdata      6      6      0
+signal_cache         590    660    544   30    4 : tunables    0    0    0 : slabdata     22     22      0
+sighand_cache        186    210   3104   10    8 : tunables    0    0    0 : slabdata     21     21      0
+task_struct          279    361   1648   19    8 : tunables    0    0    0 : slabdata     19     19      0
+cred_jar            1856   1856    128   32    1 : tunables    0    0    0 : slabdata     58     58      0
+anon_vma_chain      3584   3584     32  128    1 : tunables    0    0    0 : slabdata     28     28      0
+anon_vma            1326   1326     40  102    1 : tunables    0    0    0 : slabdata     13     13      0
+pid                  960    960     64   64    1 : tunables    0    0    0 : slabdata     15     15      0
+radix_tree_node      470    494    312   26    2 : tunables    0    0    0 : slabdata     19     19      0
+idr_layer_cache      270    270   1072   30    8 : tunables    0    0    0 : slabdata      9      9      0
+dma-kmalloc-8192       0      0   8192    4    8 : tunables    0    0    0 : slabdata      0      0      0
+dma-kmalloc-4096       0      0   4096    8    8 : tunables    0    0    0 : slabdata      0      0      0
+dma-kmalloc-2048       0      0   2048   16    8 : tunables    0    0    0 : slabdata      0      0      0
+dma-kmalloc-1024       0      0   1024   16    4 : tunables    0    0    0 : slabdata      0      0      0
+dma-kmalloc-512        0      0    512   16    2 : tunables    0    0    0 : slabdata      0      0      0
+dma-kmalloc-256        0      0    256   16    1 : tunables    0    0    0 : slabdata      0      0      0
+dma-kmalloc-128        0      0    128   32    1 : tunables    0    0    0 : slabdata      0      0      0
+skb-2048            2254   2320   2048   16    8 : tunables    0    0    0 : slabdata    145    145      0
+skb-4160               0      0   4224    7    8 : tunables    0    0    0 : slabdata      0      0      0
+kmalloc-8192          40     40   8192    4    8 : tunables    0    0    0 : slabdata     10     10      0
+kmalloc-4096          63     72   4096    8    8 : tunables    0    0    0 : slabdata      9      9      0
+kmalloc-2048         717    752   2048   16    8 : tunables    0    0    0 : slabdata     47     47      0
+kmalloc-1024         480    480   1024   16    4 : tunables    0    0    0 : slabdata     30     30      0
+kmalloc-512          652    736    512   16    2 : tunables    0    0    0 : slabdata     46     46      0
+kmalloc-256          432    432    256   16    1 : tunables    0    0    0 : slabdata     27     27      0
+kmalloc-128        10661  11040    128   32    1 : tunables    0    0    0 : slabdata    345    345      0
+kmem_cache_node      160    160    128   32    1 : tunables    0    0    0 : slabdata      5      5      0
+kmem_cache           160    160    128   32    1 : tunables    0    0    0 : slabdata      5      5      0
+==========et port_status:(MTK)
+port 0 down
+port 1 down
+port 2 down
+port 3 up,100Mbps,Full Duplex.
+port 4 down
+port 5 up,1000Mbps,Full Duplex.
+========== cat /tmp/pppoe.log
+========== cat /tmp/vpn.stat.msg

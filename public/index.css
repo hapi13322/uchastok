@@ -1,0 +1,204 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.uchastok {
+    fill: #E5FFE8;
+}
+
+.active {
+    fill: #268031;
+}
+
+.error {
+    fill: rgb(239, 62, 62)!important
+}
+
+.uchastok:hover {
+    fill: #268031
+}
+
+.button-container {
+    position: absolute;
+    right: 10px;
+    top: 45vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#zoomIn, #zoomOut, #zoomReset, #xlsxSave {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    background: #73C7FF;
+    color: #343741;
+    border: none;
+}
+
+.open-modal-btn { padding: 10px 16px; cursor: pointer; }
+
+.modal-overlay {
+    display: none; 
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.modal-window {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 24px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+.modal-title { margin: 0; font-size: 18px; }
+.close-btn { background: none; border: none; font-size: 20px; cursor: pointer; line-height: 1; width: 20px;}
+
+#modal-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 15px;
+    width: 200px;
+}
+
+.sum {
+    color: red;
+    font-size: 15px;
+}
+
+button {
+    background: #73C7FF;
+    width: 100%;
+    height: 35px;
+    border: none;
+}
+
+.saveFile {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#uploadForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.drop-zone {
+  width: 100%;
+  max-width: 350px;
+  border: 2px dashed #cbd5e1;
+  border-radius: 12px;
+  padding: 40px 20px;
+  text-align: center;
+  background: #f8fafc;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.drop-zone:hover, .drop-zone.dragover {
+  border-color: var(--primary, #4f46e5);
+  background: #e0e7ff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.15);
+}
+
+.drop-content svg {
+  color: var(--primary, #4f46e5);
+  margin-bottom: 16px;
+}
+
+.drop-content p {
+  margin: 0 0 8px 0;
+  font-size: 15px;
+  color: #333;
+}
+
+.highlight {
+  color: var(--primary, #4f46e5);
+  font-weight: 600;
+}
+
+.drop-content small {
+  color: #94a3b8;
+}
+
+.file-info {
+  text-align: center;
+  font-size: 13px;
+  color: #1e293b;
+}
+
+/* Зона перетаскивания */
+.drop-zone {
+  width: 100%;
+  border: 2px dashed #cbd5e1;
+  border-radius: 12px;
+  padding: 40px 20px;
+  text-align: center;
+  background: #f8fafc;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.drop-zone:hover, .drop-zone.dragover {
+  border-color: var(--primary, #4f46e5);
+  background: #e0e7ff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(79, 70, 229, 0.15);
+}
+
+.drop-content svg {
+  color: var(--primary, #4f46e5);
+  margin-bottom: 16px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.drop-content p {
+  margin: 0 0 8px 0;
+  font-size: 15px;
+  color: #333;
+  font-weight: 500;
+}
+
+.drop-content small {
+  color: #94a3b8;
+}

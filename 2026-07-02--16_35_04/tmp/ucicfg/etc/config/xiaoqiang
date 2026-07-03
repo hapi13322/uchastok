@@ -1,0 +1,10 @@
+
+config core 'common'
+	option PRIVACY '0'
+	option ROUTER_NAME 'Xiaomi_7492'
+	option ROUTER_NAME_PENDING '1'
+	option ROUTER_LOCALE 'Дом'
+	option INITTED 'YES'
+	option DDNS_FLAG '1'
+	option WAN_SPEED '1000'
+

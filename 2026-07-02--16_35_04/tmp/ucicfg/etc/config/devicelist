@@ -1,0 +1,681 @@
+
+config core 'history'
+	option 94E23CC2F5A6 '1649736460'
+	option 4E57064ED414 '1694280409'
+	option 0025AEF70EDA '1694280535'
+	option 162F0EA8A3D7 '1694287626'
+	option 20326C0E15BC '1694299679'
+	option 3A9D8E1B96A2 '1694807456'
+	option 5C0CE6BCEC8F '1696333162'
+	option E0DCFF2A699E '1696409416'
+	option 1063C8F7FE99 '1699660443'
+	option B8876EEE8B6C '1704057035'
+	option 86C467FC5109 '1706085873'
+	option 7240E1BEABEA '1706194077'
+	option DA338D6AE6B5 '1707668934'
+	option B07D64B8B217 '1711548553'
+	option 0AB4477D3B2B '1712921137'
+	option FAF2A90A2D23 '1712921724'
+	option 167578234748 '1713118726'
+	option CA39B5CFD448 '1715191096'
+	option 7EDAA4ED381B '1715457962'
+	option 162B80E53716 '1716298991'
+	option 9078B27B300D '1718294172'
+	option 160DC7866D9B '1718661491'
+	option 2A574B0F6CE4 '1720343660'
+	option BA01EA35F404 '1720681586'
+	option F43BD8A2AC2E '1721399669'
+	option 3AF2D10E5E9D '1722010128'
+	option B2F258638DDB '1723190613'
+	option 34A6EFB017D4 '1723657924'
+	option 601AC7D54666 '1723904370'
+	option D25C24B8FAEF '1727449556'
+	option CAC26DA5B779 '1728056147'
+	option AAD4383B2621 '1729588958'
+	option FE112ADB665B '1730569515'
+	option 025C4D6F6085 '1731931008'
+	option 3E76C6CAB42C '1733821563'
+	option BA730714F143 '1733954971'
+	option 025C6DE1F715 '1736215448'
+	option 6E909B9DF749 '1736229788'
+	option B6D5FC700081 '1737329798'
+	option A62BA0616CB0 '1737455375'
+	option 9AB521000C57 '1737501107'
+	option 5EE77E0B1FBB '1738242475'
+	option 8239FD927A4F '1738671864'
+	option B2DA544EB1FA '1738713075'
+	option F214822F9A0F '1739726818'
+	option AA761D7EB271 '1739898880'
+	option 1AF38D9725C7 '1739945170'
+	option FE5336D28FD7 '1741120684'
+	option DA04D155120A '1741207071'
+	option C2A929503725 '1741252419'
+	option FAD60322E3DC '1741691781'
+	option AE4C558DEE10 '1741883547'
+	option CE8C0A8D59A2 '1742177890'
+	option 5AA623895157 '1742338002'
+	option 3603E5301B9E '1742657285'
+	option 3AD62266E2A6 '1743617773'
+	option 06CBC9CBB606 '1743911490'
+	option EE2BC56AD693 '1744888248'
+	option 4A15389F8E9B '1745140924'
+	option BAC5BD7CFF51 '1745406413'
+	option 4EC9B48A0C43 '1745661434'
+	option 861F082B50AC '1746100850'
+	option 9E87D56A06F5 '1746370098'
+	option 4A049C57B6AB '1746899419'
+	option 422FD6D0D3E3 '1747325610'
+	option 5AC9A61BA681 '1747817074'
+	option 0A3938B827B5 '1747820025'
+	option 82F28A541751 '1748544600'
+	option B698610C5A3C '1748610792'
+	option CED2E38CE5F5 '1749306455'
+	option 5EF4EE47D3CA '1749759059'
+	option A2F366397EA7 '1750435129'
+	option C6E76B6F080C '1750547125'
+	option 42D17C3DD46F '1750980870'
+	option 06A722996867 '1751793185'
+	option 02EEF7F98757 '1752225097'
+	option A25A62D2CEBA '1752238530'
+	option 92630A5EDC99 '1753053629'
+	option EA2F1BB23758 '1753095590'
+	option CCB0B36924C6 '1753286284'
+	option BEA0F96A58AB '1753449435'
+	option FE85C9397333 '1754118752'
+	option C8478C8B62D8 '1754311633'
+	option C8478C5ED7B5 '1754311680'
+	option 8EC378174BDD '1757009425'
+	option C6B43FEC9855 '1757134734'
+	option B2A0F8FEA00A '1757180763'
+	option 8E30C1A48557 '1757432439'
+	option BA296318DFE4 '1758230754'
+	option 4E73C37CEF7C '1758379525'
+	option 12647D22EBEA '1758734028'
+	option B68F868447BA '1758876461'
+	option 7ACEB4869833 '1758885270'
+	option AADB2EECC301 '1758917884'
+	option 66C3D17A20C6 '1759454009'
+	option 86799FA34B10 '1759640369'
+	option 765ECF8DA9B3 '1759759245'
+	option EA0328ACC63F '1760007853'
+	option 8ADAA17CDB7D '1760677028'
+	option 9AE444AF3DB6 '1761267651'
+	option 8CBD37138E29 '1761410014'
+	option 525616157646 '1761410890'
+	option C6AB1CAE06F0 '1761911506'
+	option C848055FBB3C '1762180369'
+	option 5646F3C2B7E7 '1762439248'
+	option EA3D150F7D02 '1762678915'
+	option AE5D28B7EE81 '1762860462'
+	option D29DCA0F3A1E '1763144331'
+	option 4214C87296A5 '1764007836'
+	option B2C680727009 '1764355053'
+	option 62DAFF2D751F '1765275870'
+	option 26E8F172AC8B '1765586309'
+	option AEC9CD6C7664 '1765670708'
+	option D276500C1C06 '1765829206'
+	option CA479D68E470 '1766049022'
+	option 265EC2EC5272 '1766247249'
+	option 8C85902AB2D9 '1766248101'
+	option 8AC3ECB0031A '1766252915'
+	option BE6A2142225D '1766259694'
+	option C639EB94C695 '1766269372'
+	option 1653917204F1 '1766518753'
+	option 12F812F3ABEA '1766628319'
+	option 5632843AA0DA '1766853779'
+	option 56D895E7E1A9 '1768082087'
+	option 46DDFDA0D13C '1768082124'
+	option F29993BCD3CD '1768154486'
+	option B60B1D8B3B64 '1768244352'
+	option F26E63C24AFF '1769166245'
+	option 3E34985028FE '1769362478'
+	option D2D7E2AC0AEE '1769368590'
+	option 76483D70C1FC '1770586110'
+	option EA02AE3D46AA '1770610087'
+	option 6E16B1651332 '1770716754'
+	option 4E5067B9F8CC '1771859498'
+	option DE086C19788F '1771942327'
+	option 26A8D62F3F29 '1772108959'
+	option EE891ADDDF30 '1772556592'
+	option 2AB6D56AAAD8 '1773123862'
+	option B6329215B5DC '1773171160'
+	option 7A67BE3FB585 '1773768138'
+	option 6A1D974A3F94 '1774378008'
+	option 5EC83B01692D '1774383562'
+	option C6AA62ED4167 '1774985311'
+	option E61741931C10 '1775625539'
+	option 82EBC2E85FD4 '1776084623'
+	option 56CFADBD9ED4 '1776205298'
+	option 12C81DF62D89 '1776605166'
+	option C2C516D26D19 '1776841193'
+	option BEC330CA2E3B '1777300720'
+	option FA9EF7B2B19A '1777597447'
+	option B6BC4A07B4D7 '1777838729'
+	option 560F06CE4A8F '1778147532'
+	option 0A2C9B3609AD '1778603694'
+	option 465CA03D0D36 '1778873145'
+	option 763154BA9B6A '1779048801'
+	option 5ED28903C214 '1779654678'
+	option 4A2BC694947D '1779814633'
+	option 22D9A3653488 '1780048182'
+	option E2E6A9B22150 '1780089534'
+	option 463EC073DA18 '1780244019'
+	option 8E55AF91E4A1 '1781971692'
+	option 927615ADE9BC '1781974537'
+	option F683C46CD73C '1782032894'
+	option EE8DA7014024 '1782079533'
+
+config core 'settings'
+
+config deviceinfo '94E23CC2F5A6_INFO'
+	option mac '94:E2:3C:C2:F5:A6'
+
+config deviceinfo '4E57064ED414_INFO'
+	option mac '4E:57:06:4E:D4:14'
+
+config deviceinfo '0025AEF70EDA_INFO'
+	option mac '00:25:AE:F7:0E:DA'
+
+config deviceinfo '162F0EA8A3D7_INFO'
+	option mac '16:2F:0E:A8:A3:D7'
+
+config deviceinfo '20326C0E15BC_INFO'
+	option mac '20:32:6C:0E:15:BC'
+
+config deviceinfo '3A9D8E1B96A2_INFO'
+	option mac '3A:9D:8E:1B:96:A2'
+
+config deviceinfo '5C0CE6BCEC8F_INFO'
+	option mac '5C:0C:E6:BC:EC:8F'
+
+config deviceinfo 'E0DCFF2A699E_INFO'
+	option mac 'E0:DC:FF:2A:69:9E'
+
+config record 'wifi_ignore'
+
+config record 'authfail'
+	option 1063C8F7FE99 '4'
+	option 94E23CC2F5A6 '5'
+	option 6251409F4FB5 '1'
+
+config record 'authfailserial'
+	option 1063C8F7FE99 '0'
+	option 94E23CC2F5A6 '0'
+	option 6251409F4FB5 '0'
+
+config deviceinfo '1063C8F7FE99_INFO'
+	option mac '10:63:C8:F7:FE:99'
+
+config deviceinfo 'B8876EEE8B6C_INFO'
+	option mac 'B8:87:6E:EE:8B:6C'
+
+config record 'login_ignore'
+
+config record 'loginauthfail'
+	option 0A3938B827B5 '5'
+
+config deviceinfo '86C467FC5109_INFO'
+	option mac '86:C4:67:FC:51:09'
+
+config deviceinfo '7240E1BEABEA_INFO'
+	option mac '72:40:E1:BE:AB:EA'
+
+config deviceinfo 'DA338D6AE6B5_INFO'
+	option mac 'DA:33:8D:6A:E6:B5'
+
+config deviceinfo 'B07D64B8B217_INFO'
+	option mac 'B0:7D:64:B8:B2:17'
+
+config deviceinfo '0AB4477D3B2B_INFO'
+	option mac '0A:B4:47:7D:3B:2B'
+
+config deviceinfo 'FAF2A90A2D23_INFO'
+	option mac 'FA:F2:A9:0A:2D:23'
+
+config deviceinfo '167578234748_INFO'
+	option mac '16:75:78:23:47:48'
+
+config deviceinfo 'CA39B5CFD448_INFO'
+	option mac 'CA:39:B5:CF:D4:48'
+
+config deviceinfo '7EDAA4ED381B_INFO'
+	option mac '7E:DA:A4:ED:38:1B'
+
+config deviceinfo '162B80E53716_INFO'
+	option mac '16:2B:80:E5:37:16'
+
+config deviceinfo '9078B27B300D_INFO'
+	option mac '90:78:B2:7B:30:0D'
+
+config deviceinfo '160DC7866D9B_INFO'
+	option mac '16:0D:C7:86:6D:9B'
+
+config deviceinfo '2A574B0F6CE4_INFO'
+	option mac '2A:57:4B:0F:6C:E4'
+
+config deviceinfo 'BA01EA35F404_INFO'
+	option mac 'BA:01:EA:35:F4:04'
+
+config deviceinfo 'F43BD8A2AC2E_INFO'
+	option mac 'F4:3B:D8:A2:AC:2E'
+
+config deviceinfo '3AF2D10E5E9D_INFO'
+	option mac '3A:F2:D1:0E:5E:9D'
+
+config deviceinfo 'B2F258638DDB_INFO'
+	option mac 'B2:F2:58:63:8D:DB'
+
+config deviceinfo '34A6EFB017D4_INFO'
+	option mac '34:A6:EF:B0:17:D4'
+
+config deviceinfo '000000000001_INFO'
+	option mac '00:00:00:00:00:01'
+
+config deviceinfo '601AC7D54666_INFO'
+	option mac '60:1A:C7:D5:46:66'
+
+config deviceinfo 'D25C24B8FAEF_INFO'
+	option mac 'D2:5C:24:B8:FA:EF'
+
+config deviceinfo 'CAC26DA5B779_INFO'
+	option mac 'CA:C2:6D:A5:B7:79'
+
+config deviceinfo 'AAD4383B2621_INFO'
+	option mac 'AA:D4:38:3B:26:21'
+
+config deviceinfo 'FE112ADB665B_INFO'
+	option mac 'FE:11:2A:DB:66:5B'
+
+config deviceinfo '025C4D6F6085_INFO'
+	option mac '02:5C:4D:6F:60:85'
+
+config deviceinfo '3E76C6CAB42C_INFO'
+	option mac '3E:76:C6:CA:B4:2C'
+
+config deviceinfo 'BA730714F143_INFO'
+	option mac 'BA:73:07:14:F1:43'
+
+config deviceinfo '025C6DE1F715_INFO'
+	option mac '02:5C:6D:E1:F7:15'
+
+config deviceinfo '6E909B9DF749_INFO'
+	option mac '6E:90:9B:9D:F7:49'
+
+config deviceinfo 'B6D5FC700081_INFO'
+	option mac 'B6:D5:FC:70:00:81'
+
+config deviceinfo 'A62BA0616CB0_INFO'
+	option mac 'A6:2B:A0:61:6C:B0'
+
+config deviceinfo '9AB521000C57_INFO'
+	option mac '9A:B5:21:00:0C:57'
+
+config deviceinfo '5EE77E0B1FBB_INFO'
+	option mac '5E:E7:7E:0B:1F:BB'
+
+config deviceinfo '8239FD927A4F_INFO'
+	option mac '82:39:FD:92:7A:4F'
+
+config deviceinfo 'B2DA544EB1FA_INFO'
+	option mac 'B2:DA:54:4E:B1:FA'
+
+config deviceinfo 'F214822F9A0F_INFO'
+	option mac 'F2:14:82:2F:9A:0F'
+
+config deviceinfo 'AA761D7EB271_INFO'
+	option mac 'AA:76:1D:7E:B2:71'
+
+config deviceinfo '1AF38D9725C7_INFO'
+	option mac '1A:F3:8D:97:25:C7'
+
+config deviceinfo 'FE5336D28FD7_INFO'
+	option mac 'FE:53:36:D2:8F:D7'
+
+config deviceinfo 'DA04D155120A_INFO'
+	option mac 'DA:04:D1:55:12:0A'
+
+config deviceinfo 'C2A929503725_INFO'
+	option mac 'C2:A9:29:50:37:25'
+
+config deviceinfo 'FAD60322E3DC_INFO'
+	option mac 'FA:D6:03:22:E3:DC'
+
+config deviceinfo 'AE4C558DEE10_INFO'
+	option mac 'AE:4C:55:8D:EE:10'
+
+config deviceinfo 'CE8C0A8D59A2_INFO'
+	option mac 'CE:8C:0A:8D:59:A2'
+
+config deviceinfo '5AA623895157_INFO'
+	option mac '5A:A6:23:89:51:57'
+
+config deviceinfo '3603E5301B9E_INFO'
+	option mac '36:03:E5:30:1B:9E'
+
+config deviceinfo '3AD62266E2A6_INFO'
+	option mac '3A:D6:22:66:E2:A6'
+
+config deviceinfo '06CBC9CBB606_INFO'
+	option mac '06:CB:C9:CB:B6:06'
+
+config deviceinfo 'EE2BC56AD693_INFO'
+	option mac 'EE:2B:C5:6A:D6:93'
+
+config deviceinfo '4A15389F8E9B_INFO'
+	option mac '4A:15:38:9F:8E:9B'
+
+config deviceinfo 'BAC5BD7CFF51_INFO'
+	option mac 'BA:C5:BD:7C:FF:51'
+
+config deviceinfo '4EC9B48A0C43_INFO'
+	option mac '4E:C9:B4:8A:0C:43'
+
+config deviceinfo '861F082B50AC_INFO'
+	option mac '86:1F:08:2B:50:AC'
+
+config deviceinfo '9E87D56A06F5_INFO'
+	option mac '9E:87:D5:6A:06:F5'
+
+config deviceinfo '4A049C57B6AB_INFO'
+	option mac '4A:04:9C:57:B6:AB'
+
+config deviceinfo '422FD6D0D3E3_INFO'
+	option mac '42:2F:D6:D0:D3:E3'
+
+config deviceinfo '5AC9A61BA681_INFO'
+	option mac '5A:C9:A6:1B:A6:81'
+
+config deviceinfo '0A3938B827B5_INFO'
+	option mac '0A:39:38:B8:27:B5'
+
+config deviceinfo '82F28A541751_INFO'
+	option mac '82:F2:8A:54:17:51'
+
+config deviceinfo 'B698610C5A3C_INFO'
+	option mac 'B6:98:61:0C:5A:3C'
+
+config deviceinfo 'CED2E38CE5F5_INFO'
+	option mac 'CE:D2:E3:8C:E5:F5'
+
+config deviceinfo '5EF4EE47D3CA_INFO'
+	option mac '5E:F4:EE:47:D3:CA'
+
+config deviceinfo 'A2F366397EA7_INFO'
+	option mac 'A2:F3:66:39:7E:A7'
+
+config deviceinfo 'C6E76B6F080C_INFO'
+	option mac 'C6:E7:6B:6F:08:0C'
+
+config deviceinfo '42D17C3DD46F_INFO'
+	option mac '42:D1:7C:3D:D4:6F'
+
+config deviceinfo '06A722996867_INFO'
+	option mac '06:A7:22:99:68:67'
+
+config deviceinfo '02EEF7F98757_INFO'
+	option mac '02:EE:F7:F9:87:57'
+
+config deviceinfo 'A25A62D2CEBA_INFO'
+	option mac 'A2:5A:62:D2:CE:BA'
+
+config deviceinfo '92630A5EDC99_INFO'
+	option mac '92:63:0A:5E:DC:99'
+
+config deviceinfo 'EA2F1BB23758_INFO'
+	option mac 'EA:2F:1B:B2:37:58'
+
+config deviceinfo 'CCB0B36924C6_INFO'
+	option mac 'CC:B0:B3:69:24:C6'
+
+config deviceinfo 'BEA0F96A58AB_INFO'
+	option mac 'BE:A0:F9:6A:58:AB'
+
+config deviceinfo 'FE85C9397333_INFO'
+	option mac 'FE:85:C9:39:73:33'
+
+config deviceinfo 'C8478C8B62D8_INFO'
+	option mac 'C8:47:8C:8B:62:D8'
+
+config deviceinfo 'C8478C5ED7B5_INFO'
+	option mac 'C8:47:8C:5E:D7:B5'
+
+config deviceinfo '8EC378174BDD_INFO'
+	option mac '8E:C3:78:17:4B:DD'
+
+config deviceinfo 'C6B43FEC9855_INFO'
+	option mac 'C6:B4:3F:EC:98:55'
+
+config deviceinfo 'B2A0F8FEA00A_INFO'
+	option mac 'B2:A0:F8:FE:A0:0A'
+
+config deviceinfo '8E30C1A48557_INFO'
+	option mac '8E:30:C1:A4:85:57'
+
+config deviceinfo 'BA296318DFE4_INFO'
+	option mac 'BA:29:63:18:DF:E4'
+
+config deviceinfo '4E73C37CEF7C_INFO'
+	option mac '4E:73:C3:7C:EF:7C'
+
+config deviceinfo '12647D22EBEA_INFO'
+	option mac '12:64:7D:22:EB:EA'
+
+config deviceinfo 'B68F868447BA_INFO'
+	option mac 'B6:8F:86:84:47:BA'
+
+config deviceinfo '7ACEB4869833_INFO'
+	option mac '7A:CE:B4:86:98:33'
+
+config deviceinfo 'AADB2EECC301_INFO'
+	option mac 'AA:DB:2E:EC:C3:01'
+
+config deviceinfo '66C3D17A20C6_INFO'
+	option mac '66:C3:D1:7A:20:C6'
+
+config deviceinfo '86799FA34B10_INFO'
+	option mac '86:79:9F:A3:4B:10'
+
+config deviceinfo '765ECF8DA9B3_INFO'
+	option mac '76:5E:CF:8D:A9:B3'
+
+config deviceinfo 'EA0328ACC63F_INFO'
+	option mac 'EA:03:28:AC:C6:3F'
+
+config deviceinfo '8ADAA17CDB7D_INFO'
+	option mac '8A:DA:A1:7C:DB:7D'
+
+config deviceinfo '9AE444AF3DB6_INFO'
+	option mac '9A:E4:44:AF:3D:B6'
+
+config deviceinfo '8CBD37138E29_INFO'
+	option mac '8C:BD:37:13:8E:29'
+
+config deviceinfo '525616157646_INFO'
+	option mac '52:56:16:15:76:46'
+
+config deviceinfo 'C6AB1CAE06F0_INFO'
+	option mac 'C6:AB:1C:AE:06:F0'
+
+config deviceinfo 'C848055FBB3C_INFO'
+	option mac 'C8:48:05:5F:BB:3C'
+
+config deviceinfo '5646F3C2B7E7_INFO'
+	option mac '56:46:F3:C2:B7:E7'
+
+config deviceinfo 'EA3D150F7D02_INFO'
+	option mac 'EA:3D:15:0F:7D:02'
+
+config deviceinfo 'AE5D28B7EE81_INFO'
+	option mac 'AE:5D:28:B7:EE:81'
+
+config deviceinfo 'D29DCA0F3A1E_INFO'
+	option mac 'D2:9D:CA:0F:3A:1E'
+
+config deviceinfo '4214C87296A5_INFO'
+	option mac '42:14:C8:72:96:A5'
+
+config deviceinfo 'B2C680727009_INFO'
+	option mac 'B2:C6:80:72:70:09'
+
+config deviceinfo '62DAFF2D751F_INFO'
+	option mac '62:DA:FF:2D:75:1F'
+
+config deviceinfo '26E8F172AC8B_INFO'
+	option mac '26:E8:F1:72:AC:8B'
+
+config deviceinfo 'AEC9CD6C7664_INFO'
+	option mac 'AE:C9:CD:6C:76:64'
+
+config deviceinfo 'D276500C1C06_INFO'
+	option mac 'D2:76:50:0C:1C:06'
+
+config deviceinfo 'CA479D68E470_INFO'
+	option mac 'CA:47:9D:68:E4:70'
+
+config deviceinfo '265EC2EC5272_INFO'
+	option mac '26:5E:C2:EC:52:72'
+
+config deviceinfo '8C85902AB2D9_INFO'
+	option mac '8C:85:90:2A:B2:D9'
+
+config deviceinfo '8AC3ECB0031A_INFO'
+	option mac '8A:C3:EC:B0:03:1A'
+
+config deviceinfo 'BE6A2142225D_INFO'
+	option mac 'BE:6A:21:42:22:5D'
+
+config deviceinfo 'C639EB94C695_INFO'
+	option mac 'C6:39:EB:94:C6:95'
+
+config deviceinfo '1653917204F1_INFO'
+	option mac '16:53:91:72:04:F1'
+
+config deviceinfo '12F812F3ABEA_INFO'
+	option mac '12:F8:12:F3:AB:EA'
+
+config deviceinfo '5632843AA0DA_INFO'
+	option mac '56:32:84:3A:A0:DA'
+
+config deviceinfo '56D895E7E1A9_INFO'
+	option mac '56:D8:95:E7:E1:A9'
+
+config deviceinfo '46DDFDA0D13C_INFO'
+	option mac '46:DD:FD:A0:D1:3C'
+
+config deviceinfo 'F29993BCD3CD_INFO'
+	option mac 'F2:99:93:BC:D3:CD'
+
+config deviceinfo 'B60B1D8B3B64_INFO'
+	option mac 'B6:0B:1D:8B:3B:64'
+
+config deviceinfo 'F26E63C24AFF_INFO'
+	option mac 'F2:6E:63:C2:4A:FF'
+
+config deviceinfo '3E34985028FE_INFO'
+	option mac '3E:34:98:50:28:FE'
+
+config deviceinfo 'D2D7E2AC0AEE_INFO'
+	option mac 'D2:D7:E2:AC:0A:EE'
+
+config deviceinfo '76483D70C1FC_INFO'
+	option mac '76:48:3D:70:C1:FC'
+
+config deviceinfo 'EA02AE3D46AA_INFO'
+	option mac 'EA:02:AE:3D:46:AA'
+
+config deviceinfo '6E16B1651332_INFO'
+	option mac '6E:16:B1:65:13:32'
+
+config deviceinfo '4E5067B9F8CC_INFO'
+	option mac '4E:50:67:B9:F8:CC'
+
+config deviceinfo 'DE086C19788F_INFO'
+	option mac 'DE:08:6C:19:78:8F'
+
+config deviceinfo '26A8D62F3F29_INFO'
+	option mac '26:A8:D6:2F:3F:29'
+
+config deviceinfo 'EE891ADDDF30_INFO'
+	option mac 'EE:89:1A:DD:DF:30'
+
+config deviceinfo '2AB6D56AAAD8_INFO'
+	option mac '2A:B6:D5:6A:AA:D8'
+
+config deviceinfo 'B6329215B5DC_INFO'
+	option mac 'B6:32:92:15:B5:DC'
+
+config deviceinfo '7A67BE3FB585_INFO'
+	option mac '7A:67:BE:3F:B5:85'
+
+config deviceinfo '6A1D974A3F94_INFO'
+	option mac '6A:1D:97:4A:3F:94'
+
+config deviceinfo '5EC83B01692D_INFO'
+	option mac '5E:C8:3B:01:69:2D'
+
+config deviceinfo 'C6AA62ED4167_INFO'
+	option mac 'C6:AA:62:ED:41:67'
+
+config deviceinfo 'E61741931C10_INFO'
+	option mac 'E6:17:41:93:1C:10'
+
+config deviceinfo '82EBC2E85FD4_INFO'
+	option mac '82:EB:C2:E8:5F:D4'
+
+config deviceinfo '56CFADBD9ED4_INFO'
+	option mac '56:CF:AD:BD:9E:D4'
+
+config deviceinfo '12C81DF62D89_INFO'
+	option mac '12:C8:1D:F6:2D:89'
+
+config deviceinfo 'C2C516D26D19_INFO'
+	option mac 'C2:C5:16:D2:6D:19'
+
+config deviceinfo 'BEC330CA2E3B_INFO'
+	option mac 'BE:C3:30:CA:2E:3B'
+
+config deviceinfo 'FA9EF7B2B19A_INFO'
+	option mac 'FA:9E:F7:B2:B1:9A'
+
+config deviceinfo 'B6BC4A07B4D7_INFO'
+	option mac 'B6:BC:4A:07:B4:D7'
+
+config deviceinfo '560F06CE4A8F_INFO'
+	option mac '56:0F:06:CE:4A:8F'
+
+config deviceinfo '0A2C9B3609AD_INFO'
+	option mac '0A:2C:9B:36:09:AD'
+
+config deviceinfo '465CA03D0D36_INFO'
+	option mac '46:5C:A0:3D:0D:36'
+
+config deviceinfo '763154BA9B6A_INFO'
+	option mac '76:31:54:BA:9B:6A'
+
+config deviceinfo '5ED28903C214_INFO'
+	option mac '5E:D2:89:03:C2:14'
+
+config deviceinfo '4A2BC694947D_INFO'
+	option mac '4A:2B:C6:94:94:7D'
+
+config deviceinfo '22D9A3653488_INFO'
+	option mac '22:D9:A3:65:34:88'
+
+config deviceinfo 'E2E6A9B22150_INFO'
+	option mac 'E2:E6:A9:B2:21:50'
+
+config deviceinfo '463EC073DA18_INFO'
+	option mac '46:3E:C0:73:DA:18'
+
+config deviceinfo '8E55AF91E4A1_INFO'
+	option mac '8E:55:AF:91:E4:A1'
+
+config deviceinfo '927615ADE9BC_INFO'
+	option mac '92:76:15:AD:E9:BC'
+
+config deviceinfo 'F683C46CD73C_INFO'
+	option mac 'F6:83:C4:6C:D7:3C'
+
+config deviceinfo 'EE8DA7014024_INFO'
+	option mac 'EE:8D:A7:01:40:24'
+

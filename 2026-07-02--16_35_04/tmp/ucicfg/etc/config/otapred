@@ -1,0 +1,8 @@
+
+config ota 'settings'
+	option enabled '1'
+	option auto '1'
+	option spauid '20260702'
+	option spauic '3'
+	option spau '1'
+

@@ -1,0 +1,17 @@
+{
+  "name": "dolg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "fs": "^0.0.1-security",
+    "multer": "^2.2.0",
+    "nodemon": "^3.1.14",
+    "path": "^0.12.7",
+    "xlsx": "^0.18.5"
+  }
+}

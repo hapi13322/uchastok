@@ -7,6 +7,7 @@
     "start": "nodemon ./server.js"
   },
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "fs": "^0.0.1-security",
     "multer": "^2.2.0",

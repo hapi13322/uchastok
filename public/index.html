@@ -977,7 +977,6 @@
         const submitUploadBtn = document.getElementById('submitUploadBtn');
         const uploadPasswordInput = document.getElementById('uploadPassword');
         const uploadResultDiv = document.getElementById('uploadResult');
-        const API_URL = 'http://localhost:3000';
 
         let currentZoom = 0.1
         const zoomStep = 0.1
@@ -1155,7 +1154,7 @@
             formData.append('password', password); 
 
             try {
-                const res = await fetch(`${API_URL}/upload-xlsx`, {
+                const res = await fetch(`/upload-xlsx`, {
                 method: 'POST',
                 body: formData
                 });
@@ -1190,7 +1189,7 @@
         }
 
         const getData = async () => {
-            const res = await fetch(`${API_URL}/parse-xlsx`);
+            const res = await fetch(`/parse-xlsx`);
             const data = await res.json();
 
             if (res.ok && data.success) {
